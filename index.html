@@ -3,884 +3,783 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Bean Cafe Bistro — East Barnet Village's favourite cafe & bistro. Artisan coffee, homemade food, and a warm welcome at 251 East Barnet Road, London EN4 8SS.">
+<meta name="description" content="Bean Cafe Bistro — East Barnet Village's favourite independent cafe & bistro. Artisan coffee, homemade food, warm welcome.">
 <meta property="og:title" content="Bean Cafe Bistro — East Barnet Village">
-<meta property="og:description" content="Artisan coffee, homemade food & a warm welcome in the heart of East Barnet Village.">
+<meta property="og:description" content="Artisan coffee, homemade food & a warm welcome in East Barnet Village.">
 <meta property="og:image" content="https://i.ibb.co/21nTBsdG/cafe-outside.png">
 <meta property="og:type" content="website">
-<title>Bean Cafe Bistro — East Barnet Village</title>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Bean Cafe Bistro","image":"https://i.ibb.co/21nTBsdG/cafe-outside.png","address":{"@type":"PostalAddress","streetAddress":"251 East Barnet Road","addressLocality":"London","addressRegion":"Barnet","postalCode":"EN4 8SS","addressCountry":"GB"},"telephone":"+442084418670","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"16:00"}],"servesCuisine":["Coffee","Breakfast","Brunch","Lunch","British"],"priceRange":"££"}</script>
+<title>Bean Cafe Bistro | East Barnet Village</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Bean Cafe Bistro","image":"https://i.ibb.co/21nTBsdG/cafe-outside.png","address":{"@type":"PostalAddress","streetAddress":"251 East Barnet Road","addressLocality":"London","addressRegion":"Barnet","postalCode":"EN4 8SS","addressCountry":"GB"},"telephone":"+442084418670","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"16:00"}],"servesCuisine":["Coffee","Breakfast","Brunch","Lunch"],"priceRange":"££"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Sans:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{--esp:#3C2415;--esp-l:#5A3A28;--cream:#F5F0E8;--cream-d:#EDE6D8;--terra:#C4652E;--terra-d:#A8531F;--terra-l:#E07A3A;--char:#1A1A1A;--char-l:#555;--green:#5A7247;--warm:#FDFBF7;--gold:#D4A853;--r-sm:8px;--r-md:14px;--r-lg:22px;--r-xl:30px;--fast:.22s cubic-bezier(.4,0,.2,1);--smooth:.45s cubic-bezier(.4,0,.2,1);--slow:.65s cubic-bezier(.4,0,.2,1);--bounce:.6s cubic-bezier(.34,1.56,.64,1);--silk:.8s cubic-bezier(.16,1,.3,1)}
-html{scroll-behavior:smooth}
-body{font-family:'DM Sans',sans-serif;color:var(--char);background:var(--warm);overflow-x:hidden;line-height:1.7;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-h1,h2,h3,h4,h5,h6{font-family:'Playfair Display',serif;line-height:1.15;font-weight:700}
-a{text-decoration:none;color:inherit;transition:color var(--fast)}
-img{max-width:100%;height:auto;display:block}
-button{font-family:inherit;cursor:pointer;border:none;outline:none}
-.con{max-width:1200px;margin:0 auto;padding:0 28px}
-@media(max-width:600px){.con{padding:0 20px}}
-::-webkit-scrollbar{width:6px}
-::-webkit-scrollbar-track{background:var(--cream)}
-::-webkit-scrollbar-thumb{background:linear-gradient(var(--terra),var(--esp));border-radius:10px}
+:root{
+--bg:#FAF7F2;--bg2:#F3EEE6;--bg3:#EAE3D8;
+--ink:#1C1410;--ink2:#3D3530;--ink3:#6B625A;--ink4:#9C958E;
+--accent:#B5622A;--accent2:#9A4E1C;--accent3:#D07A3E;--accent4:rgba(181,98,42,.08);
+--gold:#C09B50;--gold2:#D4B06A;
+--sage:#5A6E4A;--sage2:#6E8558;
+--card:#FFFFFF;
+--serif:'Cormorant Garamond',Georgia,serif;
+--sans:'Inter',system-ui,-apple-system,sans-serif;
+--hand:'Caveat',cursive;
+--ease-out-expo:cubic-bezier(.16,1,.3,1);
+--ease-out-quart:cubic-bezier(.25,.46,.45,.94);
+--ease-spring:cubic-bezier(.175,.885,.32,1.275)
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--ink);background:var(--bg);overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-weight:400}
+::selection{background:var(--accent4);color:var(--accent2)}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.1}
+a{text-decoration:none;color:inherit;-webkit-tap-highlight-color:transparent}
+img{max-width:100%;display:block}
+button{font-family:var(--sans);cursor:pointer;border:none;outline:none;-webkit-tap-highlight-color:transparent}
+.w{max-width:1140px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-thumb{background:var(--accent);border-radius:4px}
 
-/* PROGRESS BAR */
-.progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--terra),var(--gold),var(--terra-l));z-index:10001;width:0%;transition:width .1s linear;box-shadow:0 0 10px rgba(196,101,46,.5)}
+/* ========== LOADER ========== */
+#loader{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;pointer-events:none}
+#loader .panel{position:absolute;top:0;width:50%;height:100%;background:var(--ink);transition:transform 1.4s var(--ease-out-expo)}
+#loader .panel-l{left:0}
+#loader .panel-r{right:0}
+#loader.go .panel-l{transform:translateX(-102%)}
+#loader.go .panel-r{transform:translateX(102%)}
+#loader .center{position:relative;z-index:1;text-align:center;color:var(--bg);transition:opacity .5s,transform .5s;display:flex;flex-direction:column;align-items:center}
+#loader.go .center{opacity:0;transform:scale(.92)}
+#loader .l-icon{font-size:40px;margin-bottom:14px;animation:lFloat 2.5s ease-in-out infinite}
+#loader .l-name{font-family:var(--serif);font-size:clamp(24px,5vw,36px);font-weight:300;letter-spacing:.15em;text-transform:uppercase;margin-bottom:4px}
+#loader .l-sub{font-family:var(--hand);font-size:15px;opacity:.4;margin-bottom:28px}
+#loader .l-bar{width:120px;height:1px;background:rgba(250,247,242,.12);overflow:hidden;border-radius:2px}
+#loader .l-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--accent),var(--gold));animation:lFill 2.2s var(--ease-out-quart) forwards}
+#loader .l-pct{font-size:10px;letter-spacing:4px;margin-top:14px;opacity:.3;font-variant-numeric:tabular-nums}
+@keyframes lFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes lFill{0%{width:0}70%{width:80%}100%{width:100%}}
 
-/* LOADER */
-.loader{position:fixed;inset:0;background:var(--esp);display:flex;align-items:center;justify-content:center;z-index:10000;transition:opacity .8s ease,visibility .8s ease}
-.loader.h{opacity:0;visibility:hidden;pointer-events:none}
-.loader-c{text-align:center;color:var(--cream)}
-.loader-i{font-size:56px;animation:lp 1.2s ease-in-out infinite;filter:drop-shadow(0 4px 20px rgba(196,101,46,.4))}
-.loader-t{font-family:'Playfair Display',serif;font-size:20px;letter-spacing:4px;opacity:.7;margin-top:12px;text-transform:uppercase}
-.loader-st{font-family:'Caveat',cursive;font-size:16px;opacity:.4;margin-top:6px}
-.loader-b{width:140px;height:2px;background:rgba(245,240,232,.15);margin:22px auto 0;border-radius:3px;overflow:hidden}
-.loader-bf{height:100%;background:linear-gradient(90deg,var(--terra),var(--gold));border-radius:3px;animation:lf 1.8s ease-in-out forwards}
-@keyframes lp{0%,100%{transform:scale(1) rotate(0)}25%{transform:scale(1.1) rotate(-5deg)}50%{transform:scale(1.2) rotate(5deg)}75%{transform:scale(1.1) rotate(-3deg)}}
-@keyframes lf{to{width:100%}}
+/* ========== CURSOR ========== */
+#cursor{position:fixed;pointer-events:none;z-index:9999;mix-blend-mode:difference;display:none}
+#cursor .ring{width:36px;height:36px;border:1px solid rgba(250,247,242,.5);border-radius:50%;transition:width .35s var(--ease-out-expo),height .35s var(--ease-out-expo),opacity .3s}
+#cursor.hover .ring{width:64px;height:64px;opacity:.4}
+#cursor.press .ring{width:28px;height:28px}
+#cursor .dot{position:absolute;top:50%;left:50%;width:4px;height:4px;background:var(--bg);border-radius:50%;transform:translate(-50%,-50%)}
+@media(pointer:fine){#cursor{display:block}}
 
-/* CURSOR */
-.cur{width:18px;height:18px;border:2px solid var(--terra);border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transition:width var(--fast),height var(--fast),border-color var(--fast),background var(--fast),margin var(--fast);mix-blend-mode:difference;display:none}
-.cur-dot{width:4px;height:4px;background:var(--terra);border-radius:50%;position:fixed;pointer-events:none;z-index:9999;display:none;transition:opacity var(--fast)}
-.cur.a{width:44px;height:44px;margin:-13px 0 0 -13px;background:rgba(196,101,46,.08);border-color:var(--gold)}
-@media(pointer:fine){.cur,.cur-dot{display:block}}
+/* ========== PROGRESS ========== */
+#progress{position:fixed;top:0;left:0;height:2px;z-index:10001;pointer-events:none}
+#progress span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--gold2),var(--accent3));box-shadow:0 0 12px rgba(181,98,42,.4)}
 
-/* NAV */
-.nav{position:fixed;top:0;left:0;width:100%;z-index:1000;padding:20px 0;transition:all var(--smooth)}
-.nav.s{background:rgba(253,251,247,.92);backdrop-filter:blur(28px) saturate(1.8);-webkit-backdrop-filter:blur(28px) saturate(1.8);padding:10px 0;box-shadow:0 1px 30px rgba(60,36,21,.06)}
-.nav .con{display:flex;align-items:center;justify-content:space-between}
-.n-logo{display:flex;align-items:center;gap:10px;z-index:1001}
-.n-logo-i{font-size:26px;transition:transform var(--bounce)}
-.n-logo-t{font-family:'Playfair Display',serif;font-size:21px;font-weight:700;color:#fff;transition:color var(--smooth);letter-spacing:.5px}
-.nav.s .n-logo-t{color:var(--esp)}
-.n-links{display:flex;align-items:center;gap:30px;list-style:none}
-.n-links a{font-size:14px;font-weight:500;color:rgba(255,255,255,.85);position:relative;padding:4px 0;transition:all var(--fast);letter-spacing:.4px}
-.nav.s .n-links a{color:var(--char-l)}
-.n-links a::after{content:'';position:absolute;bottom:-4px;left:50%;width:0;height:2px;background:linear-gradient(90deg,var(--terra),var(--gold));transition:all var(--smooth);border-radius:2px;transform:translateX(-50%)}
-.n-links a:hover::after{width:100%}
-.n-links a:hover{color:var(--terra)}
-.n-cta{background:linear-gradient(135deg,var(--terra),var(--terra-d))!important;color:#fff!important;padding:11px 24px!important;border-radius:50px;font-weight:600!important;font-size:13px!important;letter-spacing:.5px;transition:all var(--fast)!important;box-shadow:0 4px 20px rgba(196,101,46,.3);position:relative;overflow:hidden}
-.n-cta::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--terra-l),var(--terra));opacity:0;transition:opacity var(--fast)}
-.n-cta:hover::before{opacity:1}
-.n-cta::after{display:none!important}
-.n-cta:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(196,101,46,.4)!important}
-.n-cta span{position:relative;z-index:1}
-.ham{display:none;flex-direction:column;gap:6px;background:none;z-index:1001;padding:8px;-webkit-tap-highlight-color:transparent}
-.ham span{width:24px;height:2px;background:#fff;border-radius:3px;transition:all var(--smooth);transform-origin:center}
-.nav.s .ham span{background:var(--esp)}
-.ham.a span:nth-child(1){transform:rotate(45deg) translate(5px,6px);background:var(--esp)!important}
-.ham.a span:nth-child(2){opacity:0;transform:scaleX(0)}
-.ham.a span:nth-child(3){transform:rotate(-45deg) translate(5px,-6px);background:var(--esp)!important}
-.mob{position:fixed;inset:0;background:linear-gradient(160deg,var(--warm),var(--cream));z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;opacity:0;visibility:hidden;transition:all .5s cubic-bezier(.16,1,.3,1)}
-.mob.a{opacity:1;visibility:visible}
-.mob a{font-family:'Playfair Display',serif;font-size:30px;font-weight:600;color:var(--esp);opacity:0;transform:translateY(30px) scale(.95);transition:all .5s cubic-bezier(.16,1,.3,1);-webkit-tap-highlight-color:transparent;position:relative}
-.mob a::after{content:'';position:absolute;bottom:-4px;left:50%;width:0;height:2px;background:var(--terra);transition:width var(--smooth);transform:translateX(-50%);border-radius:2px}
-.mob a:active::after{width:80%}
-.mob.a a{opacity:1;transform:translateY(0) scale(1)}
-.mob.a a:nth-child(1){transition-delay:.08s}.mob.a a:nth-child(2){transition-delay:.13s}.mob.a a:nth-child(3){transition-delay:.18s}.mob.a a:nth-child(4){transition-delay:.23s}.mob.a a:nth-child(5){transition-delay:.28s}.mob.a a:nth-child(6){transition-delay:.33s}.mob.a a:nth-child(7){transition-delay:.38s}
-.mob a:active{color:var(--terra);transform:scale(.96)!important}
-.mob-line{width:50px;height:2px;background:linear-gradient(90deg,var(--terra),var(--gold));border-radius:2px;opacity:.3;margin:4px 0}
-.mob-info{font-size:13px;color:var(--char-l);opacity:.5;margin-top:8px;font-family:'Caveat',cursive;font-size:16px}
-@media(max-width:900px){.n-links{display:none}.ham{display:flex}}
-@media(max-width:600px){.n-logo-t{font-size:17px}.n-logo-i{font-size:22px}}
+/* ========== NAV ========== */
+header{position:fixed;top:0;left:0;width:100%;z-index:1000;padding:24px 0;transition:padding .5s var(--ease-out-expo)}
+header.fix{padding:12px 0}
+.nav-glass{position:absolute;inset:0;background:rgba(250,247,242,.88);backdrop-filter:blur(40px) saturate(1.6);-webkit-backdrop-filter:blur(40px) saturate(1.6);opacity:0;transition:opacity .5s;border-bottom:1px solid rgba(28,20,16,.04)}
+header.fix .nav-glass{opacity:1}
+header .w{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1}
+.brand{display:flex;align-items:center;gap:10px}
+.brand-icon{font-size:22px;transition:transform .5s var(--ease-spring)}
+.brand:hover .brand-icon{transform:rotate(-12deg) scale(1.15)}
+.brand-name{font-family:var(--serif);font-size:18px;font-weight:500;color:var(--bg);transition:color .5s;letter-spacing:.02em}
+header.fix .brand-name{color:var(--ink)}
+.nav-list{display:flex;align-items:center;gap:36px;list-style:none}
+.nav-list a{font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(250,247,242,.7);transition:color .3s;position:relative}
+header.fix .nav-list a{color:var(--ink3)}
+.nav-list a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--accent);transition:width .5s var(--ease-out-expo)}
+.nav-list a:hover::after{width:100%}
+.nav-list a:hover{color:var(--accent)!important}
+.nav-cta a{background:var(--accent)!important;color:var(--bg)!important;padding:10px 22px;border-radius:100px;font-size:11px;letter-spacing:.12em;transition:all .3s!important;box-shadow:0 4px 16px rgba(181,98,42,.2)}
+.nav-cta a::after{display:none!important}
+.nav-cta a:hover{background:var(--accent2)!important;transform:translateY(-2px);box-shadow:0 8px 24px rgba(181,98,42,.25)}
 
-/* HERO */
-.hero{position:relative;min-height:100vh;min-height:100dvh;display:flex;align-items:center;overflow:hidden}
-.hero-bg{position:absolute;inset:0}
-.hero-bg img{width:100%;height:100%;object-fit:cover;animation:hz 30s ease-in-out infinite alternate;will-change:transform}
-@keyframes hz{0%{transform:scale(1) translate(0,0)}100%{transform:scale(1.08) translate(-1%,-1%)}}
-.hero-ov{position:absolute;inset:0;background:linear-gradient(160deg,rgba(15,5,0,.82) 0%,rgba(60,36,21,.45) 40%,rgba(15,5,0,.78) 100%)}
-.hero-vignette{position:absolute;inset:0;box-shadow:inset 0 0 200px rgba(0,0,0,.3);pointer-events:none}
-.hero-p{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:1}
-.ptc{position:absolute;background:rgba(212,168,83,.25);border-radius:50%;animation:fp linear infinite;will-change:transform}
-@keyframes fp{0%{transform:translateY(100vh) rotate(0) scale(0);opacity:0}10%{opacity:.8;transform:translateY(80vh) rotate(72deg) scale(1)}90%{opacity:.6}100%{transform:translateY(-100px) rotate(720deg) scale(.5);opacity:0}}
-.hero-ct{position:relative;z-index:2;max-width:660px;padding:130px 0 100px}
-.hero-ey{display:inline-flex;align-items:center;gap:8px;background:rgba(196,101,46,.15);border:1px solid rgba(196,101,46,.25);padding:8px 18px;border-radius:50px;font-size:12px;font-weight:600;color:rgba(224,122,58,.9);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:26px;backdrop-filter:blur(12px);opacity:0;transform:translateY(20px);animation:fu .9s ease forwards .4s}
-.hero-ey .ey-dot{width:6px;height:6px;background:var(--terra-l);border-radius:50%;animation:sp 2s ease-in-out infinite}
-.hero-h1{font-size:clamp(38px,7.5vw,76px);font-weight:800;color:#fff;line-height:1.04;margin-bottom:18px;opacity:0;transform:translateY(35px);animation:fu .9s ease forwards .6s;letter-spacing:-1px}
-.hero-h1 .hl{background:linear-gradient(135deg,var(--terra-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;display:inline-block;transition:all .5s ease;position:relative}
-.hero-h1 .line2{display:block}
-.hero-sub{font-size:clamp(15px,2vw,18px);color:rgba(255,255,255,.78);line-height:1.75;margin-bottom:34px;max-width:500px;opacity:0;transform:translateY(35px);animation:fu .9s ease forwards .8s;font-weight:300}
-.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:36px;opacity:0;transform:translateY(35px);animation:fu .9s ease forwards 1s}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 32px;border-radius:50px;font-size:15px;font-weight:600;letter-spacing:.3px;transition:all var(--fast);position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent}
-.btn-p{background:linear-gradient(135deg,var(--terra),var(--terra-d));color:#fff;box-shadow:0 4px 24px rgba(196,101,46,.35)}
-.btn-p::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--terra-l),var(--terra));opacity:0;transition:opacity var(--fast);border-radius:50px}
-.btn-p:hover::before,.btn-p:active::before{opacity:1}
-.btn-p span{position:relative;z-index:1}
-.btn-p:hover,.btn-p:active{transform:translateY(-3px);box-shadow:0 10px 35px rgba(196,101,46,.4)}
-.btn-s{background:rgba(255,255,255,.06);color:#fff;border:1.5px solid rgba(255,255,255,.25);backdrop-filter:blur(12px)}
-.btn-s:hover,.btn-s:active{border-color:rgba(255,255,255,.6);background:rgba(255,255,255,.12);transform:translateY(-3px)}
-.hero-tr{display:flex;gap:20px;flex-wrap:wrap;opacity:0;transform:translateY(30px);animation:fu .9s ease forwards 1.2s}
-.tr-b{display:flex;align-items:center;gap:7px;color:rgba(255,255,255,.55);font-size:13px;font-weight:400;letter-spacing:.3px}
-.tr-b .tr-line{width:1px;height:14px;background:rgba(255,255,255,.15);margin-left:8px}
-.hero-sc{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:2;text-align:center;opacity:0;animation:fu .9s ease forwards 1.5s}
-.hero-sc span{display:block;color:rgba(255,255,255,.35);font-size:10px;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;font-weight:500}
-.sc-arr{color:rgba(255,255,255,.35);font-size:16px;animation:bnc 2.5s ease-in-out infinite}
-.sc-line{width:1px;height:40px;background:linear-gradient(to bottom,rgba(255,255,255,.3),transparent);margin:8px auto 0}
-@keyframes fu{to{opacity:1;transform:translateY(0)}}
-@keyframes bnc{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+/* BURGER */
+.burger{display:none;padding:10px;background:none;z-index:1001;flex-direction:column;gap:5px}
+.burger span{display:block;width:20px;height:1.5px;background:var(--bg);border-radius:2px;transition:all .4s var(--ease-out-expo);transform-origin:center}
+header.fix .burger span{background:var(--ink)}
+.burger.on span:first-child{transform:rotate(45deg) translate(4px,4.5px);background:var(--ink)!important}
+.burger.on span:nth-child(2){opacity:0;transform:scaleX(0)}
+.burger.on span:last-child{transform:rotate(-45deg) translate(4px,-4.5px);background:var(--ink)!important}
+@media(max-width:900px){.nav-list{display:none}.burger{display:flex}}
+
+/* MOBILE NAV */
+.mnav{position:fixed;inset:0;z-index:998;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;opacity:0;pointer-events:none;transition:opacity .5s var(--ease-out-expo)}
+.mnav.on{opacity:1;pointer-events:auto}
+.mnav a{font-family:var(--serif);font-size:clamp(28px,6vw,42px);font-weight:300;color:var(--ink);opacity:0;transform:translateY(30px);transition:all .6s var(--ease-out-expo);letter-spacing:.04em}
+.mnav.on a{opacity:1;transform:none}
+.mnav.on a:nth-child(1){transition-delay:.05s}
+.mnav.on a:nth-child(2){transition-delay:.1s}
+.mnav.on a:nth-child(3){transition-delay:.15s}
+.mnav.on a:nth-child(4){transition-delay:.2s}
+.mnav.on a:nth-child(5){transition-delay:.25s}
+.mnav.on a:nth-child(6){transition-delay:.3s}
+.mnav.on a:nth-child(7){transition-delay:.35s}
+.mnav a:active{color:var(--accent)}
+.mnav-sub{font-family:var(--hand);font-size:16px;color:var(--ink4);margin-top:20px;opacity:0;transform:translateY(16px);transition:all .5s var(--ease-out-expo) .4s}
+.mnav.on .mnav-sub{opacity:.5;transform:none}
+
+/* ========== HERO ========== */
+.hero{position:relative;min-height:100vh;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden;padding-bottom:clamp(60px,10vh,100px)}
+.hero-media{position:absolute;inset:0}
+.hero-media img{width:100%;height:100%;object-fit:cover;will-change:transform}
+.hero-dim{position:absolute;inset:0;background:linear-gradient(175deg,rgba(8,4,0,.7) 0%,rgba(28,20,16,.25) 45%,rgba(8,4,0,.75) 100%)}
+.hero-grain{position:absolute;inset:0;opacity:.025;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.hero-particles i{position:absolute;background:rgba(208,178,120,.12);border-radius:50%;will-change:transform}
+
+.hero .w{position:relative;z-index:2;max-width:680px}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;font-size:10px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:rgba(208,122,62,.85);margin-bottom:clamp(20px,3vh,32px)}
+.hero-tag i{width:5px;height:5px;background:var(--accent3);border-radius:50%;animation:tagPulse 2.5s ease-in-out infinite;box-shadow:0 0 6px rgba(181,98,42,.5)}
+@keyframes tagPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.4)}}
+.hero h1{font-size:clamp(44px,8.5vw,96px);font-weight:300;color:var(--bg);letter-spacing:-.035em;margin-bottom:clamp(16px,2.5vh,28px);line-height:1}
+.hero h1 em{font-style:italic;font-weight:400;background:linear-gradient(135deg,var(--accent3),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-desc{font-size:clamp(14px,1.6vw,17px);color:rgba(250,247,242,.6);line-height:1.8;margin-bottom:clamp(28px,4vh,44px);max-width:460px;font-weight:300}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:clamp(32px,5vh,52px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:16px 36px;border-radius:100px;font-size:13px;font-weight:600;letter-spacing:.04em;transition:all .3s var(--ease-out-expo);position:relative;overflow:hidden}
+.btn-accent{background:var(--accent);color:var(--bg);box-shadow:0 8px 28px rgba(181,98,42,.25)}
+.btn-accent:hover{background:var(--accent2);transform:translateY(-3px);box-shadow:0 14px 40px rgba(181,98,42,.3)}
+.btn-glass{color:rgba(250,247,242,.8);border:1px solid rgba(250,247,242,.18);backdrop-filter:blur(16px);background:rgba(250,247,242,.03)}
+.btn-glass:hover{background:rgba(250,247,242,.08);border-color:rgba(250,247,242,.35);transform:translateY(-3px)}
+.hero-meta{display:flex;gap:clamp(16px,3vw,32px);flex-wrap:wrap}
+.hero-meta span{font-size:11px;color:rgba(250,247,242,.35);letter-spacing:.06em;font-weight:400}
+
+.hero-scroll{position:absolute;bottom:clamp(24px,4vh,40px);left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:10px}
+.hero-scroll span{font-size:8px;letter-spacing:.35em;text-transform:uppercase;color:rgba(250,247,242,.2);font-weight:500}
+.scroll-beam{width:1px;height:44px;position:relative;overflow:hidden}
+.scroll-beam::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:linear-gradient(180deg,transparent,rgba(250,247,242,.35),transparent);animation:beam 2.5s ease-in-out infinite}
+@keyframes beam{0%{top:-100%}100%{top:200%}}
 
 @media(max-width:600px){
-.hero-ct{padding:110px 0 80px}
-.hero-btns{flex-direction:column;gap:12px}
-.btn{justify-content:center;padding:16px 28px;width:100%}
-.hero-tr{gap:14px}.tr-b{font-size:12px}
-.hero-ey{font-size:10px;padding:7px 14px}
-.tr-b .tr-line{display:none}
-.hero-h1{letter-spacing:-.5px}
+.hero{align-items:center;padding-bottom:80px}
+.hero-actions{flex-direction:column}
+.btn{width:100%;justify-content:center}
 }
 
-/* REVEAL */
-.rv{opacity:0;transform:translateY(50px);transition:all var(--silk)}
-.rv.a{opacity:1;transform:translateY(0)}
-.rv-l{opacity:0;transform:translateX(-60px);transition:all var(--silk)}
-.rv-l.a{opacity:1;transform:translateX(0)}
-.rv-r{opacity:0;transform:translateX(60px);transition:all var(--silk)}
-.rv-r.a{opacity:1;transform:translateX(0)}
-.rv-s{opacity:0;transform:scale(.85);transition:all var(--silk)}
-.rv-s.a{opacity:1;transform:scale(1)}
-.rv-rot{opacity:0;transform:translateY(40px) rotate(2deg);transition:all var(--silk)}
-.rv-rot.a{opacity:1;transform:translateY(0) rotate(0)}
-.d1{transition-delay:.08s!important}.d2{transition-delay:.16s!important}.d3{transition-delay:.24s!important}.d4{transition-delay:.32s!important}.d5{transition-delay:.4s!important}.d6{transition-delay:.48s!important}
+/* ========== SECTIONS ========== */
+.sec{padding:clamp(80px,12vw,140px) 0;position:relative}
+.sec-label{font-size:10px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;display:flex;align-items:center;gap:12px}
+.sec-label::before{content:'';width:16px;height:1px;background:var(--accent)}
+.sec-title{font-size:clamp(32px,5.5vw,58px);font-weight:300;color:var(--ink);margin-bottom:16px;letter-spacing:-.025em}
+.sec-desc{font-size:15px;color:var(--ink3);max-width:480px;line-height:1.85;font-weight:300}
+.sec-head{text-align:center;margin-bottom:clamp(48px,8vw,72px)}
+.sec-head .sec-label{justify-content:center}
+.sec-head .sec-label::after{content:'';width:16px;height:1px;background:var(--accent)}
+.sec-head .sec-desc{margin:0 auto}
+.sec-line{width:40px;height:1px;background:linear-gradient(90deg,var(--accent),var(--gold));margin:18px auto 0;opacity:.4}
 
-/* SECTION */
-.sec{padding:110px 0;position:relative}
-.sec-ey{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:600;letter-spacing:3.5px;text-transform:uppercase;color:var(--terra);margin-bottom:16px}
-.sec-ey::before,.sec-ey::after{content:'';width:24px;height:1px;background:linear-gradient(90deg,var(--terra),transparent)}
-.sec-ey::before{background:linear-gradient(90deg,transparent,var(--terra))}
-.sec-t{font-size:clamp(30px,5vw,50px);color:var(--esp);margin-bottom:14px;letter-spacing:-.5px}
-.sec-st{font-size:16px;color:var(--char-l);opacity:.7;max-width:540px;line-height:1.85;font-weight:300}
-.sec-hd{text-align:center;margin-bottom:60px}
-.sec-hd .sec-st{margin:0 auto}
-.glow-line{width:60px;height:3px;background:linear-gradient(90deg,var(--terra),var(--gold),var(--terra-l));border-radius:3px;margin:16px auto 0;opacity:.45;animation:glowPulse 3s ease-in-out infinite}
-@keyframes glowPulse{0%,100%{opacity:.45;width:60px}50%{opacity:.7;width:80px}}
-@media(max-width:600px){.sec{padding:76px 0}.sec-hd{margin-bottom:42px}.sec-st{font-size:14.5px}.sec-t{letter-spacing:-.3px}}
+/* ========== REVEALS ========== */
+.r{opacity:0;transform:translateY(48px);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
+.r.v{opacity:1;transform:none}
+.rl{opacity:0;transform:translateX(-48px);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
+.rl.v{opacity:1;transform:none}
+.rr{opacity:0;transform:translateX(48px);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
+.rr.v{opacity:1;transform:none}
+.rs{opacity:0;transform:scale(.9);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
+.rs.v{opacity:1;transform:none}
+[data-d="1"]{transition-delay:.07s!important}[data-d="2"]{transition-delay:.14s!important}[data-d="3"]{transition-delay:.21s!important}[data-d="4"]{transition-delay:.28s!important}[data-d="5"]{transition-delay:.35s!important}[data-d="6"]{transition-delay:.42s!important}
 
-/* MARQUEE */
-.marquee{background:var(--esp);padding:14px 0;overflow:hidden;position:relative}
-.marquee::before,.marquee::after{content:'';position:absolute;top:0;width:80px;height:100%;z-index:2}
-.marquee::before{left:0;background:linear-gradient(90deg,var(--esp),transparent)}
-.marquee::after{right:0;background:linear-gradient(90deg,transparent,var(--esp))}
-.marquee-track{display:flex;gap:40px;animation:marq 25s linear infinite;width:max-content;align-items:center}
-.marquee-track span{color:var(--cream);font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;white-space:nowrap;opacity:.5}
-.marquee-track .dot{width:4px;height:4px;background:var(--terra);border-radius:50%;flex-shrink:0}
-@keyframes marq{to{transform:translateX(-50%)}}
+/* ========== MARQUEE ========== */
+.ticker{background:var(--ink);padding:14px 0;overflow:hidden;position:relative}
+.ticker::before,.ticker::after{content:'';position:absolute;top:0;width:80px;height:100%;z-index:2}
+.ticker::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.ticker::after{right:0;background:linear-gradient(-90deg,var(--ink),transparent)}
+.ticker-track{display:flex;gap:56px;animation:tick 35s linear infinite;width:max-content;align-items:center}
+.ticker-track span{color:rgba(250,247,242,.3);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap}
+.ticker-track i{width:3px;height:3px;border-radius:50%;background:var(--accent);opacity:.5;flex-shrink:0}
+@keyframes tick{to{transform:translateX(-50%)}}
 
-/* FOOD GALLERY */
-.fg{background:var(--esp);overflow:hidden;position:relative}
-.fg-in{display:grid;grid-template-columns:repeat(3,1fr)}
-.fg-i{position:relative;overflow:hidden;aspect-ratio:4/3;cursor:pointer}
-.fg-i img{width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.16,1,.3,1),filter .6s ease;filter:brightness(.9)}
-.fg-i:hover img,.fg-i.tch img{transform:scale(1.12);filter:brightness(1.05)}
-.fg-ov{position:absolute;bottom:0;left:0;width:100%;padding:40px 22px 22px;background:linear-gradient(to top,rgba(15,5,0,.9) 0%,rgba(15,5,0,.4) 60%,transparent 100%);transform:translateY(10px);opacity:0;transition:all var(--smooth)}
-.fg-i:hover .fg-ov,.fg-i.tch .fg-ov{transform:translateY(0);opacity:1}
-.fg-ov h3{color:#fff;font-size:18px;margin-bottom:3px;font-weight:600}
-.fg-ov p{color:rgba(255,255,255,.6);font-size:12px;letter-spacing:.5px}
-.fg-num{position:absolute;top:16px;right:16px;width:32px;height:32px;border-radius:50%;background:rgba(0,0,0,.3);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);font-size:11px;font-weight:600;border:1px solid rgba(255,255,255,.1);opacity:0;transition:all var(--smooth)}
-.fg-i:hover .fg-num,.fg-i.tch .fg-num{opacity:1}
-@media(max-width:768px){.fg-in{grid-template-columns:1fr}.fg-i{aspect-ratio:16/9}.fg-ov{opacity:1;transform:translateY(0)}.fg-num{opacity:1}}
+/* ========== GALLERY ========== */
+.gal{background:var(--ink)}
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.gal-item{position:relative;overflow:hidden;aspect-ratio:4/3}
+.gal-item img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease-out-expo),filter .8s;filter:brightness(.82) saturate(.9);will-change:transform}
+.gal-item:hover img,.gal-item.on img{transform:scale(1.1);filter:brightness(1) saturate(1.05)}
+.gal-cap{position:absolute;bottom:0;left:0;width:100%;padding:clamp(20px,4vw,36px) clamp(16px,3vw,28px);background:linear-gradient(0deg,rgba(8,4,0,.88) 0%,transparent 100%);opacity:0;transform:translateY(8px);transition:all .7s var(--ease-out-expo)}
+.gal-item:hover .gal-cap,.gal-item.on .gal-cap{opacity:1;transform:none}
+.gal-cap h3{font-family:var(--serif);font-size:clamp(18px,2.5vw,24px);font-weight:400;color:var(--bg);margin-bottom:4px}
+.gal-cap p{font-size:12px;color:rgba(250,247,242,.45);font-weight:300;letter-spacing:.04em}
+.gal-idx{position:absolute;top:16px;right:20px;font-family:var(--serif);font-size:clamp(36px,5vw,64px);font-weight:300;color:rgba(250,247,242,.03);line-height:1;transition:all .6s var(--ease-out-expo);letter-spacing:-.02em}
+.gal-item:hover .gal-idx,.gal-item.on .gal-idx{color:rgba(250,247,242,.06)}
+@media(max-width:768px){.gal-grid{grid-template-columns:1fr}.gal-item{aspect-ratio:16/9}.gal-cap{opacity:1;transform:none}}
 
-/* STATS */
-.stb{background:linear-gradient(135deg,var(--esp),#1a0a02);padding:50px 0;position:relative;overflow:hidden}
-.stb::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(212,168,83,.04) 1px,transparent 1px);background-size:24px 24px}
-.stg{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center;position:relative;z-index:1}
-.st-i{padding:16px 0;position:relative}
-.st-i::after{content:'';position:absolute;right:0;top:20%;height:60%;width:1px;background:linear-gradient(to bottom,transparent,rgba(245,240,232,.1),transparent)}
-.st-i:last-child::after{display:none}
-.st-n{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,52px);font-weight:800;background:linear-gradient(135deg,var(--terra-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:8px}
-.st-l{font-size:12px;color:var(--cream);opacity:.45;letter-spacing:2px;text-transform:uppercase;font-weight:500}
-@media(max-width:600px){.stg{grid-template-columns:repeat(2,1fr);gap:16px}.st-i{padding:14px 0}.st-i::after{display:none}}
+/* ========== STATS ========== */
+.stats{background:var(--ink);padding:clamp(44px,7vw,64px) 0;position:relative;overflow:hidden}
+.stats::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(192,155,80,.02) 1px,transparent 1px);background-size:20px 20px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;position:relative}
+.stat{padding:20px 0}
+.stat-val{font-family:var(--serif);font-size:clamp(40px,6.5vw,60px);font-weight:300;line-height:1;margin-bottom:10px;background:linear-gradient(135deg,var(--accent3),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-.02em}
+.stat-lbl{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(250,247,242,.25);font-weight:500}
+@media(max-width:600px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
 
-/* ABOUT */
-.ab-g{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.ab-iw{position:relative}
-.ab-iw img{border-radius:var(--r-lg);box-shadow:0 24px 64px rgba(60,36,21,.15);width:100%;height:440px;object-fit:cover;transition:transform .8s ease,box-shadow .8s ease}
-.ab-iw:hover img{transform:scale(1.02);box-shadow:0 32px 80px rgba(60,36,21,.2)}
-.ab-frame{position:absolute;inset:-12px;border:1px solid rgba(196,101,46,.15);border-radius:calc(var(--r-lg) + 8px);pointer-events:none;transition:all .8s ease}
-.ab-iw:hover .ab-frame{inset:-16px;border-color:rgba(196,101,46,.25)}
-.ab-ac{position:absolute;top:-20px;left:-20px;width:110px;height:110px;border-radius:50%;background:linear-gradient(135deg,var(--terra),var(--gold));opacity:.08;z-index:-1;animation:pg 5s ease-in-out infinite}
-.ab-ac2{position:absolute;bottom:-16px;right:-16px;width:80px;height:80px;border-radius:50%;background:var(--green);opacity:.08;z-index:-1;animation:pg 5s ease-in-out infinite 2.5s}
-@keyframes pg{0%,100%{transform:scale(1);opacity:.08}50%{transform:scale(1.25);opacity:.15}}
-.ab-bd{position:absolute;bottom:-16px;right:28px;background:#fff;padding:14px 22px;border-radius:var(--r-md);box-shadow:0 10px 36px rgba(60,36,21,.1);display:flex;align-items:center;gap:12px;z-index:2;transition:transform var(--bounce);border:1px solid rgba(60,36,21,.04)}
-.ab-bd:hover{transform:translateY(-4px) scale(1.03)}
-.ab-bd-i{font-size:28px}
-.ab-bd-t{font-size:12px;font-weight:600;color:var(--esp)}
-.ab-bd-t span{display:block;font-family:'Caveat',cursive;font-size:18px;color:var(--terra)}
-.ab-tx h2{font-size:clamp(30px,4.5vw,44px);color:var(--esp);margin-bottom:20px;letter-spacing:-.3px}
-.ab-tx p{color:var(--char-l);margin-bottom:16px;font-size:15px;line-height:1.85;font-weight:300}
-.ab-tx p strong{color:var(--esp);font-weight:600}
-.ab-ft{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}
-.ab-f{text-align:center;padding:24px 12px;background:var(--cream);border-radius:var(--r-md);transition:all var(--fast);border:1px solid transparent;-webkit-tap-highlight-color:transparent}
-.ab-f:hover,.ab-f:active{transform:translateY(-5px);box-shadow:0 10px 30px rgba(60,36,21,.08);border-color:rgba(196,101,46,.1)}
-.ab-fi{font-size:30px;margin-bottom:8px;display:inline-block;transition:transform var(--bounce)}
-.ab-f:hover .ab-fi,.ab-f:active .ab-fi{transform:scale(1.25) rotate(-10deg)}
-.ab-f h4{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--esp);margin-bottom:3px}
-.ab-f p{font-size:11px;color:var(--char-l);margin-bottom:0;line-height:1.5;opacity:.65}
-@media(max-width:900px){.ab-g{grid-template-columns:1fr;gap:44px}.ab-iw img{height:320px}.ab-frame{inset:-8px}}
-@media(max-width:600px){.ab-ft{grid-template-columns:1fr;gap:10px}.ab-f{display:flex;align-items:center;gap:14px;text-align:left;padding:16px 18px}.ab-fi{font-size:28px;margin-bottom:0}.ab-iw img{height:260px}.ab-tx p{font-size:14px}}
+/* ========== ABOUT ========== */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,80px);align-items:center}
+.about-vis{position:relative}
+.about-vis img{border-radius:16px;width:100%;height:clamp(320px,40vw,480px);object-fit:cover;box-shadow:0 32px 80px rgba(28,20,16,.1);transition:transform .8s var(--ease-out-expo)}
+.about-vis:hover img{transform:scale(1.015)}
+.about-frame{position:absolute;inset:-12px;border:1px solid rgba(181,98,42,.08);border-radius:22px;pointer-events:none;transition:all .8s var(--ease-out-expo)}
+.about-vis:hover .about-frame{inset:-16px}
+.about-dots{position:absolute;top:-20px;left:-20px;width:64px;height:64px;background-image:radial-gradient(var(--accent) 1px,transparent 1px);background-size:8px 8px;opacity:.08}
+.about-badge{position:absolute;bottom:-14px;right:clamp(16px,3vw,32px);background:var(--card);padding:14px 22px;border-radius:12px;box-shadow:0 12px 40px rgba(28,20,16,.06);display:flex;align-items:center;gap:12px;z-index:2;border:1px solid rgba(28,20,16,.02);transition:transform .5s var(--ease-spring)}
+.about-badge:hover{transform:translateY(-4px)}
+.about-badge span:first-child{font-size:24px}
+.about-badge-text{font-size:11px;font-weight:600;color:var(--ink2)}
+.about-badge-text em{display:block;font-family:var(--hand);font-size:17px;color:var(--accent);font-style:normal}
+.about-info h2{font-size:clamp(30px,4.5vw,48px);font-weight:300;color:var(--ink);margin-bottom:24px;letter-spacing:-.02em}
+.about-info p{color:var(--ink3);margin-bottom:16px;font-size:15px;line-height:1.9;font-weight:300}
+.about-info strong{color:var(--ink);font-weight:600}
+.about-feats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px}
+.afeat{padding:20px 14px;background:var(--bg2);border-radius:12px;text-align:center;transition:all .3s var(--ease-out-expo);border:1px solid transparent}
+.afeat:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(28,20,16,.04);border-color:var(--accent4)}
+.afeat span{font-size:26px;display:block;margin-bottom:6px;transition:transform .5s var(--ease-spring)}
+.afeat:hover span{transform:scale(1.15) rotate(-6deg)}
+.afeat h4{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink);margin-bottom:2px}
+.afeat p{font-size:10px;color:var(--ink4);line-height:1.4}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:44px}.about-vis img{height:300px}}
+@media(max-width:600px){.about-feats{grid-template-columns:1fr;gap:8px}.afeat{display:flex;align-items:center;gap:12px;text-align:left;padding:14px 16px}.afeat span{margin-bottom:0;font-size:24px}.about-vis img{height:240px}.about-info p{font-size:14px}}
 
-/* HIGHLIGHTS */
-.hlg{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.hl-c{background:#fff;border-radius:var(--r-lg);padding:34px 26px;text-align:center;transition:all var(--smooth);border:1px solid rgba(60,36,21,.03);position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent}
-.hl-c::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--terra),var(--gold),var(--green));transform:scaleX(0);transition:transform .5s cubic-bezier(.16,1,.3,1);transform-origin:left}
-.hl-c::after{content:'';position:absolute;bottom:0;right:0;width:80px;height:80px;background:radial-gradient(circle,rgba(196,101,46,.04),transparent);border-radius:50%;transition:all var(--smooth);transform:translate(20px,20px)}
-.hl-c:hover::before,.hl-c.tch::before{transform:scaleX(1)}
-.hl-c:hover::after{transform:translate(0,0) scale(2)}
-.hl-c:hover,.hl-c.tch{transform:translateY(-8px);box-shadow:0 16px 48px rgba(60,36,21,.1)}
-.hl-i{font-size:42px;margin-bottom:14px;display:inline-block;transition:transform var(--bounce)}
-.hl-c:hover .hl-i,.hl-c.tch .hl-i{transform:scale(1.2) rotate(-8deg)}
-.hl-c h3{font-size:18px;color:var(--esp);margin-bottom:7px}
-.hl-c p{font-size:13px;color:var(--char-l);opacity:.65;line-height:1.65}
-@media(max-width:768px){.hlg{grid-template-columns:1fr 1fr;gap:14px}.hl-c{padding:26px 18px}.hl-i{font-size:36px}.hl-c h3{font-size:16px}.hl-c p{font-size:12px}}
-@media(max-width:480px){.hlg{grid-template-columns:1fr;gap:10px}.hl-c{display:flex;align-items:center;gap:16px;text-align:left;padding:20px 18px}.hl-i{font-size:36px;margin-bottom:0;flex-shrink:0}}
+/* ========== DIVIDER ========== */
+.divider{height:clamp(220px,30vw,340px);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.divider-bg{position:absolute;inset:-60px;background-size:cover;background-position:center;background-attachment:fixed}
+.divider-ov{position:absolute;inset:0;background:rgba(28,20,16,.72)}
+.divider-text{position:relative;z-index:2;text-align:center;padding:0 24px}
+.divider-text h3{font-family:var(--serif);font-size:clamp(24px,5vw,48px);font-weight:300;color:var(--bg);letter-spacing:-.02em;margin-bottom:8px}
+.divider-text p{font-family:var(--hand);font-size:clamp(16px,3vw,22px);color:rgba(250,247,242,.4)}
+@media(max-width:768px){.divider-bg{background-attachment:scroll}}
 
-/* MENU */
-.mt{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:44px}
-.m-tab{padding:11px 24px;border-radius:50px;background:var(--cream);color:var(--char-l);font-weight:600;font-size:13px;transition:all var(--fast);border:1.5px solid transparent;-webkit-tap-highlight-color:transparent;position:relative;overflow:hidden}
-.m-tab::before{content:'';position:absolute;inset:0;background:var(--esp);border-radius:50px;transform:scaleX(0);transition:transform var(--smooth);transform-origin:center}
-.m-tab.a::before{transform:scaleX(1)}
-.m-tab span{position:relative;z-index:1}
-.m-tab:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(60,36,21,.06)}
-.m-tab.a{color:#fff;box-shadow:0 6px 20px rgba(60,36,21,.15);transform:translateY(-2px)}
-.mp{display:none}.mp.a{display:block;animation:mfi .6s cubic-bezier(.16,1,.3,1)}
-@keyframes mfi{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-.mg{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:880px;margin:0 auto}
-.mi{display:flex;justify-content:space-between;align-items:flex-start;padding:20px 22px;background:#fff;border-radius:var(--r-md);border:1px solid rgba(60,36,21,.04);transition:all var(--fast);gap:14px;-webkit-tap-highlight-color:transparent;position:relative;overflow:hidden}
-.mi::before{content:'';position:absolute;left:0;top:0;width:3px;height:100%;background:linear-gradient(to bottom,var(--terra),var(--gold));transform:scaleY(0);transition:transform var(--smooth);transform-origin:top}
-.mi:hover::before,.mi:active::before{transform:scaleY(1)}
-.mi:hover,.mi:active{border-color:rgba(196,101,46,.15);box-shadow:0 6px 24px rgba(196,101,46,.06);transform:translateX(4px)}
-.mi-i h4{font-family:'Playfair Display',serif;font-size:15px;color:var(--esp);margin-bottom:3px;font-weight:600}
-.mi-i p{font-size:12px;color:var(--char-l);opacity:.55;line-height:1.5;font-weight:300}
-.mi-p{font-size:15px;font-weight:700;background:linear-gradient(135deg,var(--terra),var(--terra-d));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap}
-.m-note{text-align:center;margin-top:32px;font-size:12px;color:var(--char-l);opacity:.5;font-style:italic}
+/* ========== HIGHLIGHTS ========== */
+.hl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.hl{background:var(--card);border-radius:16px;padding:clamp(28px,3vw,40px) clamp(22px,2.5vw,32px);transition:all .5s var(--ease-out-expo);border:1px solid rgba(28,20,16,.03);position:relative;overflow:hidden}
+.hl::after{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--sage));transform:scaleX(0);transition:transform .7s var(--ease-out-expo);transform-origin:left}
+.hl:hover::after,.hl.tch::after{transform:scaleX(1)}
+.hl:hover,.hl.tch{transform:translateY(-6px);box-shadow:0 20px 56px rgba(28,20,16,.06)}
+.hl-icon{font-size:36px;margin-bottom:16px;display:inline-block;transition:transform .5s var(--ease-spring)}
+.hl:hover .hl-icon,.hl.tch .hl-icon{transform:scale(1.12) rotate(-5deg)}
+.hl h3{font-family:var(--serif);font-size:20px;font-weight:500;color:var(--ink);margin-bottom:8px}
+.hl p{font-size:13px;color:var(--ink3);line-height:1.65;font-weight:300}
+@media(max-width:768px){.hl-grid{grid-template-columns:1fr 1fr;gap:12px}.hl{padding:24px 18px}}
+@media(max-width:480px){.hl-grid{grid-template-columns:1fr;gap:10px}.hl{display:flex;align-items:flex-start;gap:16px;padding:20px 18px;text-align:left}.hl-icon{margin-bottom:0;font-size:32px;flex-shrink:0}}
+
+/* ========== MENU ========== */
+.m-tabs{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:clamp(36px,5vw,52px)}
+.m-tab{padding:11px 26px;border-radius:100px;background:var(--bg2);color:var(--ink3);font-weight:500;font-size:12px;letter-spacing:.06em;transition:all .3s var(--ease-out-expo);border:1.5px solid transparent}
+.m-tab.on{background:var(--ink);color:var(--bg);border-color:var(--ink);box-shadow:0 6px 20px rgba(28,20,16,.1)}
+.m-tab:hover:not(.on){background:var(--bg3);transform:translateY(-1px)}
+.m-panel{display:none;animation:panIn .7s var(--ease-out-expo)}
+.m-panel.on{display:block}
+@keyframes panIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.m-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:860px;margin:0 auto}
+.m-item{display:flex;justify-content:space-between;align-items:flex-start;padding:20px 24px;background:var(--card);border-radius:12px;border:1px solid rgba(28,20,16,.03);transition:all .3s var(--ease-out-expo);gap:16px}
+.m-item:hover,.m-item:active{border-color:rgba(181,98,42,.12);transform:translateX(3px);box-shadow:0 4px 16px rgba(181,98,42,.03)}
+.m-item h4{font-family:var(--serif);font-size:16px;font-weight:500;color:var(--ink);margin-bottom:3px}
+.m-item .desc{font-size:11px;color:var(--ink4);line-height:1.5;font-weight:300}
+.m-price{font-size:14px;font-weight:600;color:var(--accent);white-space:nowrap;letter-spacing:-.02em}
+.m-note{text-align:center;margin-top:32px;font-size:11px;color:var(--ink4);font-style:italic}
 .m-cta{text-align:center;margin-top:40px}
-@media(max-width:700px){.mg{grid-template-columns:1fr;gap:10px}}
-@media(max-width:600px){.mt{gap:6px;margin-bottom:32px}.m-tab{padding:10px 16px;font-size:12px}.mi{padding:16px}.mi-i h4{font-size:14px}}
+@media(max-width:700px){.m-grid{grid-template-columns:1fr;gap:8px}}
+@media(max-width:600px){.m-tabs{gap:5px;margin-bottom:28px}.m-tab{padding:10px 18px;font-size:11px}.m-item{padding:16px 18px}}
 
-/* HOURS */
-.hr-c{max-width:520px;margin:0 auto;background:#fff;border-radius:var(--r-xl);padding:48px 40px;box-shadow:0 12px 48px rgba(60,36,21,.08);position:relative;overflow:hidden;border:1px solid rgba(60,36,21,.03)}
-.hr-c::before{content:'';position:absolute;top:0;left:0;width:100%;height:4px;background:linear-gradient(90deg,var(--terra),var(--gold),var(--green),var(--gold),var(--terra));background-size:200% 100%;animation:gradientShift 4s ease-in-out infinite}
-@keyframes gradientShift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
-.hr-ch{text-align:center;margin-bottom:30px}
-.hr-ch .cl-i{font-size:46px;display:inline-block;animation:cp 4s ease-in-out infinite}
-@keyframes cp{0%,100%{transform:rotate(0) scale(1)}25%{transform:rotate(8deg) scale(1.05)}75%{transform:rotate(-8deg) scale(1.05)}}
-.hr-st{display:inline-flex;align-items:center;gap:8px;padding:7px 18px;border-radius:50px;font-size:12px;font-weight:600;margin-top:12px;letter-spacing:.5px}
-.hr-st.op{background:rgba(90,114,71,.1);color:var(--green);border:1px solid rgba(90,114,71,.15)}
-.hr-st.cl{background:rgba(196,101,46,.08);color:var(--terra);border:1px solid rgba(196,101,46,.12)}
-.hr-dot{width:7px;height:7px;border-radius:50%;animation:sp 2s ease-in-out infinite}
-.hr-st.op .hr-dot{background:var(--green);box-shadow:0 0 8px rgba(90,114,71,.5)}
-.hr-st.cl .hr-dot{background:var(--terra);box-shadow:0 0 8px rgba(196,101,46,.5)}
-@keyframes sp{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.5)}}
-.hr-l{list-style:none}
-.hr-l li{display:flex;justify-content:space-between;align-items:center;padding:13px 16px;border-radius:var(--r-sm);font-size:14px;transition:all var(--fast)}
-.hr-l li:nth-child(odd){background:rgba(245,240,232,.6)}
-.hr-l li.td{background:linear-gradient(90deg,rgba(196,101,46,.08),rgba(196,101,46,.03));border-left:3px solid var(--terra);font-weight:600}
-.hr-l li:hover{padding-left:20px}
-.hr-l .dy{font-weight:500;color:var(--esp)}.hr-l .tm{color:var(--char-l);font-weight:400}
-.hr-nt{text-align:center;margin-top:24px;font-family:'Caveat',cursive;font-size:17px;color:var(--terra)}
-@media(max-width:600px){.hr-c{padding:32px 22px;border-radius:var(--r-lg)}.hr-l li{padding:12px;font-size:13px}}
+/* ========== HOURS ========== */
+.hrs{max-width:500px;margin:0 auto;background:var(--card);border-radius:24px;padding:clamp(36px,5vw,56px) clamp(28px,4vw,48px);box-shadow:0 20px 64px rgba(28,20,16,.04);border:1px solid rgba(28,20,16,.03);position:relative;overflow:hidden}
+.hrs::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--sage),var(--gold),var(--accent));background-size:200%;animation:hGrad 6s ease-in-out infinite}
+@keyframes hGrad{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.hrs-top{text-align:center;margin-bottom:28px}
+.hrs-icon{font-size:40px;display:inline-block;animation:hSwing 5s ease-in-out infinite}
+@keyframes hSwing{0%,100%{transform:rotate(0)}30%{transform:rotate(6deg)}60%{transform:rotate(-6deg)}}
+.hrs-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 16px;border-radius:100px;font-size:11px;font-weight:600;margin-top:12px;letter-spacing:.04em}
+.hrs-badge.open{background:rgba(90,110,74,.06);color:var(--sage);border:1px solid rgba(90,110,74,.1)}
+.hrs-badge.shut{background:var(--accent4);color:var(--accent);border:1px solid rgba(181,98,42,.08)}
+.hrs-dot{width:6px;height:6px;border-radius:50%;animation:hDot 2s ease-in-out infinite}
+.hrs-badge.open .hrs-dot{background:var(--sage);box-shadow:0 0 6px rgba(90,110,74,.4)}
+.hrs-badge.shut .hrs-dot{background:var(--accent);box-shadow:0 0 6px rgba(181,98,42,.4)}
+@keyframes hDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.3)}}
+.hrs-list{list-style:none}
+.hrs-list li{display:flex;justify-content:space-between;padding:12px 16px;border-radius:8px;font-size:13px;transition:padding .3s var(--ease-out-expo)}
+.hrs-list li:nth-child(odd){background:rgba(243,238,230,.5)}
+.hrs-list li.now{background:rgba(181,98,42,.05);border-left:2px solid var(--accent);font-weight:600}
+.hrs-list li:hover{padding-left:20px}
+.hrs-list .dy{font-weight:500;color:var(--ink)}.hrs-list .tm{color:var(--ink3);font-weight:300}
+.hrs-note{text-align:center;margin-top:24px;font-family:var(--hand);font-size:16px;color:var(--accent)}
+@media(max-width:600px){.hrs{padding:28px 20px;border-radius:18px}.hrs-list li{padding:11px 12px;font-size:12px}}
 
-/* TESTIMONIALS */
-.tst{overflow:hidden}
-.tst-tw{overflow:hidden;padding:20px 0;position:relative}
-.tst-tw::before,.tst-tw::after{content:'';position:absolute;top:0;width:100px;height:100%;z-index:3;pointer-events:none}
-.tst-tw::before{left:0;background:linear-gradient(90deg,var(--warm),transparent)}
-.tst-tw::after{right:0;background:linear-gradient(90deg,transparent,var(--warm))}
-.tst-tr{display:flex;gap:22px;animation:stst 40s linear infinite;width:max-content}
-.tst-tr:hover{animation-play-state:paused}
-@keyframes stst{to{transform:translateX(-50%)}}
-.tc{flex-shrink:0;width:370px;background:#fff;border-radius:var(--r-lg);padding:30px;box-shadow:0 4px 24px rgba(60,36,21,.06);border:1px solid rgba(60,36,21,.03);transition:all var(--smooth);position:relative;overflow:hidden}
-.tc::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,transparent,var(--terra),var(--gold),transparent);opacity:0;transition:opacity var(--smooth)}
-.tc:hover::before{opacity:1}
-.tc:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(60,36,21,.1)}
-.tc-s{color:var(--gold);font-size:15px;margin-bottom:14px;letter-spacing:3px}
-.tc-t{font-size:14px;line-height:1.8;color:var(--char-l);font-style:italic;margin-bottom:20px;position:relative;padding-left:18px;font-weight:300}
-.tc-t::before{content:'';position:absolute;left:0;top:2px;width:3px;height:calc(100% - 4px);background:linear-gradient(to bottom,var(--terra),var(--gold));border-radius:3px;opacity:.3}
-.tc-a{display:flex;align-items:center;gap:12px}
-.tc-av{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--cream),var(--cream-d));display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:var(--terra);font-family:'Playfair Display',serif;border:2px solid rgba(196,101,46,.1)}
-.tc-ai h4{font-size:14px;font-weight:600;color:var(--esp);font-family:'DM Sans',sans-serif}
-.tc-ai p{font-size:11px;color:var(--char-l);opacity:.45}
-.btn-o{background:transparent;color:var(--esp);border:1.5px solid var(--esp);padding:13px 30px;border-radius:50px;font-weight:600;font-size:14px;transition:all var(--fast);display:inline-flex;align-items:center;gap:8px;-webkit-tap-highlight-color:transparent;position:relative;overflow:hidden}
-.btn-o::before{content:'';position:absolute;inset:0;background:var(--esp);border-radius:50px;transform:scaleX(0);transition:transform var(--smooth);transform-origin:left}
-.btn-o:hover::before,.btn-o:active::before{transform:scaleX(1)}
-.btn-o span{position:relative;z-index:1}
-.btn-o:hover,.btn-o:active{color:#fff;transform:translateY(-3px);border-color:var(--esp)}
-@media(max-width:600px){.tc{width:300px;padding:24px}.tc-t{font-size:13px}}
+/* ========== TESTIMONIALS ========== */
+.test{overflow:hidden}
+.test-wrap{overflow:hidden;padding:20px 0;position:relative}
+.test-wrap::before,.test-wrap::after{content:'';position:absolute;top:0;width:clamp(60px,10vw,140px);height:100%;z-index:3;pointer-events:none}
+.test-wrap::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+.test-wrap::after{right:0;background:linear-gradient(-90deg,var(--bg),transparent)}
+.test-track{display:flex;gap:20px;animation:tScroll 50s linear infinite;width:max-content}
+.test-track:hover{animation-play-state:paused}
+@keyframes tScroll{to{transform:translateX(-50%)}}
+.tc{flex-shrink:0;width:clamp(300px,35vw,400px);background:var(--card);border-radius:16px;padding:clamp(24px,3vw,34px);box-shadow:0 4px 20px rgba(28,20,16,.03);border:1px solid rgba(28,20,16,.02);transition:all .5s var(--ease-out-expo)}
+.tc:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(28,20,16,.06)}
+.tc-stars{color:var(--gold);font-size:13px;margin-bottom:14px;letter-spacing:3px}
+.tc-quote{font-size:13px;line-height:1.85;color:var(--ink3);font-style:italic;margin-bottom:20px;font-weight:300;position:relative;padding-left:14px}
+.tc-quote::before{content:'';position:absolute;left:0;top:3px;width:2px;height:calc(100% - 6px);background:linear-gradient(180deg,var(--accent),var(--gold));border-radius:2px;opacity:.2}
+.tc-who{display:flex;align-items:center;gap:10px}
+.tc-av{width:36px;height:36px;border-radius:50%;background:var(--bg2);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:16px;font-weight:500;color:var(--accent)}
+.tc-info h4{font-size:13px;font-weight:600;color:var(--ink)}
+.tc-info p{font-size:10px;color:var(--ink4)}
 
-/* SERVICES */
-.sv-c{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
-.sv-cat h3{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--esp);margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid transparent;border-image:linear-gradient(90deg,var(--terra),var(--gold)) 1;display:inline-block}
-.sv-tg{display:flex;flex-wrap:wrap;gap:8px}
-.sv-t{display:inline-flex;align-items:center;gap:5px;padding:9px 14px;background:#fff;border-radius:50px;font-size:12px;font-weight:500;color:var(--char-l);border:1px solid rgba(60,36,21,.05);transition:all var(--fast);-webkit-tap-highlight-color:transparent}
-.sv-t:hover,.sv-t:active{border-color:var(--terra);color:var(--terra);transform:translateY(-3px) scale(1.04);box-shadow:0 6px 16px rgba(196,101,46,.08)}
-@media(max-width:900px){.sv-c{grid-template-columns:repeat(2,1fr);gap:28px}}
-@media(max-width:500px){.sv-c{grid-template-columns:1fr;gap:28px}}
+/* ========== SERVICES ========== */
+.sv-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
+.sv-cat h3{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--accent);display:inline-block;font-family:var(--sans)}
+.sv-tags{display:flex;flex-wrap:wrap;gap:6px}
+.sv-tag{padding:8px 14px;background:var(--card);border-radius:100px;font-size:11px;font-weight:500;color:var(--ink3);border:1px solid rgba(28,20,16,.04);transition:all .3s var(--ease-out-expo)}
+.sv-tag:hover,.sv-tag:active{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+@media(max-width:900px){.sv-grid{grid-template-columns:repeat(2,1fr);gap:24px}}
+@media(max-width:500px){.sv-grid{grid-template-columns:1fr;gap:24px}}
 
-/* PARALLAX */
-.px-d{height:300px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.px-bg{position:absolute;top:-60px;left:0;width:100%;height:calc(100% + 120px);background-size:cover;background-position:center;background-attachment:fixed}
-.px-ov{position:absolute;inset:0;background:linear-gradient(135deg,rgba(60,36,21,.78),rgba(26,10,2,.72))}
-.px-t{position:relative;z-index:2;text-align:center;color:#fff;padding:0 24px}
-.px-t h3{font-size:clamp(22px,4.5vw,42px);margin-bottom:8px;letter-spacing:-.3px}
-.px-t p{font-family:'Caveat',cursive;font-size:clamp(18px,3vw,24px);opacity:.6}
-.px-t .px-line{width:40px;height:2px;background:linear-gradient(90deg,transparent,var(--terra),transparent);margin:12px auto 0}
-@media(max-width:768px){.px-bg{background-attachment:scroll}.px-d{height:220px}}
+/* ========== LOCATION ========== */
+.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,56px);align-items:stretch}
+.loc-map{border-radius:16px;overflow:hidden;box-shadow:0 16px 56px rgba(28,20,16,.06);min-height:clamp(300px,35vw,440px);border:1px solid rgba(28,20,16,.03)}
+.loc-map iframe{width:100%;height:100%;min-height:clamp(300px,35vw,440px);border:none}
+.loc-info{display:flex;flex-direction:column;justify-content:center}
+.loc-row{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid rgba(28,20,16,.04);transition:padding .3s var(--ease-out-expo)}
+.loc-row:hover{padding-left:6px}
+.loc-row:last-of-type{border:none}
+.loc-ic{font-size:18px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:var(--bg2);border-radius:12px;flex-shrink:0;transition:all .3s var(--ease-out-expo)}
+.loc-row:hover .loc-ic{background:var(--accent4);transform:rotate(-3deg)}
+.loc-txt h4{font-size:13px;font-weight:600;color:var(--ink);margin-bottom:2px;font-family:var(--sans)}
+.loc-txt p{font-size:12px;color:var(--ink3);line-height:1.6;font-weight:300}
+.loc-txt a{color:var(--accent);font-weight:500}
+.loc-cta{margin-top:28px}
+.btn-dark{background:var(--ink);color:var(--bg);padding:16px 34px;border-radius:100px;font-weight:600;font-size:13px;letter-spacing:.04em;display:inline-flex;align-items:center;gap:8px;transition:all .3s var(--ease-out-expo);box-shadow:0 8px 24px rgba(28,20,16,.08)}
+.btn-dark:hover{background:var(--ink2);transform:translateY(-3px);box-shadow:0 14px 36px rgba(28,20,16,.12)}
+@media(max-width:900px){.loc-grid{grid-template-columns:1fr;gap:32px}}
+@media(max-width:600px){.btn-dark{width:100%;justify-content:center}}
 
-/* LOCATION */
-.lo-g{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:stretch}
-.lo-m{border-radius:var(--r-lg);overflow:hidden;box-shadow:0 12px 48px rgba(60,36,21,.1);min-height:400px;border:1px solid rgba(60,36,21,.04)}
-.lo-m iframe{width:100%;height:100%;min-height:400px;border:none}
-.lo-i{display:flex;flex-direction:column;justify-content:center}
-.lo-d{display:flex;gap:16px;padding:20px 0;border-bottom:1px solid rgba(60,36,21,.05);transition:all var(--fast);-webkit-tap-highlight-color:transparent}
-.lo-d:hover,.lo-d:active{padding-left:8px}
-.lo-d:last-of-type{border-bottom:none}
-.lo-di{font-size:20px;flex-shrink:0;width:46px;height:46px;display:flex;align-items:center;justify-content:center;background:var(--cream);border-radius:var(--r-md);transition:all var(--fast);border:1px solid transparent}
-.lo-d:hover .lo-di,.lo-d:active .lo-di{background:rgba(196,101,46,.08);border-color:rgba(196,101,46,.12);transform:scale(1.08) rotate(-3deg)}
-.lo-dt h4{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;color:var(--esp);margin-bottom:3px}
-.lo-dt p{font-size:13px;color:var(--char-l);opacity:.65;line-height:1.6;font-weight:300}
-.lo-dt a{color:var(--terra);font-weight:500;transition:all var(--fast)}
-.lo-dt a:hover{text-decoration:underline;opacity:.8}
-.lo-cta{margin-top:28px}
-.btn-d{background:linear-gradient(135deg,var(--esp),var(--esp-l));color:#fff;padding:15px 32px;border-radius:50px;font-weight:600;font-size:14px;transition:all var(--fast);display:inline-flex;align-items:center;gap:8px;box-shadow:0 6px 20px rgba(60,36,21,.15);-webkit-tap-highlight-color:transparent;position:relative;overflow:hidden}
-.btn-d::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--esp-l),var(--esp));opacity:0;transition:opacity var(--fast);border-radius:50px}
-.btn-d:hover::before,.btn-d:active::before{opacity:1}
-.btn-d span{position:relative;z-index:1}
-.btn-d:hover,.btn-d:active{transform:translateY(-3px);box-shadow:0 10px 30px rgba(60,36,21,.2)}
-@media(max-width:900px){.lo-g{grid-template-columns:1fr;gap:32px}.lo-m{min-height:280px}.lo-m iframe{min-height:280px}}
-@media(max-width:600px){.lo-d{padding:16px 0}.lo-di{width:42px;height:42px;font-size:18px}.btn-d{width:100%;justify-content:center;padding:16px}}
+/* ========== CTA ========== */
+.cta{position:relative;padding:clamp(80px,12vw,130px) 0;overflow:hidden}
+.cta-bg{position:absolute;inset:0;background:linear-gradient(160deg,var(--ink),#0A0400)}
+.cta-dots{position:absolute;inset:0;background-image:radial-gradient(rgba(192,155,80,.03) 1px,transparent 1px);background-size:22px 22px}
+.cta .w{position:relative;z-index:2;text-align:center}
+.cta h2{font-family:var(--serif);font-size:clamp(34px,6vw,60px);font-weight:300;color:var(--bg);margin-bottom:16px;letter-spacing:-.02em}
+.cta-desc{font-size:16px;color:rgba(250,247,242,.45);max-width:460px;margin:0 auto 48px;line-height:1.8;font-weight:300}
+.cta-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:720px;margin:0 auto 44px}
+.cta-c{background:rgba(250,247,242,.03);backdrop-filter:blur(20px);border:1px solid rgba(250,247,242,.04);border-radius:16px;padding:28px 20px;transition:all .4s var(--ease-out-expo)}
+.cta-c:hover{transform:translateY(-6px);border-color:rgba(250,247,242,.1);box-shadow:0 12px 40px rgba(0,0,0,.2)}
+.cta-c span:first-child{font-size:30px;display:block;margin-bottom:14px}
+.cta-c h3{font-family:var(--serif);font-size:18px;font-weight:400;color:var(--bg);margin-bottom:6px}
+.cta-c p{font-size:12px;color:rgba(250,247,242,.35);font-weight:300}
+.cta-c a{color:var(--accent3);font-weight:500}
+@media(max-width:700px){.cta-cards{grid-template-columns:1fr;max-width:320px;gap:12px}}
 
-/* CONTACT CTA */
-.cc{position:relative;padding:110px 0;overflow:hidden}
-.cc-bg{position:absolute;inset:0;background:linear-gradient(160deg,var(--esp) 0%,#1a0a02 50%,var(--esp) 100%)}
-.cc-pt{position:absolute;inset:0;background-image:radial-gradient(rgba(212,168,83,.05) 1px,transparent 1px);background-size:26px 26px}
-.cc-glow{position:absolute;top:50%;left:50%;width:400px;height:400px;background:radial-gradient(circle,rgba(196,101,46,.08),transparent 70%);transform:translate(-50%,-50%);pointer-events:none}
-.cc .con{position:relative;z-index:2;text-align:center}
-.cc h2{font-size:clamp(34px,5.5vw,56px);color:#fff;margin-bottom:14px;letter-spacing:-.5px}
-.cc-desc{font-size:17px;color:rgba(255,255,255,.6);max-width:500px;margin:0 auto 48px;line-height:1.75;font-weight:300}
-.cc-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:760px;margin:0 auto 40px}
-.cc-c{background:rgba(255,255,255,.04);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.06);border-radius:var(--r-lg);padding:30px 20px;text-align:center;transition:all var(--smooth);-webkit-tap-highlight-color:transparent;position:relative;overflow:hidden}
-.cc-c::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.08),transparent);opacity:0;transition:opacity var(--smooth)}
-.cc-c:hover::before,.cc-c:active::before{opacity:1}
-.cc-c:hover,.cc-c:active{transform:translateY(-6px);border-color:rgba(255,255,255,.15);box-shadow:0 12px 40px rgba(0,0,0,.2)}
-.cc-ci{font-size:34px;margin-bottom:14px;display:inline-block;transition:transform var(--bounce)}
-.cc-c:hover .cc-ci,.cc-c:active .cc-ci{transform:scale(1.2) rotate(-5deg)}
-.cc-c h3{color:#fff;font-size:17px;margin-bottom:6px;position:relative}
-.cc-c p{font-size:13px;color:rgba(255,255,255,.5);position:relative;font-weight:300}
-.cc-c a{color:var(--terra-l);font-weight:500}
-@media(max-width:700px){.cc-cards{grid-template-columns:1fr;max-width:340px;gap:12px}.cc{padding:84px 0}.cc-desc{font-size:15px;margin-bottom:36px}}
+/* ========== FOOTER ========== */
+footer{background:linear-gradient(180deg,var(--ink),#060300);color:var(--bg);padding:clamp(48px,7vw,72px) 0 0}
+footer::before{content:'';display:block;width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(181,98,42,.15),transparent);position:absolute;top:0;left:0}
+footer{position:relative}
+.ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(250,247,242,.04)}
+.ft-brand .brand-name{color:var(--bg)!important;font-size:20px}
+.ft-brand>p{font-size:12px;opacity:.35;margin-top:12px;line-height:1.8;font-weight:300}
+.ft-soc{display:flex;gap:8px;margin-top:16px}
+.ft-soc a{width:34px;height:34px;border-radius:50%;background:rgba(250,247,242,.04);display:flex;align-items:center;justify-content:center;font-size:14px;transition:all .3s var(--ease-out-expo)}
+.ft-soc a:hover{background:var(--accent);transform:translateY(-2px)}
+footer h4{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;margin-bottom:16px;color:rgba(250,247,242,.5);font-family:var(--sans)}
+.ft-links{list-style:none}
+.ft-links li{margin-bottom:8px}
+.ft-links a{font-size:12px;opacity:.35;transition:all .3s;font-weight:300}
+.ft-links a:hover{opacity:.9;color:var(--accent3);padding-left:4px}
+.ft-contact{display:flex;gap:8px;align-items:flex-start;margin-bottom:10px;font-size:12px;opacity:.4;font-weight:300}
+.ft-nl p{font-size:12px;opacity:.35;margin-bottom:12px;font-weight:300}
+.ft-form{display:flex;gap:6px}
+.ft-form input{flex:1;padding:12px 16px;border-radius:100px;border:1px solid rgba(250,247,242,.06);background:rgba(250,247,242,.03);color:var(--bg);font-family:var(--sans);font-size:12px;outline:none;transition:border-color .3s;min-width:0}
+.ft-form input:focus{border-color:var(--accent)}
+.ft-form input::placeholder{color:rgba(250,247,242,.2)}
+.ft-form button{padding:12px 20px;border-radius:100px;background:var(--accent);color:var(--bg);font-weight:600;font-size:12px;transition:all .3s;white-space:nowrap}
+.ft-form button:hover{background:var(--accent2)}
+.ft-bottom{display:flex;justify-content:space-between;align-items:center;padding:20px 0;font-size:10px;opacity:.25}
+.ft-love{font-family:var(--hand);font-size:15px;opacity:1}
+@media(max-width:900px){.ft-grid{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:600px){.ft-grid{grid-template-columns:1fr;gap:24px}.ft-bottom{flex-direction:column;gap:6px;text-align:center}.ft-form{flex-direction:column}.ft-form button{width:100%;padding:14px}}
 
-/* FOOTER */
-.ft{background:linear-gradient(180deg,var(--esp),#1a0a02);color:var(--cream);padding:60px 0 0;position:relative;overflow:hidden}
-.ft::before{content:'';position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(196,101,46,.3),transparent)}
-.ft-g{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(245,240,232,.06)}
-.ft-br .n-logo-t{color:var(--cream)!important;font-size:22px}
-.ft-br p{font-size:13px;opacity:.5;margin-top:12px;line-height:1.75;font-weight:300}
-.ft-so{display:flex;gap:10px;margin-top:18px}
-.ft-so a{width:38px;height:38px;border-radius:50%;background:rgba(245,240,232,.06);display:flex;align-items:center;justify-content:center;font-size:16px;transition:all var(--fast);-webkit-tap-highlight-color:transparent;border:1px solid rgba(245,240,232,.06)}
-.ft-so a:hover,.ft-so a:active{background:var(--terra);border-color:var(--terra);transform:translateY(-3px) scale(1.1)}
-.ft h4{font-family:'DM Sans',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px;color:rgba(245,240,232,.8)}
-.ft-lk{list-style:none}
-.ft-lk li{margin-bottom:9px}
-.ft-lk a{font-size:13px;opacity:.5;transition:all var(--fast);font-weight:300}
-.ft-lk a:hover,.ft-lk a:active{opacity:1;color:var(--terra-l);padding-left:6px}
-.ft-ci{display:flex;gap:10px;align-items:flex-start;margin-bottom:12px;font-size:13px;opacity:.6;font-weight:300}
-.ft-ci span:first-child{font-size:15px;flex-shrink:0}
-.ft-nl p{font-size:13px;opacity:.5;margin-bottom:14px;font-weight:300}
-.ft-nf{display:flex;gap:8px}
-.ft-nf input{flex:1;padding:12px 16px;border-radius:50px;border:1px solid rgba(245,240,232,.1);background:rgba(245,240,232,.05);color:var(--cream);font-family:inherit;font-size:13px;outline:none;transition:all var(--fast);min-width:0}
-.ft-nf input::placeholder{color:rgba(245,240,232,.3)}
-.ft-nf input:focus{border-color:var(--terra);box-shadow:0 0 0 3px rgba(196,101,46,.1)}
-.ft-nf button{padding:12px 22px;border-radius:50px;background:linear-gradient(135deg,var(--terra),var(--terra-d));color:#fff;font-weight:600;font-size:13px;transition:all var(--fast);white-space:nowrap;-webkit-tap-highlight-color:transparent}
-.ft-nf button:hover,.ft-nf button:active{transform:translateY(-2px);box-shadow:0 6px 16px rgba(196,101,46,.3)}
-.ft-bt{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:12px;opacity:.35}
-.ft-bt-lv{font-family:'Caveat',cursive;font-size:16px;opacity:1}
-@media(max-width:900px){.ft-g{grid-template-columns:1fr 1fr;gap:32px}}
-@media(max-width:600px){.ft-g{grid-template-columns:1fr;gap:28px}.ft-bt{flex-direction:column;gap:8px;text-align:center}.ft{padding:48px 0 0}.ft-nf{flex-direction:column}.ft-nf button{width:100%;padding:14px}}
+/* BTT */
+.btt{position:fixed;bottom:clamp(16px,3vw,24px);right:clamp(16px,3vw,24px);width:42px;height:42px;border-radius:50%;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:center;font-size:14px;z-index:900;opacity:0;transform:translateY(16px);transition:all .4s var(--ease-out-expo);box-shadow:0 6px 20px rgba(28,20,16,.1);border:1px solid rgba(250,247,242,.04)}
+.btt.show{opacity:1;transform:none}
+.btt:hover{background:var(--accent);transform:translateY(-3px)}
 
-/* BACK TO TOP */
-.btt{position:fixed;bottom:24px;right:20px;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--esp),var(--esp-l));color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;z-index:900;opacity:0;transform:translateY(24px) scale(.7);transition:all var(--smooth);box-shadow:0 8px 28px rgba(60,36,21,.15);-webkit-tap-highlight-color:transparent;border:1px solid rgba(245,240,232,.08)}
-.btt.v{opacity:1;transform:translateY(0) scale(1)}
-.btt:hover,.btt:active{background:linear-gradient(135deg,var(--terra),var(--terra-d));transform:translateY(-4px) scale(1.1);box-shadow:0 12px 36px rgba(196,101,46,.3)}
-
-/* GRAIN */
-.gr{position:fixed;inset:-50%;width:200%;height:200%;z-index:9998;pointer-events:none;opacity:.018;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");animation:gm 8s steps(4) infinite}
-@keyframes gm{0%{transform:translate(0)}25%{transform:translate(-2%,-1%)}50%{transform:translate(1%,2%)}75%{transform:translate(-1%,-2%)}100%{transform:translate(0)}}
-@keyframes rp{to{transform:scale(3);opacity:0}}
+/* OUTLINE BTN */
+.btn-ol{background:transparent;color:var(--ink);border:1.5px solid rgba(28,20,16,.15);padding:13px 28px;border-radius:100px;font-weight:600;font-size:12px;letter-spacing:.06em;transition:all .3s var(--ease-out-expo);display:inline-flex;align-items:center;gap:6px}
+.btn-ol:hover{border-color:var(--ink);background:var(--ink);color:var(--bg);transform:translateY(-2px)}
 
 /* TOUCH */
 @media(max-width:900px){
-.btn:active{transform:scale(.97)!important;transition-duration:.1s!important}
-.mi:active{transform:scale(.98)!important}
-.hl-c:active{transform:scale(.97)!important}
-.sv-t:active{transform:scale(.95)!important}
-.cc-c:active{transform:scale(.96)!important}
+.btn:active{transform:scale(.96)!important}
+.m-item:active{transform:scale(.98)!important}
+.hl:active{transform:scale(.97)!important}
+.sv-tag:active{transform:scale(.94)!important}
+.cta-c:active{transform:scale(.96)!important}
 }
 </style>
 </head>
 <body>
-<div class="gr"></div>
-<div class="cur" id="cur"></div>
-<div class="cur-dot" id="curd"></div>
-<div class="progress" id="prog"></div>
+<div id="progress"><span></span></div>
+<div id="cursor"><div class="ring"></div><div class="dot"></div></div>
 
-<div class="loader" id="loader"><div class="loader-c"><div class="loader-i">☕</div><div class="loader-t">Bean Cafe Bistro</div><div class="loader-st">East Barnet Village</div><div class="loader-b"><div class="loader-bf"></div></div></div></div>
+<div id="loader">
+<div class="panel panel-l"></div>
+<div class="panel panel-r"></div>
+<div class="center">
+<div class="l-icon">☕</div>
+<div class="l-name">Bean Cafe Bistro</div>
+<div class="l-sub">East Barnet Village</div>
+<div class="l-bar"><div class="l-fill"></div></div>
+<div class="l-pct" id="pct">0%</div>
+</div>
+</div>
 
-<nav class="nav" id="nav">
-<div class="con">
-<a href="#home" class="n-logo"><span class="n-logo-i">☕</span><span class="n-logo-t">Bean Cafe Bistro</span></a>
-<ul class="n-links">
-<li><a href="#home">Home</a></li>
+<header id="hdr">
+<div class="nav-glass"></div>
+<div class="w">
+<a href="#top" class="brand"><span class="brand-icon">☕</span><span class="brand-name">Bean Cafe Bistro</span></a>
+<ul class="nav-list">
+<li><a href="#top">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#menu">Menu</a></li>
 <li><a href="#hours">Hours</a></li>
-<li><a href="#find-us">Find Us</a></li>
-<li><a href="tel:02084418670" class="n-cta"><span>📞 Call Us</span></a></li>
+<li><a href="#find">Find Us</a></li>
+<li class="nav-cta"><a href="tel:02084418670">Call Us</a></li>
 </ul>
-<button class="ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+<button class="burger" id="burg" aria-label="Menu"><span></span><span></span><span></span></button>
 </div>
-</nav>
+</header>
 
-<div class="mob" id="mob">
-<a href="#home" class="ml">Home</a>
+<div class="mnav" id="mnav">
+<a href="#top" class="ml">Home</a>
 <a href="#about" class="ml">About</a>
 <a href="#menu" class="ml">Menu</a>
-<div class="mob-line"></div>
 <a href="#hours" class="ml">Hours</a>
-<a href="#find-us" class="ml">Find Us</a>
+<a href="#find" class="ml">Find Us</a>
 <a href="#contact" class="ml">Contact</a>
-<a href="tel:02084418670" class="ml" style="color:var(--terra)">📞 020 8441 8670</a>
-<div class="mob-info">East Barnet Village • Open 7 Days</div>
+<a href="tel:02084418670" class="ml" style="color:var(--accent)">020 8441 8670</a>
+<div class="mnav-sub">East Barnet Village · Open 7 Days</div>
 </div>
 
-<section class="hero" id="home">
-<div class="hero-bg"><img src="https://i.ibb.co/21nTBsdG/cafe-outside.png" alt="Bean Cafe Bistro" loading="eager"></div>
-<div class="hero-ov"></div>
-<div class="hero-vignette"></div>
-<div class="hero-p" id="hp"></div>
-<div class="con">
-<div class="hero-ct">
-<div class="hero-ey"><span class="ey-dot"></span> East Barnet Village's Favourite</div>
-<h1 class="hero-h1">Where Every Cup<span class="line2">Tells a <span class="hl">Story</span></span></h1>
-<p class="hero-sub">Artisan coffee, freshly baked goods & homemade bistro classics in the heart of East Barnet. Pull up a chair — your table's waiting.</p>
-<div class="hero-btns">
-<a href="#menu" class="btn btn-p mag"><span>☕ View Our Menu</span></a>
-<a href="#find-us" class="btn btn-s mag">📍 Find Us</a>
+<section class="hero" id="top">
+<div class="hero-media"><img src="https://i.ibb.co/21nTBsdG/cafe-outside.png" alt="Bean Cafe Bistro" id="hImg"></div>
+<div class="hero-dim"></div>
+<div class="hero-grain"></div>
+<div class="hero-particles" id="parts"></div>
+<div class="w">
+<div class="hero-tag"><i></i>East Barnet Village's Favourite</div>
+<h1>Where Every Cup<br>Tells a <em id="hWord">Story</em></h1>
+<p class="hero-desc">Artisan coffee, freshly baked goods & homemade bistro classics in the heart of East Barnet. Pull up a chair — your table's waiting.</p>
+<div class="hero-actions">
+<a href="#menu" class="btn btn-accent mag">☕ View Our Menu</a>
+<a href="#find" class="btn btn-glass mag">📍 Find Us</a>
 </div>
-<div class="hero-tr">
-<div class="tr-b"><span>⭐</span> Highly Rated<span class="tr-line"></span></div>
-<div class="tr-b"><span>📍</span> East Barnet<span class="tr-line"></span></div>
-<div class="tr-b"><span>♿</span> Accessible</div>
-</div>
+<div class="hero-meta">
+<span>⭐ Highly Rated</span>
+<span>📍 East Barnet</span>
+<span>♿ Accessible</span>
 </div>
 </div>
-<div class="hero-sc"><span>Scroll to explore</span><div class="sc-arr">↓</div><div class="sc-line"></div></div>
+<div class="hero-scroll"><span>Scroll</span><div class="scroll-beam"></div></div>
 </section>
 
-<div class="marquee"><div class="marquee-track" id="mqt">
-<span>Artisan Coffee</span><div class="dot"></div><span>Homemade Food</span><div class="dot"></div><span>Weekend Brunch</span><div class="dot"></div><span>Family Friendly</span><div class="dot"></div><span>East Barnet Village</span><div class="dot"></div><span>Open 7 Days</span><div class="dot"></div><span>Outdoor Seating</span><div class="dot"></div><span>Wheelchair Accessible</span><div class="dot"></div>
-<span>Artisan Coffee</span><div class="dot"></div><span>Homemade Food</span><div class="dot"></div><span>Weekend Brunch</span><div class="dot"></div><span>Family Friendly</span><div class="dot"></div><span>East Barnet Village</span><div class="dot"></div><span>Open 7 Days</span><div class="dot"></div><span>Outdoor Seating</span><div class="dot"></div><span>Wheelchair Accessible</span><div class="dot"></div>
+<div class="ticker"><div class="ticker-track">
+<span>Artisan Coffee</span><i></i><span>Homemade Food</span><i></i><span>Weekend Brunch</span><i></i><span>Family Friendly</span><i></i><span>East Barnet Village</span><i></i><span>Open 7 Days</span><i></i><span>Outdoor Seating</span><i></i><span>Wheelchair Accessible</span><i></i>
+<span>Artisan Coffee</span><i></i><span>Homemade Food</span><i></i><span>Weekend Brunch</span><i></i><span>Family Friendly</span><i></i><span>East Barnet Village</span><i></i><span>Open 7 Days</span><i></i><span>Outdoor Seating</span><i></i><span>Wheelchair Accessible</span><i></i>
 </div></div>
 
-<section class="fg">
-<div class="fg-in">
-<div class="fg-i"><img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Brunch" loading="lazy"><div class="fg-ov"><h3>Weekend Brunch</h3><p>The perfect start to your morning</p></div><div class="fg-num">01</div></div>
-<div class="fg-i"><img src="https://i.ibb.co/Xrm9TjvX/pancake.png" alt="Pancakes" loading="lazy"><div class="fg-ov"><h3>Buttermilk Pancakes</h3><p>Fluffy, golden & made with love</p></div><div class="fg-num">02</div></div>
-<div class="fg-i"><img src="https://i.ibb.co/fGrDwPZC/much.png" alt="Fresh food" loading="lazy"><div class="fg-ov"><h3>Fresh Daily</h3><p>Homemade goodness every day</p></div><div class="fg-num">03</div></div>
-</div>
-</section>
+<section class="gal"><div class="gal-grid">
+<div class="gal-item"><img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Brunch" loading="lazy"><div class="gal-cap"><h3>Weekend Brunch</h3><p>The perfect start to your morning</p></div><div class="gal-idx">01</div></div>
+<div class="gal-item"><img src="https://i.ibb.co/Xrm9TjvX/pancake.png" alt="Pancakes" loading="lazy"><div class="gal-cap"><h3>Buttermilk Pancakes</h3><p>Fluffy, golden & made with love</p></div><div class="gal-idx">02</div></div>
+<div class="gal-item"><img src="https://i.ibb.co/fGrDwPZC/much.png" alt="Fresh" loading="lazy"><div class="gal-cap"><h3>Fresh Daily</h3><p>Homemade goodness every day</p></div><div class="gal-idx">03</div></div>
+</div></section>
 
-<section class="stb">
-<div class="con">
-<div class="stg">
-<div class="st-i rv"><div class="st-n" data-t="7">0</div><div class="st-l">Days a Week</div></div>
-<div class="st-i rv d1"><div class="st-n" data-t="100" data-s="%">0</div><div class="st-l">Freshly Made</div></div>
-<div class="st-i rv d2"><div class="st-n" data-t="1000" data-s="s">0</div><div class="st-l">Happy Customers</div></div>
-<div class="st-i rv d3"><div class="st-n" data-t="5">0</div><div class="st-l">Star Quality</div></div>
-</div>
-</div>
-</section>
+<section class="stats"><div class="w"><div class="stats-grid">
+<div class="stat r"><div class="stat-val" data-to="7">0</div><div class="stat-lbl">Days a Week</div></div>
+<div class="stat r" data-d="1"><div class="stat-val" data-to="100" data-suf="%">0</div><div class="stat-lbl">Freshly Made</div></div>
+<div class="stat r" data-d="2"><div class="stat-val" data-to="1000" data-suf="s">0</div><div class="stat-lbl">Happy Customers</div></div>
+<div class="stat r" data-d="3"><div class="stat-val" data-to="5">0</div><div class="stat-lbl">Star Quality</div></div>
+</div></div></section>
 
-<section class="sec" id="about" style="background:var(--warm)">
-<div class="con">
-<div class="ab-g">
-<div class="ab-iw rv-rot">
-<div class="ab-ac"></div><div class="ab-ac2"></div>
-<div class="ab-frame"></div>
-<img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Bean Cafe Bistro">
-<div class="ab-bd"><div class="ab-bd-i">❤️</div><div class="ab-bd-t"><span>Made with Love</span>Every Single Day</div></div>
-</div>
-<div class="ab-tx rv-r">
-<div class="sec-ey"><span></span>Our Story<span></span></div>
+<section class="sec" id="about" style="background:var(--bg)"><div class="w"><div class="about-grid">
+<div class="about-vis r"><div class="about-dots"></div><div class="about-frame"></div><img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Bean Cafe Bistro"><div class="about-badge"><span>❤️</span><div class="about-badge-text"><em>Made with Love</em>Every Single Day</div></div></div>
+<div class="about-info rr">
+<div class="sec-label">Our Story</div>
 <h2>More Than Just Coffee</h2>
 <p>Nestled in the heart of <strong>East Barnet Village</strong>, Bean Cafe Bistro is your neighbourhood escape from the everyday. We're a family-friendly, independent cafe and bistro where the coffee is always freshly ground, the food is made with love, and every guest is treated like family.</p>
-<p>Whether you're popping in for a quick morning espresso, settling in for a lazy weekend brunch, or grabbing a homemade cake to take home — we've got you covered. Our casual, welcoming atmosphere is perfect for <strong>solo dining</strong>, catching up with friends, or bringing the kids along.</p>
-<div class="ab-ft">
-<div class="ab-f rv d1"><div class="ab-fi">☕</div><div><h4>Artisan Coffee</h4><p>Freshly ground, perfectly crafted</p></div></div>
-<div class="ab-f rv d2"><div class="ab-fi">🥐</div><div><h4>Homemade Food</h4><p>Made fresh every morning</p></div></div>
-<div class="ab-f rv d3"><div class="ab-fi">❤️</div><div><h4>Community Hub</h4><p>Your village cafe since day one</p></div></div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<div class="px-d"><div class="px-bg" style="background-image:url('https://i.ibb.co/Xrm9TjvX/pancake.png')"></div><div class="px-ov"></div><div class="px-t rv-s"><h3>Life's Too Short for Bad Coffee</h3><p>— Bean Cafe Bistro —</p><div class="px-line"></div></div></div>
-
-<section class="sec" id="highlights" style="background:var(--cream)">
-<div class="con">
-<div class="sec-hd rv"><div class="sec-ey"><span></span>Why Choose Us<span></span></div><h2 class="sec-t">What We're Known For</h2><p class="sec-st">From artisan coffee to homemade desserts, here's what keeps East Barnet coming back</p><div class="glow-line"></div></div>
-<div class="hlg">
-<div class="hl-c rv d1"><div class="hl-i">☕</div><div><h3>Great Coffee</h3><p>Expertly crafted espresso, lattes & cappuccinos using premium freshly ground beans</p></div></div>
-<div class="hl-c rv d2"><div class="hl-i">🍰</div><div><h3>Great Desserts</h3><p>Homemade cakes, brownies & sweet treats baked fresh daily in limited batches</p></div></div>
-<div class="hl-c rv d3"><div class="hl-i">🫖</div><div><h3>Great Tea Selection</h3><p>From classic English Breakfast to soothing chamomile — a tea for every mood</p></div></div>
-<div class="hl-c rv d4"><div class="hl-i">🥞</div><div><h3>Breakfast & Brunch</h3><p>The perfect start to your morning, from full English to avo on sourdough</p></div></div>
-<div class="hl-c rv d5"><div class="hl-i">🥗</div><div><h3>Lunch & Light Bites</h3><p>Fresh salads, hearty sandwiches, soups and quick bites made to order</p></div></div>
-<div class="hl-c rv d6"><div class="hl-i">👨‍👩‍👧‍👦</div><div><h3>Family Friendly</h3><p>A warm welcome for guests of all ages — kids love it here too</p></div></div>
-</div>
-</div>
-</section>
-
-<section class="sec" id="menu" style="background:var(--warm)">
-<div class="con">
-<div class="sec-hd rv"><div class="sec-ey"><span></span>Our Menu<span></span></div><h2 class="sec-t">Taste the Difference</h2><p class="sec-st">Freshly prepared, lovingly crafted — every dish tells a story of quality and care</p><div class="glow-line"></div></div>
-<div class="mt rv">
-<button class="m-tab a" data-tab="breakfast"><span>🌅 Breakfast</span></button>
-<button class="m-tab" data-tab="brunch"><span>🥂 Brunch</span></button>
-<button class="m-tab" data-tab="lunch"><span>🥗 Lunch</span></button>
-<button class="m-tab" data-tab="desserts"><span>🍰 Desserts & Drinks</span></button>
-</div>
-<div class="mp a" id="p-breakfast"><div class="mg">
-<div class="mi"><div class="mi-i"><h4>Classic English Breakfast</h4><p>Eggs, bacon, sausage, beans, toast & grilled tomato</p></div><div class="mi-p">£9.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Avocado Smash on Sourdough</h4><p>Cherry tomatoes, chilli flakes & a poached egg</p></div><div class="mi-p">£8.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Granola & Yoghurt Bowl</h4><p>House granola, Greek yoghurt, seasonal berries, honey</p></div><div class="mi-p">£7.00</div></div>
-<div class="mi"><div class="mi-i"><h4>Eggs Benedict</h4><p>Poached eggs, ham, hollandaise on an English muffin</p></div><div class="mi-p">£9.00</div></div>
-<div class="mi"><div class="mi-i"><h4>Buttermilk Pancakes</h4><p>With maple syrup, fresh berries & cream</p></div><div class="mi-p">£8.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Toast & Preserves</h4><p>Sourdough or white, with butter and jam</p></div><div class="mi-p">£3.50</div></div>
+<p>Whether you're popping in for a quick morning espresso, settling in for a lazy weekend brunch, or grabbing a homemade cake to take home — we've got you covered. Perfect for <strong>solo dining</strong>, catching up with friends, or bringing the kids.</p>
+<div class="about-feats">
+<div class="afeat r" data-d="1"><span>☕</span><div><h4>Artisan Coffee</h4><p>Freshly ground & crafted</p></div></div>
+<div class="afeat r" data-d="2"><span>🥐</span><div><h4>Homemade Food</h4><p>Made fresh every morning</p></div></div>
+<div class="afeat r" data-d="3"><span>❤️</span><div><h4>Community Hub</h4><p>Your village cafe</p></div></div>
 </div></div>
-<div class="mp" id="p-brunch"><div class="mg">
-<div class="mi"><div class="mi-i"><h4>Bean Bistro Brunch Board</h4><p>Sharing board with eggs, pastries, fruit, cheese & charcuterie</p></div><div class="mi-p">£14.00</div></div>
-<div class="mi"><div class="mi-i"><h4>Shakshuka</h4><p>Baked eggs in spiced tomato sauce with crusty bread</p></div><div class="mi-p">£9.50</div></div>
-<div class="mi"><div class="mi-i"><h4>French Toast</h4><p>Brioche, cinnamon, caramelised banana, maple syrup</p></div><div class="mi-p">£8.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Smoked Salmon & Scrambled Eggs</h4><p>On toasted sourdough with dill cream cheese</p></div><div class="mi-p">£10.00</div></div>
-</div></div>
-<div class="mp" id="p-lunch"><div class="mg">
-<div class="mi"><div class="mi-i"><h4>Chicken & Pesto Panini</h4><p>Grilled chicken, basil pesto, mozzarella, sun-dried tomatoes</p></div><div class="mi-p">£8.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Soup of the Day</h4><p>Homemade, served with crusty bread and butter</p></div><div class="mi-p">£6.00</div></div>
-<div class="mi"><div class="mi-i"><h4>Caesar Salad</h4><p>Romaine, parmesan, croutons, grilled chicken, classic dressing</p></div><div class="mi-p">£9.00</div></div>
-<div class="mi"><div class="mi-i"><h4>Club Sandwich</h4><p>Triple-decker with chicken, bacon, lettuce, tomato, mayo</p></div><div class="mi-p">£9.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Tuna Melt</h4><p>On sourdough with cheddar and red onion</p></div><div class="mi-p">£7.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Halloumi & Roasted Veg Wrap</h4><p>With hummus, mixed leaves & sweet chilli drizzle</p></div><div class="mi-p">£8.00</div></div>
-</div></div>
-<div class="mp" id="p-desserts"><div class="mg">
-<div class="mi"><div class="mi-i"><h4>Espresso / Americano</h4><p>Freshly ground, rich and smooth</p></div><div class="mi-p">£2.80</div></div>
-<div class="mi"><div class="mi-i"><h4>Latte / Cappuccino / Flat White</h4><p>Silky steamed milk with a perfect espresso shot</p></div><div class="mi-p">£3.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Hot Chocolate</h4><p>With marshmallows and whipped cream</p></div><div class="mi-p">£3.80</div></div>
-<div class="mi"><div class="mi-i"><h4>Selection of Teas</h4><p>English Breakfast, Earl Grey, Green, Chamomile, Peppermint</p></div><div class="mi-p">£2.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Homemade Carrot Cake</h4><p>Moist, spiced & cream cheese frosting</p></div><div class="mi-p">£4.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Victoria Sponge</h4><p>Classic British sponge with jam and buttercream</p></div><div class="mi-p">£4.50</div></div>
-<div class="mi"><div class="mi-i"><h4>Warm Chocolate Brownie</h4><p>Rich, fudgy & served with vanilla ice cream</p></div><div class="mi-p">£5.00</div></div>
-<div class="mi"><div class="mi-i"><h4>Scone with Clotted Cream & Jam</h4><p>Freshly baked, served warm</p></div><div class="mi-p">£4.00</div></div>
-</div></div>
-<p class="m-note">Menu items subject to availability. Please ask about allergens & dietary requirements.</p>
-<div class="m-cta"><a href="tel:02084418670" class="btn btn-p mag"><span>📞 Call to Order Takeaway</span></a></div>
-</div>
-</section>
+</div></div></section>
 
-<section class="sec" id="hours" style="background:var(--cream)">
-<div class="con">
-<div class="sec-hd rv"><div class="sec-ey"><span></span>Opening Hours<span></span></div><h2 class="sec-t">When to Visit</h2><p class="sec-st">We're here for you seven days a week</p><div class="glow-line"></div></div>
-<div class="hr-c rv">
-<div class="hr-ch"><div class="cl-i">🕐</div><div class="hr-st" id="os"><div class="hr-dot"></div><span id="ost">Checking...</span></div></div>
-<ul class="hr-l" id="hl">
-<li data-day="1"><span class="dy">Monday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-day="2"><span class="dy">Tuesday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-day="3"><span class="dy">Wednesday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-day="4"><span class="dy">Thursday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-day="5"><span class="dy">Friday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-day="6"><span class="dy">Saturday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-day="0"><span class="dy">Sunday</span><span class="tm">8:00 AM – 4:00 PM</span></li>
+<div class="divider"><div class="divider-bg" style="background-image:url('https://i.ibb.co/Xrm9TjvX/pancake.png')"></div><div class="divider-ov"></div><div class="divider-text rs"><h3>Life's Too Short for Bad Coffee</h3><p>— Bean Cafe Bistro —</p></div></div>
+
+<section class="sec" id="highlights" style="background:var(--bg2)"><div class="w">
+<div class="sec-head r"><div class="sec-label">Why Choose Us</div><h2 class="sec-title">What We're Known For</h2><p class="sec-desc">From artisan coffee to homemade desserts — here's what keeps East Barnet coming back</p><div class="sec-line"></div></div>
+<div class="hl-grid">
+<div class="hl r" data-d="1"><div class="hl-icon">☕</div><div><h3>Great Coffee</h3><p>Expertly crafted espresso, lattes & cappuccinos from premium beans</p></div></div>
+<div class="hl r" data-d="2"><div class="hl-icon">🍰</div><div><h3>Great Desserts</h3><p>Homemade cakes, brownies & sweet treats baked fresh daily</p></div></div>
+<div class="hl r" data-d="3"><div class="hl-icon">🫖</div><div><h3>Great Tea Selection</h3><p>English Breakfast to chamomile — a tea for every mood</p></div></div>
+<div class="hl r" data-d="4"><div class="hl-icon">🥞</div><div><h3>Breakfast & Brunch</h3><p>Full English to avo on sourdough — the perfect morning</p></div></div>
+<div class="hl r" data-d="5"><div class="hl-icon">🥗</div><div><h3>Lunch & Bites</h3><p>Salads, sandwiches, soups & quick bites to order</p></div></div>
+<div class="hl r" data-d="6"><div class="hl-icon">👨‍👩‍👧‍👦</div><div><h3>Family Friendly</h3><p>A warm welcome for guests of all ages</p></div></div>
+</div></div></section>
+
+<section class="sec" id="menu" style="background:var(--bg)"><div class="w">
+<div class="sec-head r"><div class="sec-label">Our Menu</div><h2 class="sec-title">Taste the Difference</h2><p class="sec-desc">Freshly prepared, lovingly crafted — every dish tells a story</p><div class="sec-line"></div></div>
+<div class="m-tabs r">
+<button class="m-tab on" data-t="breakfast">Breakfast</button>
+<button class="m-tab" data-t="brunch">Brunch</button>
+<button class="m-tab" data-t="lunch">Lunch</button>
+<button class="m-tab" data-t="desserts">Desserts & Drinks</button>
+</div>
+<div class="m-panel on" id="p-breakfast"><div class="m-grid">
+<div class="m-item"><div><h4>Classic English Breakfast</h4><p class="desc">Eggs, bacon, sausage, beans, toast & tomato</p></div><div class="m-price">£9.50</div></div>
+<div class="m-item"><div><h4>Avocado on Sourdough</h4><p class="desc">Cherry tomatoes, chilli flakes & poached egg</p></div><div class="m-price">£8.50</div></div>
+<div class="m-item"><div><h4>Granola & Yoghurt Bowl</h4><p class="desc">House granola, Greek yoghurt, berries, honey</p></div><div class="m-price">£7.00</div></div>
+<div class="m-item"><div><h4>Eggs Benedict</h4><p class="desc">Poached eggs, ham, hollandaise, English muffin</p></div><div class="m-price">£9.00</div></div>
+<div class="m-item"><div><h4>Buttermilk Pancakes</h4><p class="desc">Maple syrup, berries & cream</p></div><div class="m-price">£8.50</div></div>
+<div class="m-item"><div><h4>Toast & Preserves</h4><p class="desc">Sourdough or white with butter & jam</p></div><div class="m-price">£3.50</div></div>
+</div></div>
+<div class="m-panel" id="p-brunch"><div class="m-grid">
+<div class="m-item"><div><h4>Brunch Board</h4><p class="desc">Eggs, pastries, fruit, cheese & charcuterie</p></div><div class="m-price">£14.00</div></div>
+<div class="m-item"><div><h4>Shakshuka</h4><p class="desc">Baked eggs in spiced tomato with crusty bread</p></div><div class="m-price">£9.50</div></div>
+<div class="m-item"><div><h4>French Toast</h4><p class="desc">Brioche, cinnamon, banana, maple syrup</p></div><div class="m-price">£8.50</div></div>
+<div class="m-item"><div><h4>Smoked Salmon & Eggs</h4><p class="desc">On sourdough with dill cream cheese</p></div><div class="m-price">£10.00</div></div>
+</div></div>
+<div class="m-panel" id="p-lunch"><div class="m-grid">
+<div class="m-item"><div><h4>Chicken Pesto Panini</h4><p class="desc">Mozzarella, basil pesto, sun-dried tomatoes</p></div><div class="m-price">£8.50</div></div>
+<div class="m-item"><div><h4>Soup of the Day</h4><p class="desc">Homemade with crusty bread & butter</p></div><div class="m-price">£6.00</div></div>
+<div class="m-item"><div><h4>Caesar Salad</h4><p class="desc">Romaine, parmesan, croutons, grilled chicken</p></div><div class="m-price">£9.00</div></div>
+<div class="m-item"><div><h4>Club Sandwich</h4><p class="desc">Chicken, bacon, lettuce, tomato, mayo</p></div><div class="m-price">£9.50</div></div>
+<div class="m-item"><div><h4>Tuna Melt</h4><p class="desc">On sourdough with cheddar & red onion</p></div><div class="m-price">£7.50</div></div>
+<div class="m-item"><div><h4>Halloumi Wrap</h4><p class="desc">Hummus, roast veg, leaves, sweet chilli</p></div><div class="m-price">£8.00</div></div>
+</div></div>
+<div class="m-panel" id="p-desserts"><div class="m-grid">
+<div class="m-item"><div><h4>Espresso / Americano</h4><p class="desc">Freshly ground, rich & smooth</p></div><div class="m-price">£2.80</div></div>
+<div class="m-item"><div><h4>Latte / Cappuccino / Flat White</h4><p class="desc">Silky milk, perfect espresso</p></div><div class="m-price">£3.50</div></div>
+<div class="m-item"><div><h4>Hot Chocolate</h4><p class="desc">Marshmallows & whipped cream</p></div><div class="m-price">£3.80</div></div>
+<div class="m-item"><div><h4>Selection of Teas</h4><p class="desc">Breakfast, Earl Grey, Green, Chamomile, Peppermint</p></div><div class="m-price">£2.50</div></div>
+<div class="m-item"><div><h4>Carrot Cake</h4><p class="desc">Moist, spiced, cream cheese frosting</p></div><div class="m-price">£4.50</div></div>
+<div class="m-item"><div><h4>Victoria Sponge</h4><p class="desc">Classic with jam & buttercream</p></div><div class="m-price">£4.50</div></div>
+<div class="m-item"><div><h4>Chocolate Brownie</h4><p class="desc">Warm, fudgy, vanilla ice cream</p></div><div class="m-price">£5.00</div></div>
+<div class="m-item"><div><h4>Scone, Cream & Jam</h4><p class="desc">Freshly baked, served warm</p></div><div class="m-price">£4.00</div></div>
+</div></div>
+<p class="m-note">Subject to availability. Ask about allergens & dietary needs.</p>
+<div class="m-cta"><a href="tel:02084418670" class="btn btn-accent mag">📞 Order Takeaway</a></div>
+</div></section>
+
+<section class="sec" id="hours" style="background:var(--bg2)"><div class="w">
+<div class="sec-head r"><div class="sec-label">Opening Hours</div><h2 class="sec-title">When to Visit</h2><p class="sec-desc">Open seven days a week</p><div class="sec-line"></div></div>
+<div class="hrs r">
+<div class="hrs-top"><div class="hrs-icon">🕐</div><div class="hrs-badge" id="hBadge"><div class="hrs-dot"></div><span id="hSt">Checking...</span></div></div>
+<ul class="hrs-list" id="hList">
+<li data-d="1"><span class="dy">Monday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
+<li data-d="2"><span class="dy">Tuesday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
+<li data-d="3"><span class="dy">Wednesday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
+<li data-d="4"><span class="dy">Thursday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
+<li data-d="5"><span class="dy">Friday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
+<li data-d="6"><span class="dy">Saturday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
+<li data-d="0"><span class="dy">Sunday</span><span class="tm">8:00 AM – 4:00 PM</span></li>
 </ul>
-<div class="hr-nt">☀️ Pop in early on weekends — brunch specials go fast!</div>
-</div>
-</div>
-</section>
+<div class="hrs-note">☀️ Pop in early weekends — brunch specials go fast!</div>
+</div></div></section>
 
-<section class="sec tst" id="testimonials" style="background:var(--warm)">
-<div class="con"><div class="sec-hd rv"><div class="sec-ey"><span></span>Reviews<span></span></div><h2 class="sec-t">Loved by East Barnet</h2><p class="sec-st">Here's what our wonderful guests have to say</p><div class="glow-line"></div></div></div>
-<div class="tst-tw"><div class="tst-tr">
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Best coffee in East Barnet, hands down. The staff are so friendly and the avocado toast is incredible. My go-to spot every Saturday morning.</div><div class="tc-a"><div class="tc-av">S</div><div class="tc-ai"><h4>Sarah M.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Such a lovely little cafe. Great atmosphere, amazing cakes, and the kids absolutely love it here. A real gem in the village.</div><div class="tc-a"><div class="tc-av">J</div><div class="tc-ai"><h4>James T.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Popped in for a quick coffee and ended up staying for brunch. Everything was freshly made and delicious. Will definitely be back!</div><div class="tc-a"><div class="tc-av">P</div><div class="tc-ai"><h4>Priya K.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">The homemade cakes here are to die for. Carrot cake is the best I've had in North London. Lovely cosy atmosphere too.</div><div class="tc-a"><div class="tc-av">D</div><div class="tc-ai"><h4>David R.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Perfect spot for a solo lunch. Quiet, welcoming, and the soup of the day is always bang on. Proper neighbourhood cafe.</div><div class="tc-a"><div class="tc-av">E</div><div class="tc-ai"><h4>Emma L.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">We come here every Sunday after the park. Pancakes are fluffy perfection and the hot chocolate is the best in Barnet!</div><div class="tc-a"><div class="tc-av">R</div><div class="tc-ai"><h4>Rachel & Tom</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Best coffee in East Barnet, hands down. The staff are so friendly and the avocado toast is incredible. My go-to spot every Saturday morning.</div><div class="tc-a"><div class="tc-av">S</div><div class="tc-ai"><h4>Sarah M.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Such a lovely little cafe. Great atmosphere, amazing cakes, and the kids absolutely love it here. A real gem in the village.</div><div class="tc-a"><div class="tc-av">J</div><div class="tc-ai"><h4>James T.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Popped in for a quick coffee and ended up staying for brunch. Everything was freshly made and delicious. Will definitely be back!</div><div class="tc-a"><div class="tc-av">P</div><div class="tc-ai"><h4>Priya K.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">The homemade cakes here are to die for. Carrot cake is the best I've had in North London. Lovely cosy atmosphere too.</div><div class="tc-a"><div class="tc-av">D</div><div class="tc-ai"><h4>David R.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">Perfect spot for a solo lunch. Quiet, welcoming, and the soup of the day is always bang on. Proper neighbourhood cafe.</div><div class="tc-a"><div class="tc-av">E</div><div class="tc-ai"><h4>Emma L.</h4><p>Google Reviews</p></div></div></div>
-<div class="tc"><div class="tc-s">⭐⭐⭐⭐⭐</div><div class="tc-t">We come here every Sunday after the park. Pancakes are fluffy perfection and the hot chocolate is the best in Barnet!</div><div class="tc-a"><div class="tc-av">R</div><div class="tc-ai"><h4>Rachel & Tom</h4><p>Google Reviews</p></div></div></div>
+<section class="sec test" id="reviews" style="background:var(--bg)"><div class="w"><div class="sec-head r"><div class="sec-label">Reviews</div><h2 class="sec-title">Loved by East Barnet</h2><p class="sec-desc">What our guests say</p><div class="sec-line"></div></div></div>
+<div class="test-wrap"><div class="test-track">
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Best coffee in East Barnet. The staff are so friendly and the avocado toast is incredible. My Saturday go-to.</div><div class="tc-who"><div class="tc-av">S</div><div class="tc-info"><h4>Sarah M.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Lovely cafe. Great atmosphere, amazing cakes, and the kids love it. A real gem in the village.</div><div class="tc-who"><div class="tc-av">J</div><div class="tc-info"><h4>James T.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Popped in for coffee, stayed for brunch. Everything freshly made and delicious. Will be back!</div><div class="tc-who"><div class="tc-av">P</div><div class="tc-info"><h4>Priya K.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Homemade cakes are to die for. Carrot cake is the best in North London. Cosy atmosphere.</div><div class="tc-who"><div class="tc-av">D</div><div class="tc-info"><h4>David R.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Perfect solo lunch spot. Quiet, welcoming. Soup of the day always bang on.</div><div class="tc-who"><div class="tc-av">E</div><div class="tc-info"><h4>Emma L.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Every Sunday after the park. Pancakes are fluffy perfection. Best hot chocolate in Barnet!</div><div class="tc-who"><div class="tc-av">R</div><div class="tc-info"><h4>Rachel & Tom</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Best coffee in East Barnet. The staff are so friendly and the avocado toast is incredible. My Saturday go-to.</div><div class="tc-who"><div class="tc-av">S</div><div class="tc-info"><h4>Sarah M.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Lovely cafe. Great atmosphere, amazing cakes, and the kids love it. A real gem in the village.</div><div class="tc-who"><div class="tc-av">J</div><div class="tc-info"><h4>James T.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Popped in for coffee, stayed for brunch. Everything freshly made and delicious. Will be back!</div><div class="tc-who"><div class="tc-av">P</div><div class="tc-info"><h4>Priya K.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Homemade cakes are to die for. Carrot cake is the best in North London. Cosy atmosphere.</div><div class="tc-who"><div class="tc-av">D</div><div class="tc-info"><h4>David R.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Perfect solo lunch spot. Quiet, welcoming. Soup of the day always bang on.</div><div class="tc-who"><div class="tc-av">E</div><div class="tc-info"><h4>Emma L.</h4><p>Google</p></div></div></div>
+<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Every Sunday after the park. Pancakes are fluffy perfection. Best hot chocolate in Barnet!</div><div class="tc-who"><div class="tc-av">R</div><div class="tc-info"><h4>Rachel & Tom</h4><p>Google</p></div></div></div>
 </div></div>
-<div class="con" style="text-align:center;margin-top:36px"><a href="https://www.google.com/maps/place/251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" rel="noopener" class="btn-o mag rv"><span>See All Reviews on Google →</span></a></div>
+<div class="w" style="text-align:center;margin-top:36px"><a href="https://www.google.com/maps/place/251+E+Barnet+Rd" target="_blank" class="btn-ol mag r">See All Reviews →</a></div>
 </section>
 
-<section class="sec" id="services" style="background:var(--cream)">
-<div class="con">
-<div class="sec-hd rv"><div class="sec-ey"><span></span>At a Glance<span></span></div><h2 class="sec-t">Everything You Need to Know</h2><p class="sec-st">All the details about what we offer</p><div class="glow-line"></div></div>
-<div class="sv-c">
-<div class="sv-cat rv d1"><h3>Service Options</h3><div class="sv-tg"><span class="sv-t">☀️ Outdoor Seating</span><span class="sv-t">🛵 Delivery</span><span class="sv-t">🥡 Takeaway</span><span class="sv-t">🍽️ Dine-in</span><span class="sv-t">🏠 On-site</span></div></div>
-<div class="sv-cat rv d2"><h3>Perfect For</h3><div class="sv-tg"><span class="sv-t">🌅 Breakfast</span><span class="sv-t">🥂 Brunch</span><span class="sv-t">🥗 Lunch</span><span class="sv-t">🧁 Dessert</span><span class="sv-t">👤 Solo Dining</span></div></div>
-<div class="sv-cat rv d3"><h3>Amenities</h3><div class="sv-tg"><span class="sv-t">♿ Wheelchair Accessible</span><span class="sv-t">🚻 Toilets</span><span class="sv-t">👶 Kid Friendly</span><span class="sv-t">🪑 Seating</span></div></div>
-<div class="sv-cat rv d4"><h3>Payments</h3><div class="sv-tg"><span class="sv-t">💳 Credit Cards</span><span class="sv-t">💳 Debit Cards</span><span class="sv-t">📱 Contactless</span></div></div>
-</div>
-</div>
-</section>
+<section class="sec" id="services" style="background:var(--bg2)"><div class="w">
+<div class="sec-head r"><div class="sec-label">At a Glance</div><h2 class="sec-title">Everything You Need</h2><p class="sec-desc">Details about what we offer</p><div class="sec-line"></div></div>
+<div class="sv-grid">
+<div class="sv-cat r" data-d="1"><h3>Services</h3><div class="sv-tags"><span class="sv-tag">☀️ Outdoor Seating</span><span class="sv-tag">🛵 Delivery</span><span class="sv-tag">🥡 Takeaway</span><span class="sv-tag">🍽️ Dine-in</span></div></div>
+<div class="sv-cat r" data-d="2"><h3>Perfect For</h3><div class="sv-tags"><span class="sv-tag">🌅 Breakfast</span><span class="sv-tag">🥂 Brunch</span><span class="sv-tag">🥗 Lunch</span><span class="sv-tag">🧁 Dessert</span><span class="sv-tag">👤 Solo</span></div></div>
+<div class="sv-cat r" data-d="3"><h3>Amenities</h3><div class="sv-tags"><span class="sv-tag">♿ Accessible</span><span class="sv-tag">🚻 Toilets</span><span class="sv-tag">👶 Kid Friendly</span><span class="sv-tag">🪑 Seating</span></div></div>
+<div class="sv-cat r" data-d="4"><h3>Payments</h3><div class="sv-tags"><span class="sv-tag">💳 Cards</span><span class="sv-tag">📱 Contactless</span></div></div>
+</div></div></section>
 
-<div class="px-d"><div class="px-bg" style="background-image:url('https://i.ibb.co/fGrDwPZC/much.png')"></div><div class="px-ov"></div><div class="px-t rv-s"><h3>Your Table is Waiting</h3><p>— 251 East Barnet Road —</p><div class="px-line"></div></div></div>
+<div class="divider"><div class="divider-bg" style="background-image:url('https://i.ibb.co/fGrDwPZC/much.png')"></div><div class="divider-ov"></div><div class="divider-text rs"><h3>Your Table is Waiting</h3><p>— 251 East Barnet Road —</p></div></div>
 
-<section class="sec" id="find-us" style="background:var(--warm)">
-<div class="con">
-<div class="sec-hd rv"><div class="sec-ey"><span></span>Find Us<span></span></div><h2 class="sec-t">Come Say Hello</h2><p class="sec-st">Right in the heart of East Barnet Village</p><div class="glow-line"></div></div>
-<div class="lo-g">
-<div class="lo-m rv-l"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.5!2d-0.163!3d51.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761753f1d5e6db%3A0x3c5e1b2c0d8e9f0a!2s251%20E%20Barnet%20Rd%2C%20London%20EN4%208SS!5e0!3m2!1sen!2suk!4v1700000000000" allowfullscreen loading="lazy" title="Map"></iframe></div>
-<div class="lo-i rv-r">
-<div class="lo-d"><div class="lo-di">📍</div><div class="lo-dt"><h4>Address</h4><p>251 East Barnet Road<br>London, Barnet EN4 8SS</p></div></div>
-<div class="lo-d"><div class="lo-di">📞</div><div class="lo-dt"><h4>Phone</h4><p><a href="tel:02084418670">020 8441 8670</a></p></div></div>
-<div class="lo-d"><div class="lo-di">🕐</div><div class="lo-dt"><h4>Hours</h4><p>Mon — Sat: 7:00 AM – 5:00 PM<br>Sunday: 8:00 AM – 4:00 PM</p></div></div>
-<div class="lo-d"><div class="lo-di">♿</div><div class="lo-dt"><h4>Accessibility</h4><p>Wheelchair-accessible entrance<br>Toilets • Indoor & outdoor seating</p></div></div>
-<div class="lo-cta"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" rel="noopener" class="btn-d mag"><span>📍 Get Directions</span></a></div>
-</div>
-</div>
-</div>
-</section>
+<section class="sec" id="find" style="background:var(--bg)"><div class="w">
+<div class="sec-head r"><div class="sec-label">Find Us</div><h2 class="sec-title">Come Say Hello</h2><p class="sec-desc">Right in the heart of East Barnet Village</p><div class="sec-line"></div></div>
+<div class="loc-grid">
+<div class="loc-map rl"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.5!2d-0.163!3d51.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761753f1d5e6db%3A0x3c5e1b2c0d8e9f0a!2s251%20E%20Barnet%20Rd%2C%20London%20EN4%208SS!5e0!3m2!1sen!2suk!4v1" allowfullscreen loading="lazy" title="Map"></iframe></div>
+<div class="loc-info rr">
+<div class="loc-row"><div class="loc-ic">📍</div><div class="loc-txt"><h4>Address</h4><p>251 East Barnet Road<br>London, Barnet EN4 8SS</p></div></div>
+<div class="loc-row"><div class="loc-ic">📞</div><div class="loc-txt"><h4>Phone</h4><p><a href="tel:02084418670">020 8441 8670</a></p></div></div>
+<div class="loc-row"><div class="loc-ic">🕐</div><div class="loc-txt"><h4>Hours</h4><p>Mon–Sat: 7AM–5PM<br>Sunday: 8AM–4PM</p></div></div>
+<div class="loc-row"><div class="loc-ic">♿</div><div class="loc-txt"><h4>Accessibility</h4><p>Wheelchair entrance · Toilets · Indoor & outdoor seating</p></div></div>
+<div class="loc-cta"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" class="btn-dark mag">📍 Get Directions</a></div>
+</div></div></div></section>
 
-<section class="cc" id="contact">
-<div class="cc-bg"></div><div class="cc-pt"></div><div class="cc-glow"></div>
-<div class="con">
-<h2 class="rv">Come Say Hello</h2>
-<p class="cc-desc rv d1">Whether it's your first visit or your hundredth, there's always a seat and a smile waiting for you.</p>
-<div class="cc-cards">
-<div class="cc-c rv d1"><div class="cc-ci">📞</div><h3>Call Us</h3><p><a href="tel:02084418670">020 8441 8670</a></p></div>
-<div class="cc-c rv d2"><div class="cc-ci">📍</div><h3>Visit Us</h3><p>251 East Barnet Rd<br>EN4 8SS</p></div>
-<div class="cc-c rv d3"><div class="cc-ci">🕐</div><h3>Open Daily</h3><p>Mon-Sat from 7AM<br>Sunday from 8AM</p></div>
+<section class="cta" id="contact"><div class="cta-bg"></div><div class="cta-dots"></div><div class="w">
+<h2 class="r">Come Say Hello</h2>
+<p class="cta-desc r" data-d="1">Whether it's your first visit or your hundredth — a seat and smile awaits.</p>
+<div class="cta-cards">
+<div class="cta-c r" data-d="1"><span>📞</span><h3>Call Us</h3><p><a href="tel:02084418670">020 8441 8670</a></p></div>
+<div class="cta-c r" data-d="2"><span>📍</span><h3>Visit Us</h3><p>251 East Barnet Rd EN4 8SS</p></div>
+<div class="cta-c r" data-d="3"><span>🕐</span><h3>Open Daily</h3><p>Mon–Sat 7AM · Sun 8AM</p></div>
 </div>
-<div class="rv d4"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" rel="noopener" class="btn btn-p mag" style="padding:17px 40px"><span>📍 Get Directions on Google Maps</span></a></div>
-</div>
-</section>
+<div class="r" data-d="4"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" class="btn btn-accent mag" style="padding:18px 44px">📍 Get Directions</a></div>
+</div></section>
 
-<footer class="ft">
-<div class="con">
-<div class="ft-g">
-<div class="ft-br"><div class="n-logo"><span class="n-logo-i">☕</span><span class="n-logo-t">Bean Cafe Bistro</span></div><p>East Barnet Village's favourite cafe & bistro. Artisan coffee, homemade food, and a warm welcome — every single day.</p><div class="ft-so"><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Facebook">📘</a><a href="#" aria-label="TripAdvisor">✈️</a></div></div>
-<div><h4>Quick Links</h4><ul class="ft-lk"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#hours">Hours</a></li><li><a href="#find-us">Find Us</a></li><li><a href="#contact">Contact</a></li></ul></div>
-<div><h4>Contact</h4><div class="ft-ci"><span>📍</span><span>251 East Barnet Road, London EN4 8SS</span></div><div class="ft-ci"><span>📞</span><span><a href="tel:02084418670" style="color:var(--terra-l)">020 8441 8670</a></span></div><div class="ft-ci"><span>🕐</span><span>Mon–Sat: 7am–5pm<br>Sun: 8am–4pm</span></div></div>
-<div class="ft-nl"><h4>Stay Updated</h4><p>Get special offers & seasonal menus.</p><form class="ft-nf" onsubmit="hn(event)"><input type="email" placeholder="Your email" required aria-label="Email"><button type="submit">Subscribe</button></form></div>
+<footer><div class="w">
+<div class="ft-grid">
+<div class="ft-brand"><div class="brand"><span class="brand-icon">☕</span><span class="brand-name">Bean Cafe Bistro</span></div><p>East Barnet Village's favourite independent cafe & bistro.</p><div class="ft-soc"><a href="#">📷</a><a href="#">📘</a><a href="#">✈️</a></div></div>
+<div><h4>Links</h4><ul class="ft-links"><li><a href="#top">Home</a></li><li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#hours">Hours</a></li><li><a href="#find">Find Us</a></li></ul></div>
+<div><h4>Contact</h4><div class="ft-contact"><span>📍</span><span>251 East Barnet Rd, EN4 8SS</span></div><div class="ft-contact"><span>📞</span><span><a href="tel:02084418670" style="color:var(--accent3)">020 8441 8670</a></span></div><div class="ft-contact"><span>🕐</span><span>Mon–Sat 7am–5pm · Sun 8am–4pm</span></div></div>
+<div class="ft-nl"><h4>Updates</h4><p>Special offers & seasonal menus.</p><form class="ft-form" onsubmit="return sub(event)"><input type="email" placeholder="Email" required><button type="submit">Join</button></form></div>
 </div>
-<div class="ft-bt"><span>© 2025 Bean Cafe Bistro. All rights reserved.</span><span class="ft-bt-lv">Made with ☕ in East Barnet Village</span></div>
-</div>
-</footer>
+<div class="ft-bottom"><span>© 2025 Bean Cafe Bistro</span><span class="ft-love">Made with ☕ in East Barnet</span></div>
+</div></footer>
 
-<button class="btt" id="btt" aria-label="Top">↑</button>
+<button class="btt" id="btt">↑</button>
 
 <script>
 (function(){
-const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
-const isMob='ontouchstart'in window||navigator.maxTouchPoints>0;
-const vib=d=>{if(isMob&&navigator.vibrate)navigator.vibrate(d)};
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),T='ontouchstart'in window;
 
-// Loader
-window.addEventListener('load',()=>setTimeout(()=>{$('#loader').classList.add('h');document.body.style.overflow=''},2200));
+// LOADER
+let p=0;const pe=$('#pct');
+const pi=setInterval(()=>{p=Math.min(100,p+Math.random()*5+1);pe.textContent=~~p+'%';if(p>=100)clearInterval(pi)},30);
+addEventListener('load',()=>setTimeout(()=>{$('#loader').classList.add('go');setTimeout(()=>$('#loader').style.display='none',1600)},2400));
 document.body.style.overflow='hidden';
+setTimeout(()=>document.body.style.overflow='',4200);
 
-// Progress bar
-window.addEventListener('scroll',()=>{
-const h=document.documentElement.scrollHeight-innerHeight;
-$('#prog').style.width=(scrollY/h*100)+'%';
-},{passive:true});
+// HERO ENTRANCE
+setTimeout(()=>{
+['.hero-tag','.hero h1','.hero-desc','.hero-actions','.hero-meta','.hero-scroll'].forEach((s,i)=>{
+const el=$(s);if(!el)return;
+el.style.opacity='0';el.style.transform='translateY(40px)';
+el.style.transition=`opacity 1.2s var(--ease-out-expo) ${.3+i*.15}s,transform 1.2s var(--ease-out-expo) ${.3+i*.15}s`;
+setTimeout(()=>{el.style.opacity='1';el.style.transform='none'},50)})},2600);
 
-// Cursor
-if(!isMob){
-const C=$('#cur'),D=$('#curd');let mx=0,my=0,cx=0,cy=0,dx=0,dy=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
-(function ac(){
-cx+=(mx-cx)*.1;cy+=(my-cy)*.1;
-dx+=(mx-dx)*.25;dy+=(my-dy)*.25;
-C.style.left=cx-9+'px';C.style.top=cy-9+'px';
-D.style.left=dx-2+'px';D.style.top=dy-2+'px';
-requestAnimationFrame(ac)})();
-$$('a,button,.m-tab,.hl-c,.sv-t,.mi,.fg-i,.tc,.cc-c,.ab-f,.ab-bd,.lo-d').forEach(el=>{
-el.addEventListener('mouseenter',()=>C.classList.add('a'));
-el.addEventListener('mouseleave',()=>C.classList.remove('a'))});
-}
+// PROGRESS
+addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;$('#progress span').style.width=(scrollY/h*100)+'%'},{passive:true});
 
-// Nav
-const N=$('#nav');
-let ticking=false;
-window.addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(()=>{
-N.classList.toggle('s',scrollY>50);
-$('#btt').classList.toggle('v',scrollY>400);
-ticking=false});ticking=true}},{passive:true});
+// CURSOR
+if(!T){const R=$('#cursor'),Ri=R.querySelector('.ring');let mx=0,my=0,rx=0,ry=0;
+addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
+(function lp(){rx+=(mx-rx)*.09;ry+=(my-ry)*.09;R.style.transform=`translate(${rx-18}px,${ry-18}px)`;requestAnimationFrame(lp)})();
+$$('a,button,.m-tab,.hl,.sv-tag,.m-item,.gal-item,.tc,.cta-c,.afeat,.about-badge,.loc-row,.btn-ol').forEach(el=>{
+el.addEventListener('mouseenter',()=>R.classList.add('hover'));
+el.addEventListener('mouseleave',()=>R.classList.remove('hover'))});
+addEventListener('mousedown',()=>R.classList.add('press'));
+addEventListener('mouseup',()=>R.classList.remove('press'))}
 
-// Hamburger
-const H=$('#ham'),M=$('#mob');
-H.addEventListener('click',()=>{
-H.classList.toggle('a');M.classList.toggle('a');
-document.body.style.overflow=M.classList.contains('a')?'hidden':'';
-vib(10);
-});
-$$('.ml').forEach(a=>a.addEventListener('click',()=>{
-H.classList.remove('a');M.classList.remove('a');document.body.style.overflow='';
-}));
+// NAV
+const hdr=$('#hdr');
+addEventListener('scroll',()=>{requestAnimationFrame(()=>{hdr.classList.toggle('fix',scrollY>40);$('#btt').classList.toggle('show',scrollY>400)})},{passive:true});
 
-// Particles
-const P=$('#hp');
-for(let i=0;i<(isMob?18:35);i++){
-const p=document.createElement('div');p.classList.add('ptc');
-const s=Math.random()*5+1.5;
-p.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${Math.random()*18+12}s;animation-delay:${Math.random()*12}s;opacity:${Math.random()*.3+.08}`;
-P.appendChild(p)}
+// BURGER
+const B=$('#burg'),MN=$('#mnav');
+B.addEventListener('click',()=>{B.classList.toggle('on');MN.classList.toggle('on');document.body.style.overflow=MN.classList.contains('on')?'hidden':''});
+$$('.ml').forEach(a=>a.addEventListener('click',()=>{B.classList.remove('on');MN.classList.remove('on');document.body.style.overflow=''}));
 
-// Reveal
-const RO=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('a');vib(6)}})},{threshold:.06,rootMargin:'0px 0px -15px 0px'});
-$$('.rv,.rv-l,.rv-r,.rv-s,.rv-rot').forEach(e=>RO.observe(e));
+// PARTICLES
+const PC=$('#parts');for(let i=0;i<(T?14:28);i++){const p=document.createElement('i');const s=Math.random()*4+1.5;
+p.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;top:${Math.random()*100}%;animation:fp ${Math.random()*20+14}s linear infinite;animation-delay:${Math.random()*14}s`;
+PC.appendChild(p)}
+const fpStyle=document.createElement('style');
+fpStyle.textContent='@keyframes fp{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:.6}90%{opacity:.4}100%{transform:translateY(-100vh) rotate(360deg);opacity:0}}';
+document.head.appendChild(fpStyle);
 
-// Mobile food gallery touch
-if(isMob){
-$$('.fg-i').forEach(i=>{new IntersectionObserver(e=>{e.forEach(x=>i.classList.toggle('tch',x.isIntersecting))},{threshold:.5}).observe(i)});
-$$('.hl-c').forEach(c=>{new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){c.classList.add('tch');setTimeout(()=>c.classList.remove('tch'),1500)}})},{threshold:.4}).observe(c)});
-}
+// REVEALS
+const RO=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('v')})},{threshold:.04,rootMargin:'0px 0px -8px 0px'});
+$$('.r,.rl,.rr,.rs').forEach(e=>RO.observe(e));
 
-// Menu tabs
+// MOBILE GALLERY
+if(T){$$('.gal-item').forEach(g=>{new IntersectionObserver(e=>{e.forEach(x=>g.classList.toggle('on',x.isIntersecting))},{threshold:.35}).observe(g)});
+$$('.hl').forEach(h=>{new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){h.classList.add('tch');setTimeout(()=>h.classList.remove('tch'),2e3)}})},{threshold:.3}).observe(h)})}
+
+// MENU TABS
 $$('.m-tab').forEach(t=>t.addEventListener('click',()=>{
-$$('.m-tab').forEach(x=>x.classList.remove('a'));
-$$('.mp').forEach(x=>x.classList.remove('a'));
-t.classList.add('a');
-const p=$('#p-'+t.dataset.tab);if(p){p.classList.add('a');
-// Stagger items
-setTimeout(()=>{p.querySelectorAll('.mi').forEach((m,i)=>{
-m.style.opacity='0';m.style.transform='translateY(16px)';
-setTimeout(()=>{m.style.transition='all .5s cubic-bezier(.16,1,.3,1)';m.style.opacity='1';m.style.transform='translateY(0)'},i*50)})},30)}
-vib(8);
-}));
+$$('.m-tab').forEach(x=>x.classList.remove('on'));$$('.m-panel').forEach(x=>x.classList.remove('on'));
+t.classList.add('on');const p=$('#p-'+t.dataset.t);if(p){p.classList.add('on');
+setTimeout(()=>p.querySelectorAll('.m-item').forEach((m,i)=>{m.style.opacity='0';m.style.transform='translateY(14px)';
+setTimeout(()=>{m.style.transition='all .6s var(--ease-out-expo)';m.style.opacity='1';m.style.transform='none'},i*40)}),20)}}));
 
-// Hours
-function uo(){
-const n=new Date,d=n.getDay(),ct=n.getHours()*60+n.getMinutes();
-const ot=d===0?480:420,cl=d===0?960:1020,isO=ct>=ot&&ct<cl;
-$('#os').className='hr-st '+(isO?'op':'cl');
-$('#ost').textContent=isO?'Open Now':'Currently Closed';
-$$('#hl li').forEach(li=>li.classList.toggle('td',+li.dataset.day===d));
-}uo();setInterval(uo,6e4);
+// HOURS
+function uh(){const n=new Date,d=n.getDay(),t=n.getHours()*60+n.getMinutes(),o=d===0?480:420,c=d===0?960:1020,isO=t>=o&&t<c;
+$('#hBadge').className='hrs-badge '+(isO?'open':'shut');
+$('#hSt').textContent=isO?'Open Now':'Closed';
+$$('#hList li').forEach(l=>l.classList.toggle('now',+l.dataset.d===d))}
+uh();setInterval(uh,6e4);
 
-// Counters
-let ca=false;
-const CO=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting&&!ca){ca=true;
-$$('.st-n').forEach(c=>{
-const t=+c.dataset.t,sf=c.dataset.s||'',steps=55;let step=0;
-const ti=setInterval(()=>{step++;const p=1-Math.pow(1-step/steps,4);
-c.textContent=Math.round(t*p).toLocaleString()+sf;
-if(step>=steps){c.textContent=t.toLocaleString()+sf;clearInterval(ti)}},35)})}})},{threshold:.3});
-$$('.st-n').forEach(c=>CO.observe(c));
+// COUNTERS
+let cd=false;
+new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting&&!cd){cd=true;
+$$('.stat-val').forEach(c=>{const to=+c.dataset.to,sf=c.dataset.suf||'',steps=48;let s=0;
+const ti=setInterval(()=>{s++;c.textContent=Math.round(to*(1-Math.pow(1-s/steps,4))).toLocaleString()+sf;
+if(s>=steps){c.textContent=to.toLocaleString()+sf;clearInterval(ti)}},32)})}})},{threshold:.3}).observe($('.stats'));
 
-// Back to top
-$('#btt').addEventListener('click',()=>{scrollTo({top:0,behavior:'smooth'});vib(5)});
+// BTT
+$('#btt').addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 
-// Magnetic (desktop)
-if(!isMob){
-$$('.mag').forEach(b=>{
-b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect();
-b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.22}px,${(e.clientY-r.top-r.height/2)*.22}px)`;b.style.transition='transform .08s ease'});
-b.addEventListener('mouseleave',()=>{b.style.transform='';b.style.transition='transform .4s cubic-bezier(.16,1,.3,1)'})});
-// 3D tilt food gallery
-$$('.fg-i').forEach(i=>{
-i.addEventListener('mousemove',e=>{const r=i.getBoundingClientRect();
-i.style.transform=`perspective(800px) rotateX(${((e.clientY-r.top)/r.height-.5)*12}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*-12}deg) scale(1.03)`;i.style.transition='transform .08s ease'});
-i.addEventListener('mouseleave',()=>{i.style.transform='';i.style.transition='transform .7s cubic-bezier(.16,1,.3,1)'})});
-// 3D tilt testimonials
-$$('.tc').forEach(c=>{
-c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();
-c.style.transform=`translateY(-6px) perspective(600px) rotateX(${((e.clientY-r.top)/r.height-.5)*-6}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*6}deg)`;c.style.transition='transform .08s ease'});
-c.addEventListener('mouseleave',()=>{c.style.transform='';c.style.transition='transform .6s cubic-bezier(.16,1,.3,1)'})});
-// Contact cards glow
-$$('.cc-c').forEach(c=>{
-c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();
-c.style.background=`radial-gradient(circle at ${e.clientX-r.left}px ${e.clientY-r.top}px,rgba(255,255,255,.12),rgba(255,255,255,.02))`});
+// SMOOTH SCROLL
+$$('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h==='#')return;e.preventDefault();const t=$(h);if(t)scrollTo({top:t.offsetTop-hdr.offsetHeight-4,behavior:'smooth'})}));
+
+// DESKTOP INTERACTIONS
+if(!T){
+// MAGNETIC
+$$('.mag').forEach(b=>{b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.18}px,${(e.clientY-r.top-r.height/2)*.18}px)`;b.style.transition='transform .05s linear'});
+b.addEventListener('mouseleave',()=>{b.style.transform='';b.style.transition='transform .5s var(--ease-out-expo)'})});
+// GALLERY 3D
+$$('.gal-item').forEach(g=>{g.addEventListener('mousemove',e=>{const r=g.getBoundingClientRect();g.style.transform=`perspective(800px) rotateX(${((e.clientY-r.top)/r.height-.5)*10}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*-10}deg) scale(1.02)`;g.style.transition='transform .05s linear'});
+g.addEventListener('mouseleave',()=>{g.style.transform='';g.style.transition='transform .8s var(--ease-out-expo)'})});
+// TESTI 3D
+$$('.tc').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();c.style.transform=`translateY(-4px) perspective(600px) rotateX(${((e.clientY-r.top)/r.height-.5)*-4}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*4}deg)`;c.style.transition='transform .05s linear'});
+c.addEventListener('mouseleave',()=>{c.style.transform='';c.style.transition='transform .6s var(--ease-out-expo)'})});
+// ABOUT 3D
+const av=$('.about-vis');
+if(av){av.addEventListener('mousemove',e=>{const r=av.getBoundingClientRect(),xr=(e.clientX-r.left)/r.width-.5,yr=(e.clientY-r.top)/r.height-.5;
+av.querySelector('img').style.transform=`perspective(800px) rotateX(${yr*-6}deg) rotateY(${xr*6}deg) scale(1.015)`;
+$('.about-frame').style.transform=`perspective(800px) rotateX(${yr*-3}deg) rotateY(${xr*3}deg)`});
+av.addEventListener('mouseleave',()=>{av.querySelector('img').style.transform='';$('.about-frame').style.transform=''})}
+// CTA GLOW
+$$('.cta-c').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();c.style.background=`radial-gradient(circle at ${e.clientX-r.left}px ${e.clientY-r.top}px,rgba(250,247,242,.08),transparent 70%)`});
 c.addEventListener('mouseleave',()=>c.style.background='')});
-// About image tilt
-const abImg=$('.ab-iw');
-if(abImg){abImg.addEventListener('mousemove',e=>{const r=abImg.getBoundingClientRect();
-const img=abImg.querySelector('img');const frame=$('.ab-frame');
-img.style.transform=`perspective(800px) rotateX(${((e.clientY-r.top)/r.height-.5)*-6}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*6}deg) scale(1.02)`;img.style.transition='transform .1s ease';
-frame.style.transform=`perspective(800px) rotateX(${((e.clientY-r.top)/r.height-.5)*-3}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*3}deg)`;frame.style.transition='transform .15s ease'});
-abImg.addEventListener('mouseleave',()=>{abImg.querySelector('img').style.transform='';abImg.querySelector('img').style.transition='transform .6s ease';
-$('.ab-frame').style.transform='';$('.ab-frame').style.transition='transform .6s ease'})}
-// Parallax
-window.addEventListener('scroll',()=>{requestAnimationFrame(()=>{
-$$('.px-bg').forEach(bg=>{const r=bg.parentElement.getBoundingClientRect();
-if(r.top<innerHeight&&r.bottom>0)bg.style.transform='translateY('+r.top*.2+'px)'})})},{passive:true});
-// Menu item hover effect
-$$('.mi').forEach(m=>{
-m.addEventListener('mousemove',e=>{const r=m.getBoundingClientRect();
-m.style.background=`radial-gradient(circle at ${e.clientX-r.left}px ${e.clientY-r.top}px,rgba(196,101,46,.03),white 70%)`});
+// MENU GLOW
+$$('.m-item').forEach(m=>{m.addEventListener('mousemove',e=>{const r=m.getBoundingClientRect();m.style.background=`radial-gradient(circle at ${e.clientX-r.left}px ${e.clientY-r.top}px,rgba(181,98,42,.015),var(--card) 70%)`});
 m.addEventListener('mouseleave',()=>m.style.background='')});
+// HERO PARALLAX
+addEventListener('scroll',()=>{requestAnimationFrame(()=>{if(scrollY<innerHeight){$('#hImg').style.transform=`scale(${1+scrollY*.0001}) translateY(${scrollY*.12}px)`;
+$$('.parallax-bg,.divider-bg').forEach(bg=>{const r=bg.parentElement.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)bg.style.transform=`translateY(${r.top*.15}px)`})}})},{passive:true});
 }
 
-// Smooth scroll
-$$('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){
-const h=this.getAttribute('href');if(h==='#')return;e.preventDefault();
-const t=$(h);if(t){scrollTo({top:t.offsetTop-N.offsetHeight-6,behavior:'smooth'});vib(5)}}));
+// HERO WORD CYCLE
+const hw=$('#hWord');if(hw){const ws=['Story','Memory','Moment','Feeling'];let wi=0;
+setInterval(()=>{hw.style.opacity='0';hw.style.transform='translateY(-14px)';hw.style.transition='all .5s ease';
+setTimeout(()=>{wi=(wi+1)%ws.length;hw.textContent=ws[wi];hw.style.opacity='1';hw.style.transform='none';hw.style.transition='all .6s var(--ease-out-expo)'},500)},4e3)}
 
-// Ripple on cards
-$$('.hl-c,.ab-f').forEach(c=>c.addEventListener('click',function(e){
-const r=c.getBoundingClientRect(),s=Math.max(r.width,r.height)*2,rp=document.createElement('span');
-rp.style.cssText=`position:absolute;border-radius:50%;background:rgba(196,101,46,.08);pointer-events:none;width:${s}px;height:${s}px;left:${e.clientX-r.left-s/2}px;top:${e.clientY-r.top-s/2}px;transform:scale(0);animation:rp .7s ease-out forwards`;
-c.style.position='relative';c.style.overflow='hidden';c.appendChild(rp);setTimeout(()=>rp.remove(),800);vib(5)}));
+// NEWSLETTER
+window.sub=function(e){e.preventDefault();const b=e.target.querySelector('button'),i=e.target.querySelector('input');
+b.textContent='✓ Done';b.style.background='var(--sage)';i.value='';
+setTimeout(()=>{b.textContent='Join';b.style.background=''},3e3);return false};
 
-// Hero text cycle
-const HL=$('.hero-h1 .hl');
-if(HL){const w=['Story','Memory','Moment','Feeling','Story'];let wi=0;
-setInterval(()=>{HL.style.cssText='opacity:0;transform:translateY(-16px) scale(.9) rotate(-2deg);transition:all .45s ease';
-setTimeout(()=>{wi=(wi+1)%w.length;HL.textContent=w[wi];
-HL.style.cssText='opacity:1;transform:translateY(0) scale(1) rotate(0);transition:all .45s cubic-bezier(.16,1,.3,1)'},450)},3500)}
+// NAV ACTIVE
+addEventListener('scroll',()=>{requestAnimationFrame(()=>{const y=scrollY+200;$$('section[id]').forEach(s=>{const t=s.offsetTop,h=s.offsetHeight;
+if(y>=t&&y<t+h)$$('.nav-list a:not(.nav-cta a)').forEach(a=>{a.style.opacity=a.getAttribute('href')==='#'+s.id?'1':'.35'})})})},{passive:true});
 
-// Newsletter
-window.hn=function(e){e.preventDefault();const b=e.target.querySelector('button'),i=e.target.querySelector('input');
-b.textContent='✓ Subscribed!';b.style.background='var(--green)';i.value='';vib([10,50,10]);
-setTimeout(()=>{b.textContent='Subscribe';b.style.background=''},3e3)};
-
-// Active nav
-let nt=false;
-window.addEventListener('scroll',()=>{if(!nt){requestAnimationFrame(()=>{
-const sy=scrollY+200;
-$$('section[id]').forEach(s=>{const t=s.offsetTop,h=s.offsetHeight,id=s.id;
-if(sy>=t&&sy<t+h)$$('.n-links a:not(.n-cta)').forEach(a=>{
-a.style.opacity=a.getAttribute('href')==='#'+id?'1':'.45'})});nt=false});nt=true}},{passive:true});
-
-// Mobile animations
-if(isMob){
-const mobObs=(sel,props,stagger=.08)=>{$$(sel).forEach((el,i)=>{
-const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){
-Object.assign(el.style,{transition:`all .6s cubic-bezier(.16,1,.3,1) ${i*stagger}s`,opacity:'1',transform:'translateY(0) scale(1) translateX(0)'});vib(4)}})},{threshold:.2});
-Object.assign(el.style,props);obs.observe(el)})};
-mobObs('.ab-f',{opacity:'0',transform:'translateY(20px)'},.1);
-mobObs('.sv-t',{opacity:'0',transform:'translateY(10px) scale(.92)'},.05);
-mobObs('.lo-d',{opacity:'0',transform:'translateX(-20px)'},.08);
-mobObs('.cc-c',{opacity:'0',transform:'translateY(24px) scale(.94)'},.1);
-mobObs('#hl li',{opacity:'0',transform:'translateX(-14px)'},.06);
-mobObs('.ft-g > div',{opacity:'0',transform:'translateY(28px)'},.08);
-mobObs('.st-i',{opacity:'0',transform:'translateY(18px) scale(.92)'},.08);
+// MOBILE STAGGERS
+if(T){const ma=(sel,pr,st=.06)=>{$$(sel).forEach((el,i)=>{Object.assign(el.style,pr);
+new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)Object.assign(el.style,{transition:`all .7s var(--ease-out-expo) ${i*st}s`,opacity:'1',transform:'none'})})},{threshold:.12}).observe(el)})};
+ma('.afeat',{opacity:'0',transform:'translateY(16px)'},.08);
+ma('.sv-tag',{opacity:'0',transform:'translateY(8px) scale(.94)'},.03);
+ma('.loc-row',{opacity:'0',transform:'translateX(-16px)'},.07);
+ma('.cta-c',{opacity:'0',transform:'translateY(20px)'},.09);
+ma('#hList li',{opacity:'0',transform:'translateX(-12px)'},.04);
+ma('.ft-grid>div',{opacity:'0',transform:'translateY(24px)'},.07);
+ma('.stat',{opacity:'0',transform:'translateY(14px)'},.06);
 }
-
-// Logo hover
-$('.n-logo').addEventListener('mouseenter',()=>{$('.n-logo-i').style.transform='rotate(-15deg) scale(1.2)';setTimeout(()=>$('.n-logo-i').style.transform='',400)});
-
-// Scroll-triggered nav logo pulse when returning to top
-let prevY=0;
-window.addEventListener('scroll',()=>{if(scrollY===0&&prevY>50){const l=$('.n-logo-i');l.style.transform='scale(1.3) rotate(10deg)';l.style.transition='transform .4s cubic-bezier(.34,1.56,.64,1)';setTimeout(()=>{l.style.transform='';l.style.transition='transform .3s ease'},400)}prevY=scrollY},{passive:true});
 
 })();
 </script>
