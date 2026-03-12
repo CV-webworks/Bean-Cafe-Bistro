@@ -3,783 +3,870 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Bean Cafe Bistro — East Barnet Village's favourite independent cafe & bistro. Artisan coffee, homemade food, warm welcome.">
-<meta property="og:title" content="Bean Cafe Bistro — East Barnet Village">
-<meta property="og:description" content="Artisan coffee, homemade food & a warm welcome in East Barnet Village.">
+<meta name="description" content="Bean Cafe Bistro — East Barnet Village's favourite independent cafe. Artisan coffee, homemade food, warm welcome.">
+<meta property="og:title" content="Bean Cafe Bistro | East Barnet Village">
+<meta property="og:description" content="Artisan coffee, homemade food & warm welcome in the heart of East Barnet Village. Open 7 days.">
 <meta property="og:image" content="https://i.ibb.co/21nTBsdG/cafe-outside.png">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bean Cafe Bistro | East Barnet Village">
+<meta name="twitter:description" content="Artisan coffee, homemade food & warm welcome in the heart of East Barnet Village.">
+<meta name="twitter:image" content="https://i.ibb.co/21nTBsdG/cafe-outside.png">
+<meta name="theme-color" content="#0C0806">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="canonical" href="https://beancafebistro.co.uk">
 <title>Bean Cafe Bistro | East Barnet Village</title>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Bean Cafe Bistro","image":"https://i.ibb.co/21nTBsdG/cafe-outside.png","address":{"@type":"PostalAddress","streetAddress":"251 East Barnet Road","addressLocality":"London","addressRegion":"Barnet","postalCode":"EN4 8SS","addressCountry":"GB"},"telephone":"+442084418670","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"16:00"}],"servesCuisine":["Coffee","Breakfast","Brunch","Lunch"],"priceRange":"££"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Bean Cafe Bistro","description":"East Barnet Village's favourite independent cafe.","url":"https://beancafebistro.co.uk","image":"https://i.ibb.co/21nTBsdG/cafe-outside.png","address":{"@type":"PostalAddress","streetAddress":"251 East Barnet Road","addressLocality":"London","postalCode":"EN4 8SS","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":51.645,"longitude":-0.163},"telephone":"+442084418670","priceRange":"££","servesCuisine":["British","Cafe","Brunch"],"acceptsReservations":"No","paymentAccepted":"Cash, Credit Card, Contactless","currenciesAccepted":"GBP","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"17:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"16:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"200"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
---bg:#FAF7F2;--bg2:#F3EEE6;--bg3:#EAE3D8;
---ink:#1C1410;--ink2:#3D3530;--ink3:#6B625A;--ink4:#9C958E;
---accent:#B5622A;--accent2:#9A4E1C;--accent3:#D07A3E;--accent4:rgba(181,98,42,.08);
---gold:#C09B50;--gold2:#D4B06A;
---sage:#5A6E4A;--sage2:#6E8558;
---card:#FFFFFF;
---serif:'Cormorant Garamond',Georgia,serif;
---sans:'Inter',system-ui,-apple-system,sans-serif;
+--bg:#FAF8F5;--bg2:#F2EFE9;--bg3:#E8E4DC;--bg4:#DDD8CF;
+--ink:#0C0806;--ink2:#1E1814;--ink3:#4A443D;--ink4:#7D776F;--ink5:#A8A39C;--ink6:#C8C4BE;
+--accent:#C4652A;--accent2:#A8521E;--accent3:#D97B3F;--accent4:#E89456;--accent-bg:rgba(196,101,42,.05);--accent-glow:rgba(196,101,42,.15);
+--gold:#C9A84C;--gold2:#DFC06A;--gold3:#B89235;
+--sage:#5A7247;--sage2:#6E8A59;--sage-bg:rgba(90,114,71,.05);
+--white:#FEFDFB;--card:#FFFFFF;--card2:#FDFCFA;
+--serif:'Playfair Display',Georgia,'Times New Roman',serif;
+--sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
 --hand:'Caveat',cursive;
---ease-out-expo:cubic-bezier(.16,1,.3,1);
---ease-out-quart:cubic-bezier(.25,.46,.45,.94);
---ease-spring:cubic-bezier(.175,.885,.32,1.275)
+--expo:cubic-bezier(.16,1,.3,1);--quart:cubic-bezier(.25,.46,.45,.94);--spring:cubic-bezier(.175,.885,.32,1.275);--silk:cubic-bezier(.22,.61,.36,1);--smooth:cubic-bezier(.4,0,.2,1);--bounce:cubic-bezier(.34,1.56,.64,1);
+--shadow-xs:0 1px 3px rgba(12,8,6,.03);--shadow-sm:0 2px 8px rgba(12,8,6,.04),0 1px 2px rgba(12,8,6,.02);--shadow-md:0 8px 28px rgba(12,8,6,.05),0 2px 6px rgba(12,8,6,.02);--shadow-lg:0 24px 56px rgba(12,8,6,.06),0 4px 12px rgba(12,8,6,.02);--shadow-xl:0 40px 80px rgba(12,8,6,.07),0 8px 20px rgba(12,8,6,.03);--shadow-glow:0 8px 40px rgba(196,101,42,.18);--shadow-gold:0 8px 32px rgba(201,168,76,.12);
+--r-xs:6px;--r-sm:10px;--r-md:14px;--r-lg:18px;--r-xl:24px;--r-2xl:32px;--r-full:100px;
+--space-xs:4px;--space-sm:8px;--space-md:16px;--space-lg:24px;--space-xl:32px;--space-2xl:48px;--space-3xl:64px;--space-4xl:96px
 }
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:var(--sans);color:var(--ink);background:var(--bg);overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-weight:400}
-::selection{background:var(--accent4);color:var(--accent2)}
-h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.1}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:var(--sans);color:var(--ink);background:var(--bg);overflow-x:hidden;line-height:1.7;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-weight:400;font-size:15px;font-feature-settings:'kern'1,'liga'1,'calt'1;letter-spacing:-.005em}
+::selection{background:rgba(196,101,42,.08);color:var(--accent2)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:var(--r-xs)}
 a{text-decoration:none;color:inherit;-webkit-tap-highlight-color:transparent}
-img{max-width:100%;display:block}
-button{font-family:var(--sans);cursor:pointer;border:none;outline:none;-webkit-tap-highlight-color:transparent}
-.w{max-width:1140px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
-::-webkit-scrollbar{width:4px}
-::-webkit-scrollbar-thumb{background:var(--accent);border-radius:4px}
+img{max-width:100%;display:block;height:auto}
+button{font-family:var(--sans);cursor:pointer;border:none;outline:none;background:none;-webkit-tap-highlight-color:transparent}
+ul,ol{list-style:none}
+.w{max-width:1140px;margin:0 auto;padding:0 clamp(20px,5vw,52px)}
+.wn{max-width:1400px;margin:0 auto;padding:0 clamp(20px,5vw,52px)}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--accent);border-radius:8px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 
-/* ========== LOADER ========== */
-#loader{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;pointer-events:none}
-#loader .panel{position:absolute;top:0;width:50%;height:100%;background:var(--ink);transition:transform 1.4s var(--ease-out-expo)}
-#loader .panel-l{left:0}
-#loader .panel-r{right:0}
-#loader.go .panel-l{transform:translateX(-102%)}
-#loader.go .panel-r{transform:translateX(102%)}
-#loader .center{position:relative;z-index:1;text-align:center;color:var(--bg);transition:opacity .5s,transform .5s;display:flex;flex-direction:column;align-items:center}
-#loader.go .center{opacity:0;transform:scale(.92)}
-#loader .l-icon{font-size:40px;margin-bottom:14px;animation:lFloat 2.5s ease-in-out infinite}
-#loader .l-name{font-family:var(--serif);font-size:clamp(24px,5vw,36px);font-weight:300;letter-spacing:.15em;text-transform:uppercase;margin-bottom:4px}
-#loader .l-sub{font-family:var(--hand);font-size:15px;opacity:.4;margin-bottom:28px}
-#loader .l-bar{width:120px;height:1px;background:rgba(250,247,242,.12);overflow:hidden;border-radius:2px}
-#loader .l-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--accent),var(--gold));animation:lFill 2.2s var(--ease-out-quart) forwards}
-#loader .l-pct{font-size:10px;letter-spacing:4px;margin-top:14px;opacity:.3;font-variant-numeric:tabular-nums}
-@keyframes lFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-@keyframes lFill{0%{width:0}70%{width:80%}100%{width:100%}}
+/* ================================================================
+   PRELOADER — CINEMATIC SPLIT WIPE
+   ================================================================ */
+#L{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;pointer-events:all}
+#L .l-half{position:absolute;width:100%;height:50%;background:var(--ink);transition:transform 1.6s var(--expo);will-change:transform}
+#L .l-top{top:0;transform-origin:top}
+#L .l-bot{bottom:0;transform-origin:bottom}
+#L.go .l-top{transform:translateY(-100%)}
+#L.go .l-bot{transform:translateY(100%)}
+#L .lc{position:relative;z-index:2;text-align:center;color:var(--bg);transition:opacity .5s,transform .5s}
+#L.go .lc{opacity:0;transform:scale(.92)}
+#L .li{width:48px;height:48px;margin:0 auto 28px;position:relative;display:flex;align-items:center;justify-content:center}
+#L .li-ring{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(250,248,245,.06)}
+#L .li-ring2{position:absolute;inset:-4px;border-radius:50%;border:1px solid transparent;border-top-color:var(--accent);animation:loaderSpin 1.2s linear infinite}
+#L .li-ring3{position:absolute;inset:-8px;border-radius:50%;border:1px solid transparent;border-bottom-color:var(--gold);animation:loaderSpin 2s linear infinite reverse}
+#L .li-dot{width:6px;height:6px;background:var(--accent);border-radius:50%;box-shadow:0 0 16px rgba(196,101,42,.5);animation:loaderPulse 2s ease-in-out infinite}
+@keyframes loaderSpin{to{transform:rotate(360deg)}}
+@keyframes loaderPulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.3);opacity:.6}}
+#L h2{font-family:var(--serif);font-size:clamp(18px,3.2vw,26px);font-weight:300;letter-spacing:.28em;text-transform:uppercase;margin-bottom:8px}
+#L .l-sub{font-size:10px;opacity:.2;letter-spacing:.22em;text-transform:uppercase;font-weight:500}
+#L .lb{width:140px;height:1px;background:rgba(250,248,245,.04);margin:28px auto 0;overflow:hidden;border-radius:1px;position:relative}
+#L .lf{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--gold));animation:loaderFill 2.4s var(--quart) forwards;border-radius:1px}
+@keyframes loaderFill{to{width:100%}}
+#L .l-dots{display:flex;gap:8px;justify-content:center;margin-top:24px}
+#L .l-dots span{width:3px;height:3px;border-radius:50%;background:rgba(250,248,245,.1);animation:lDotPulse 1.6s ease-in-out infinite}
+#L .l-dots span:nth-child(2){animation-delay:.2s}
+#L .l-dots span:nth-child(3){animation-delay:.4s}
+@keyframes lDotPulse{0%,100%{opacity:.1;transform:scale(.7)}50%{opacity:.5;transform:scale(1.3)}}
 
-/* ========== CURSOR ========== */
-#cursor{position:fixed;pointer-events:none;z-index:9999;mix-blend-mode:difference;display:none}
-#cursor .ring{width:36px;height:36px;border:1px solid rgba(250,247,242,.5);border-radius:50%;transition:width .35s var(--ease-out-expo),height .35s var(--ease-out-expo),opacity .3s}
-#cursor.hover .ring{width:64px;height:64px;opacity:.4}
-#cursor.press .ring{width:28px;height:28px}
-#cursor .dot{position:absolute;top:50%;left:50%;width:4px;height:4px;background:var(--bg);border-radius:50%;transform:translate(-50%,-50%)}
-@media(pointer:fine){#cursor{display:block}}
+/* ================================================================
+   SCROLL PROGRESS — DUAL LINE
+   ================================================================ */
+#prog{position:fixed;top:0;left:0;width:100%;height:2px;z-index:10001;pointer-events:none}
+#prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--gold2),var(--accent3));transition:width .06s linear}
+#prog::after{content:'';position:absolute;top:0;left:0;height:100%;width:var(--prog-w,0%);background:linear-gradient(90deg,var(--accent),var(--gold2));opacity:.3;filter:blur(4px)}
 
-/* ========== PROGRESS ========== */
-#progress{position:fixed;top:0;left:0;height:2px;z-index:10001;pointer-events:none}
-#progress span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--gold2),var(--accent3));box-shadow:0 0 12px rgba(181,98,42,.4)}
+/* ================================================================
+   CURSOR
+   ================================================================ */
+#cur{position:fixed;z-index:9999;pointer-events:none;display:none;mix-blend-mode:difference}
+#cur b{display:block;width:36px;height:36px;border:1px solid rgba(250,248,245,.25);border-radius:50%;transition:width .5s var(--expo),height .5s var(--expo),opacity .3s,border-radius .5s var(--expo),border-color .3s}
+#cur.h b{width:80px;height:80px;opacity:.2;border-radius:var(--r-xl);border-color:rgba(250,248,245,.1)}
+#cur.d b{width:24px;height:24px;transition-duration:.08s}
+#cur .c-dot{position:absolute;top:50%;left:50%;width:4px;height:4px;background:var(--accent);border-radius:50%;transform:translate(-50%,-50%);transition:opacity .3s,transform .3s var(--spring)}
+#cur.h .c-dot{opacity:0;transform:translate(-50%,-50%) scale(0)}
+@media(pointer:fine){#cur{display:block}}
 
-/* ========== NAV ========== */
-header{position:fixed;top:0;left:0;width:100%;z-index:1000;padding:24px 0;transition:padding .5s var(--ease-out-expo)}
-header.fix{padding:12px 0}
-.nav-glass{position:absolute;inset:0;background:rgba(250,247,242,.88);backdrop-filter:blur(40px) saturate(1.6);-webkit-backdrop-filter:blur(40px) saturate(1.6);opacity:0;transition:opacity .5s;border-bottom:1px solid rgba(28,20,16,.04)}
-header.fix .nav-glass{opacity:1}
+/* ================================================================
+   NAVIGATION
+   ================================================================ */
+header{position:fixed;top:0;left:0;width:100%;z-index:1000;transition:padding .6s var(--expo);padding:clamp(18px,3.5vh,32px) 0}
+header.s{padding:8px 0}
+.nav-blur{position:absolute;inset:0;opacity:0;transition:opacity .6s;border-bottom:1px solid rgba(12,8,6,.03)}
+header.s .nav-blur{opacity:1;background:rgba(250,248,245,.88);backdrop-filter:blur(48px) saturate(1.9);-webkit-backdrop-filter:blur(48px) saturate(1.9)}
 header .w{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:1}
-.brand{display:flex;align-items:center;gap:10px}
-.brand-icon{font-size:22px;transition:transform .5s var(--ease-spring)}
-.brand:hover .brand-icon{transform:rotate(-12deg) scale(1.15)}
-.brand-name{font-family:var(--serif);font-size:18px;font-weight:500;color:var(--bg);transition:color .5s;letter-spacing:.02em}
-header.fix .brand-name{color:var(--ink)}
-.nav-list{display:flex;align-items:center;gap:36px;list-style:none}
-.nav-list a{font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:rgba(250,247,242,.7);transition:color .3s;position:relative}
-header.fix .nav-list a{color:var(--ink3)}
-.nav-list a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--accent);transition:width .5s var(--ease-out-expo)}
-.nav-list a:hover::after{width:100%}
-.nav-list a:hover{color:var(--accent)!important}
-.nav-cta a{background:var(--accent)!important;color:var(--bg)!important;padding:10px 22px;border-radius:100px;font-size:11px;letter-spacing:.12em;transition:all .3s!important;box-shadow:0 4px 16px rgba(181,98,42,.2)}
-.nav-cta a::after{display:none!important}
-.nav-cta a:hover{background:var(--accent2)!important;transform:translateY(-2px);box-shadow:0 8px 24px rgba(181,98,42,.25)}
+.logo{display:flex;align-items:center;gap:14px}
+.logo-mark{width:36px;height:36px;border-radius:50%;border:1.5px solid rgba(250,248,245,.2);display:flex;align-items:center;justify-content:center;transition:all .6s var(--spring);position:relative;overflow:hidden}
+header.s .logo-mark{border-color:rgba(12,8,6,.08)}
+.logo-mark::before{content:'';position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 35% 35%,rgba(196,101,42,.12),transparent 65%);opacity:0;transition:opacity .5s}
+.logo:hover .logo-mark::before{opacity:1}
+.logo-mark::after{content:'';width:7px;height:7px;background:var(--accent);border-radius:50%;transition:all .6s var(--spring);box-shadow:0 0 0 rgba(196,101,42,0)}
+.logo:hover .logo-mark::after{transform:scale(1.5);box-shadow:0 0 16px rgba(196,101,42,.4)}
+.logo-name{font-family:var(--serif);font-size:18px;font-weight:400;letter-spacing:.04em;color:var(--bg);transition:color .5s}
+header.s .logo-name{color:var(--ink)}
+.nl{display:flex;align-items:center;gap:clamp(20px,3vw,44px)}
+.nl a{font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,248,245,.45);transition:color .35s;padding:8px 0;position:relative}
+header.s .nl a{color:var(--ink4)}
+.nl a::after{content:'';position:absolute;bottom:2px;left:50%;width:0;height:1px;background:var(--accent);transition:all .5s var(--expo);transform:translateX(-50%)}
+.nl a:hover::after{width:100%}
+.nl a:hover{color:var(--accent)!important}
+.nl-cta a{background:rgba(250,248,245,.06)!important;color:rgba(250,248,245,.85)!important;padding:10px 24px!important;border-radius:var(--r-full);border:1px solid rgba(250,248,245,.08);font-size:10px!important;letter-spacing:.18em!important;backdrop-filter:blur(16px);transition:all .4s var(--expo)!important}
+header.s .nl-cta a{background:var(--ink)!important;border-color:var(--ink)!important;color:var(--bg)!important}
+.nl-cta a::after{display:none!important}
+.nl-cta a:hover{background:var(--accent)!important;border-color:var(--accent)!important;transform:translateY(-2px)!important;box-shadow:var(--shadow-glow)!important}
+.bur{display:none;padding:10px;z-index:1001;flex-direction:column;gap:5px}
+.bur i{display:block;width:22px;height:1.5px;background:var(--bg);border-radius:2px;transition:all .45s var(--expo);transform-origin:center}
+header.s .bur i{background:var(--ink)}
+.bur.on i:first-child{transform:rotate(45deg) translate(4px,4.5px);background:var(--ink)!important}
+.bur.on i:nth-child(2){opacity:0;transform:scaleX(0)}
+.bur.on i:last-child{transform:rotate(-45deg) translate(4px,-4.5px);background:var(--ink)!important}
+@media(max-width:900px){.nl{display:none}.bur{display:flex}}
+.mm{position:fixed;inset:0;z-index:998;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;opacity:0;pointer-events:none;transition:opacity .6s var(--expo)}
+.mm.on{opacity:1;pointer-events:auto}
+.mm a{font-family:var(--serif);font-size:clamp(34px,7.5vw,52px);font-weight:300;color:var(--ink);opacity:0;transform:translateY(40px) rotate(1.5deg);transition:all .65s var(--expo);letter-spacing:.02em;line-height:1.25}
+.mm.on a{opacity:1;transform:none}
+.mm.on a:nth-child(1){transition-delay:.05s}.mm.on a:nth-child(2){transition-delay:.1s}.mm.on a:nth-child(3){transition-delay:.15s}.mm.on a:nth-child(4){transition-delay:.2s}.mm.on a:nth-child(5){transition-delay:.25s}.mm.on a:nth-child(6){transition-delay:.3s}.mm.on a:nth-child(7){transition-delay:.35s}
+.mm a:hover,.mm a:active{color:var(--accent)}
+.mm small{font-family:var(--hand);font-size:18px;color:var(--ink4);margin-top:32px;opacity:0;transition:opacity .5s .4s}
+.mm.on small{opacity:.35}
+@media(max-width:600px){.logo-name{font-size:15px}}
 
-/* BURGER */
-.burger{display:none;padding:10px;background:none;z-index:1001;flex-direction:column;gap:5px}
-.burger span{display:block;width:20px;height:1.5px;background:var(--bg);border-radius:2px;transition:all .4s var(--ease-out-expo);transform-origin:center}
-header.fix .burger span{background:var(--ink)}
-.burger.on span:first-child{transform:rotate(45deg) translate(4px,4.5px);background:var(--ink)!important}
-.burger.on span:nth-child(2){opacity:0;transform:scaleX(0)}
-.burger.on span:last-child{transform:rotate(-45deg) translate(4px,-4.5px);background:var(--ink)!important}
-@media(max-width:900px){.nav-list{display:none}.burger{display:flex}}
-
-/* MOBILE NAV */
-.mnav{position:fixed;inset:0;z-index:998;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;opacity:0;pointer-events:none;transition:opacity .5s var(--ease-out-expo)}
-.mnav.on{opacity:1;pointer-events:auto}
-.mnav a{font-family:var(--serif);font-size:clamp(28px,6vw,42px);font-weight:300;color:var(--ink);opacity:0;transform:translateY(30px);transition:all .6s var(--ease-out-expo);letter-spacing:.04em}
-.mnav.on a{opacity:1;transform:none}
-.mnav.on a:nth-child(1){transition-delay:.05s}
-.mnav.on a:nth-child(2){transition-delay:.1s}
-.mnav.on a:nth-child(3){transition-delay:.15s}
-.mnav.on a:nth-child(4){transition-delay:.2s}
-.mnav.on a:nth-child(5){transition-delay:.25s}
-.mnav.on a:nth-child(6){transition-delay:.3s}
-.mnav.on a:nth-child(7){transition-delay:.35s}
-.mnav a:active{color:var(--accent)}
-.mnav-sub{font-family:var(--hand);font-size:16px;color:var(--ink4);margin-top:20px;opacity:0;transform:translateY(16px);transition:all .5s var(--ease-out-expo) .4s}
-.mnav.on .mnav-sub{opacity:.5;transform:none}
-
-/* ========== HERO ========== */
-.hero{position:relative;min-height:100vh;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden;padding-bottom:clamp(60px,10vh,100px)}
+/* ================================================================
+   HERO — CINEMATIC PARALLAX
+   ================================================================ */
+.hero{position:relative;height:100vh;height:100dvh;min-height:640px;overflow:hidden;display:flex;align-items:flex-end}
 .hero-media{position:absolute;inset:0}
-.hero-media img{width:100%;height:100%;object-fit:cover;will-change:transform}
-.hero-dim{position:absolute;inset:0;background:linear-gradient(175deg,rgba(8,4,0,.7) 0%,rgba(28,20,16,.25) 45%,rgba(8,4,0,.75) 100%)}
-.hero-grain{position:absolute;inset:0;opacity:.025;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-.hero-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.hero-particles i{position:absolute;background:rgba(208,178,120,.12);border-radius:50%;will-change:transform}
+.hero-media img{width:100%;height:100%;object-fit:cover;will-change:transform;transform-origin:center 60%}
+.hero-dim{position:absolute;inset:0;background:linear-gradient(175deg,rgba(6,3,0,.65) 0%,rgba(12,8,6,.08) 30%,rgba(6,3,0,.05) 55%,rgba(6,3,0,.88) 100%)}
+.hero-noise{position:absolute;inset:0;opacity:.018;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");pointer-events:none}
+.hero-vig{position:absolute;inset:0;background:radial-gradient(ellipse at 40% 50%,transparent 40%,rgba(6,3,0,.5) 100%);pointer-events:none}
+.hero .w{position:relative;z-index:2;padding-bottom:clamp(52px,9vh,88px)}
+.hero-col{max-width:640px}
+.hero-tag{font-size:10px;font-weight:600;letter-spacing:.35em;text-transform:uppercase;color:var(--accent3);margin-bottom:clamp(16px,3vh,36px);display:flex;align-items:center;gap:14px}
+.hero-tag::before{content:'';width:32px;height:1px;background:linear-gradient(90deg,var(--accent3),transparent)}
+.hero h1{font-family:var(--serif);font-size:clamp(50px,9.5vw,120px);font-weight:300;color:var(--white);line-height:.9;letter-spacing:-.045em;margin-bottom:clamp(18px,3.5vh,32px)}
+.hero h1 em{font-style:italic;font-weight:400;background:linear-gradient(135deg,var(--accent3) 0%,var(--gold2) 40%,var(--accent4) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% auto;animation:heroShimmer 6s ease-in-out infinite}
+@keyframes heroShimmer{0%,100%{background-position:0% center}50%{background-position:200% center}}
+.hero-p{font-size:clamp(14px,1.4vw,16.5px);color:rgba(250,248,245,.4);line-height:2;max-width:430px;margin-bottom:clamp(32px,5vh,48px);font-weight:300}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:clamp(32px,5vh,56px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:17px 38px;border-radius:var(--r-full);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;transition:all .45s var(--expo);position:relative;overflow:hidden}
+.btn::before{content:'';position:absolute;inset:0;border-radius:inherit;background:linear-gradient(135deg,rgba(255,255,255,.12),transparent 50%);opacity:0;transition:opacity .4s}
+.btn:hover::before{opacity:1}
+.btn-a{background:var(--accent);color:var(--white);box-shadow:0 4px 20px rgba(196,101,42,.15),0 12px 40px rgba(196,101,42,.1),inset 0 1px 0 rgba(255,255,255,.1)}
+.btn-a:hover{background:var(--accent2);transform:translateY(-4px);box-shadow:0 8px 32px rgba(196,101,42,.2),0 20px 56px rgba(196,101,42,.15)}
+.btn-a:active{transform:translateY(-1px)}
+.btn-g{color:rgba(250,248,245,.5);border:1px solid rgba(250,248,245,.08);backdrop-filter:blur(16px)}
+.btn-g:hover{border-color:rgba(250,248,245,.3);color:var(--white);background:rgba(250,248,245,.05);transform:translateY(-4px)}
+.hero-info{display:flex;gap:clamp(20px,3.5vw,44px)}
+.hero-info span{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,248,245,.18);font-weight:500;position:relative;padding-left:16px}
+.hero-info span::before{content:'';position:absolute;left:0;top:50%;width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.3;transform:translateY(-50%)}
+.hero-info span:first-child{padding-left:0}
+.hero-info span:first-child::before{display:none}
+.hero-scroll{position:absolute;right:clamp(20px,4vw,52px);bottom:clamp(28px,5vh,56px);z-index:2;display:flex;flex-direction:column;align-items:center;gap:12px;writing-mode:vertical-rl}
+.hero-scroll span{font-size:8px;letter-spacing:.4em;text-transform:uppercase;color:rgba(250,248,245,.14);font-weight:600}
+.hero-scroll-line{width:1px;height:56px;position:relative;overflow:hidden}
+.hero-scroll-line::after{content:'';position:absolute;left:0;width:100%;height:35%;background:linear-gradient(180deg,transparent,rgba(250,248,245,.35),transparent);animation:scrollBeam 3s ease-in-out infinite}
+@keyframes scrollBeam{0%{top:-35%}100%{top:135%}}
+@media(max-width:600px){.hero-btns{flex-direction:column}.btn{width:100%;justify-content:center}.hero-scroll{display:none}.hero-info span{font-size:9px}}
 
-.hero .w{position:relative;z-index:2;max-width:680px}
-.hero-tag{display:inline-flex;align-items:center;gap:8px;font-size:10px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:rgba(208,122,62,.85);margin-bottom:clamp(20px,3vh,32px)}
-.hero-tag i{width:5px;height:5px;background:var(--accent3);border-radius:50%;animation:tagPulse 2.5s ease-in-out infinite;box-shadow:0 0 6px rgba(181,98,42,.5)}
-@keyframes tagPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.4)}}
-.hero h1{font-size:clamp(44px,8.5vw,96px);font-weight:300;color:var(--bg);letter-spacing:-.035em;margin-bottom:clamp(16px,2.5vh,28px);line-height:1}
-.hero h1 em{font-style:italic;font-weight:400;background:linear-gradient(135deg,var(--accent3),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hero-desc{font-size:clamp(14px,1.6vw,17px);color:rgba(250,247,242,.6);line-height:1.8;margin-bottom:clamp(28px,4vh,44px);max-width:460px;font-weight:300}
-.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:clamp(32px,5vh,52px)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:16px 36px;border-radius:100px;font-size:13px;font-weight:600;letter-spacing:.04em;transition:all .3s var(--ease-out-expo);position:relative;overflow:hidden}
-.btn-accent{background:var(--accent);color:var(--bg);box-shadow:0 8px 28px rgba(181,98,42,.25)}
-.btn-accent:hover{background:var(--accent2);transform:translateY(-3px);box-shadow:0 14px 40px rgba(181,98,42,.3)}
-.btn-glass{color:rgba(250,247,242,.8);border:1px solid rgba(250,247,242,.18);backdrop-filter:blur(16px);background:rgba(250,247,242,.03)}
-.btn-glass:hover{background:rgba(250,247,242,.08);border-color:rgba(250,247,242,.35);transform:translateY(-3px)}
-.hero-meta{display:flex;gap:clamp(16px,3vw,32px);flex-wrap:wrap}
-.hero-meta span{font-size:11px;color:rgba(250,247,242,.35);letter-spacing:.06em;font-weight:400}
+/* ================================================================
+   TICKER
+   ================================================================ */
+.tick{background:var(--ink);padding:15px 0;overflow:hidden;position:relative}
+.tick::before,.tick::after{content:'';position:absolute;top:0;width:100px;height:100%;z-index:2;pointer-events:none}
+.tick::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.tick::after{right:0;background:linear-gradient(-90deg,var(--ink),transparent)}
+.tick-t{display:flex;gap:52px;animation:tickerScroll 50s linear infinite;width:max-content;align-items:center}
+.tick-t span{color:rgba(250,248,245,.16);font-size:10px;font-weight:500;letter-spacing:.25em;text-transform:uppercase;white-space:nowrap}
+.tick-t i{width:4px;height:4px;border-radius:50%;background:var(--accent);opacity:.25;flex-shrink:0}
+@keyframes tickerScroll{to{transform:translateX(-50%)}}
 
-.hero-scroll{position:absolute;bottom:clamp(24px,4vh,40px);left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:10px}
-.hero-scroll span{font-size:8px;letter-spacing:.35em;text-transform:uppercase;color:rgba(250,247,242,.2);font-weight:500}
-.scroll-beam{width:1px;height:44px;position:relative;overflow:hidden}
-.scroll-beam::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:linear-gradient(180deg,transparent,rgba(250,247,242,.35),transparent);animation:beam 2.5s ease-in-out infinite}
-@keyframes beam{0%{top:-100%}100%{top:200%}}
+/* ================================================================
+   FOOD IMAGES
+   ================================================================ */
+.food{background:var(--ink);overflow:hidden}
+.food-g{display:grid;grid-template-columns:1.2fr .8fr 1fr;min-height:clamp(260px,36vw,480px)}
+.food-i{position:relative;overflow:hidden;cursor:crosshair}
+.food-i img{width:100%;height:100%;object-fit:cover;transition:transform 2s var(--expo),filter 1.4s;filter:brightness(.75) saturate(.82) contrast(1.05);will-change:transform}
+.food-i:hover img,.food-i.on img{transform:scale(1.1);filter:brightness(1) saturate(1.05) contrast(1)}
+.food-cap{position:absolute;bottom:0;left:0;width:100%;padding:clamp(24px,3.5vw,48px);background:linear-gradient(0deg,rgba(6,3,0,.95) 0%,rgba(6,3,0,.6) 45%,transparent 100%);opacity:0;transform:translateY(10px);transition:all .9s var(--expo)}
+.food-i:hover .food-cap,.food-i.on .food-cap{opacity:1;transform:none}
+.food-cap h3{font-family:var(--serif);font-size:clamp(18px,2.2vw,30px);font-weight:300;color:var(--white);margin-bottom:4px;letter-spacing:.01em}
+.food-cap p{font-size:11px;color:rgba(250,248,245,.3);letter-spacing:.06em;font-weight:300}
+.food-idx{position:absolute;top:clamp(14px,2vw,28px);right:clamp(14px,2vw,28px);font-family:var(--serif);font-size:clamp(52px,7vw,90px);font-weight:300;color:rgba(250,248,245,.018);line-height:1;letter-spacing:-.04em;pointer-events:none;transition:color .8s}
+.food-i:hover .food-idx{color:rgba(250,248,245,.05)}
+.food-i::after{content:'';position:absolute;inset:0;border:1px solid rgba(250,248,245,.03);pointer-events:none;transition:border-color .6s}
+.food-i:hover::after{border-color:rgba(250,248,245,.08)}
+@media(max-width:768px){.food-g{grid-template-columns:1fr;min-height:auto}.food-i{aspect-ratio:16/9}.food-cap{opacity:1;transform:none}}
 
-@media(max-width:600px){
-.hero{align-items:center;padding-bottom:80px}
-.hero-actions{flex-direction:column}
-.btn{width:100%;justify-content:center}
-}
+/* ================================================================
+   STATS
+   ================================================================ */
+.stats{background:var(--ink);padding:clamp(40px,7vw,72px) 0}
+.stats-g{display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
+.st{padding:20px 0;position:relative}
+.st:not(:last-child)::after{content:'';position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:36px;background:linear-gradient(180deg,transparent,rgba(250,248,245,.04),transparent)}
+.st-v{font-family:var(--serif);font-size:clamp(38px,6.5vw,72px);font-weight:300;line-height:1;margin-bottom:10px;letter-spacing:-.03em;background:linear-gradient(135deg,var(--accent3),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.st-l{font-size:9px;letter-spacing:.35em;text-transform:uppercase;color:rgba(250,248,245,.15);font-weight:500}
+@media(max-width:600px){.stats-g{grid-template-columns:1fr 1fr}.st:nth-child(2)::after{display:none}}
 
-/* ========== SECTIONS ========== */
-.sec{padding:clamp(80px,12vw,140px) 0;position:relative}
-.sec-label{font-size:10px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;display:flex;align-items:center;gap:12px}
-.sec-label::before{content:'';width:16px;height:1px;background:var(--accent)}
-.sec-title{font-size:clamp(32px,5.5vw,58px);font-weight:300;color:var(--ink);margin-bottom:16px;letter-spacing:-.025em}
-.sec-desc{font-size:15px;color:var(--ink3);max-width:480px;line-height:1.85;font-weight:300}
-.sec-head{text-align:center;margin-bottom:clamp(48px,8vw,72px)}
-.sec-head .sec-label{justify-content:center}
-.sec-head .sec-label::after{content:'';width:16px;height:1px;background:var(--accent)}
-.sec-head .sec-desc{margin:0 auto}
-.sec-line{width:40px;height:1px;background:linear-gradient(90deg,var(--accent),var(--gold));margin:18px auto 0;opacity:.4}
+/* ================================================================
+   SECTIONS
+   ================================================================ */
+.sec{padding:clamp(88px,15vw,180px) 0}
+.sec-lab{font-size:10px;font-weight:600;letter-spacing:.35em;text-transform:uppercase;color:var(--accent);margin-bottom:clamp(14px,2.5vw,24px);display:flex;align-items:center;gap:12px}
+.sec-lab::before{content:'';width:20px;height:1px;background:linear-gradient(90deg,var(--accent),transparent)}
+.sec-tt{font-family:var(--serif);font-size:clamp(36px,6.5vw,72px);font-weight:300;color:var(--ink);margin-bottom:clamp(14px,2.5vw,20px);letter-spacing:-.035em;line-height:1.02}
+.sec-desc{font-size:15px;color:var(--ink3);max-width:480px;line-height:1.95;font-weight:300}
+.sec-c{text-align:center;margin-bottom:clamp(52px,9vw,88px)}
+.sec-c .sec-lab{justify-content:center}
+.sec-c .sec-lab::after{content:'';width:20px;height:1px;background:linear-gradient(-90deg,var(--accent),transparent)}
+.sec-c .sec-desc{margin:0 auto}
+.sec-line{width:40px;height:1px;background:linear-gradient(90deg,var(--accent),var(--gold));margin:clamp(16px,2.5vw,24px) auto 0;position:relative}
+.sec-line::after{content:'';position:absolute;top:-2px;left:50%;width:5px;height:5px;border-radius:50%;background:var(--accent);transform:translateX(-50%);opacity:.3}
 
-/* ========== REVEALS ========== */
-.r{opacity:0;transform:translateY(48px);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
-.r.v{opacity:1;transform:none}
-.rl{opacity:0;transform:translateX(-48px);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
-.rl.v{opacity:1;transform:none}
-.rr{opacity:0;transform:translateX(48px);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
-.rr.v{opacity:1;transform:none}
-.rs{opacity:0;transform:scale(.9);transition:opacity 1.1s var(--ease-out-expo),transform 1.1s var(--ease-out-expo)}
-.rs.v{opacity:1;transform:none}
-[data-d="1"]{transition-delay:.07s!important}[data-d="2"]{transition-delay:.14s!important}[data-d="3"]{transition-delay:.21s!important}[data-d="4"]{transition-delay:.28s!important}[data-d="5"]{transition-delay:.35s!important}[data-d="6"]{transition-delay:.42s!important}
+/* ================================================================
+   REVEALS
+   ================================================================ */
+.rv{opacity:0;transform:translate3d(0,64px,0);transition:opacity 1.4s var(--expo),transform 1.4s var(--expo);will-change:opacity,transform}
+.rv.v{opacity:1;transform:none}
+.rv-l{opacity:0;transform:translate3d(-64px,0,0);transition:opacity 1.4s var(--expo),transform 1.4s var(--expo)}
+.rv-l.v{opacity:1;transform:none}
+.rv-r{opacity:0;transform:translate3d(64px,0,0);transition:opacity 1.4s var(--expo),transform 1.4s var(--expo)}
+.rv-r.v{opacity:1;transform:none}
+.rv-s{opacity:0;transform:scale(.88);transition:opacity 1.4s var(--expo),transform 1.4s var(--expo)}
+.rv-s.v{opacity:1;transform:none}
+[data-i="1"]{transition-delay:.07s!important}[data-i="2"]{transition-delay:.14s!important}[data-i="3"]{transition-delay:.21s!important}[data-i="4"]{transition-delay:.28s!important}[data-i="5"]{transition-delay:.35s!important}[data-i="6"]{transition-delay:.42s!important}
 
-/* ========== MARQUEE ========== */
-.ticker{background:var(--ink);padding:14px 0;overflow:hidden;position:relative}
-.ticker::before,.ticker::after{content:'';position:absolute;top:0;width:80px;height:100%;z-index:2}
-.ticker::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
-.ticker::after{right:0;background:linear-gradient(-90deg,var(--ink),transparent)}
-.ticker-track{display:flex;gap:56px;animation:tick 35s linear infinite;width:max-content;align-items:center}
-.ticker-track span{color:rgba(250,247,242,.3);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap}
-.ticker-track i{width:3px;height:3px;border-radius:50%;background:var(--accent);opacity:.5;flex-shrink:0}
-@keyframes tick{to{transform:translateX(-50%)}}
-
-/* ========== GALLERY ========== */
-.gal{background:var(--ink)}
-.gal-grid{display:grid;grid-template-columns:repeat(3,1fr)}
-.gal-item{position:relative;overflow:hidden;aspect-ratio:4/3}
-.gal-item img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease-out-expo),filter .8s;filter:brightness(.82) saturate(.9);will-change:transform}
-.gal-item:hover img,.gal-item.on img{transform:scale(1.1);filter:brightness(1) saturate(1.05)}
-.gal-cap{position:absolute;bottom:0;left:0;width:100%;padding:clamp(20px,4vw,36px) clamp(16px,3vw,28px);background:linear-gradient(0deg,rgba(8,4,0,.88) 0%,transparent 100%);opacity:0;transform:translateY(8px);transition:all .7s var(--ease-out-expo)}
-.gal-item:hover .gal-cap,.gal-item.on .gal-cap{opacity:1;transform:none}
-.gal-cap h3{font-family:var(--serif);font-size:clamp(18px,2.5vw,24px);font-weight:400;color:var(--bg);margin-bottom:4px}
-.gal-cap p{font-size:12px;color:rgba(250,247,242,.45);font-weight:300;letter-spacing:.04em}
-.gal-idx{position:absolute;top:16px;right:20px;font-family:var(--serif);font-size:clamp(36px,5vw,64px);font-weight:300;color:rgba(250,247,242,.03);line-height:1;transition:all .6s var(--ease-out-expo);letter-spacing:-.02em}
-.gal-item:hover .gal-idx,.gal-item.on .gal-idx{color:rgba(250,247,242,.06)}
-@media(max-width:768px){.gal-grid{grid-template-columns:1fr}.gal-item{aspect-ratio:16/9}.gal-cap{opacity:1;transform:none}}
-
-/* ========== STATS ========== */
-.stats{background:var(--ink);padding:clamp(44px,7vw,64px) 0;position:relative;overflow:hidden}
-.stats::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(192,155,80,.02) 1px,transparent 1px);background-size:20px 20px}
-.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;position:relative}
-.stat{padding:20px 0}
-.stat-val{font-family:var(--serif);font-size:clamp(40px,6.5vw,60px);font-weight:300;line-height:1;margin-bottom:10px;background:linear-gradient(135deg,var(--accent3),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-.02em}
-.stat-lbl{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:rgba(250,247,242,.25);font-weight:500}
-@media(max-width:600px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
-
-/* ========== ABOUT ========== */
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,80px);align-items:center}
+/* ================================================================
+   ABOUT
+   ================================================================ */
+.about-g{display:grid;grid-template-columns:5fr 6fr;gap:clamp(44px,8vw,112px);align-items:center}
 .about-vis{position:relative}
-.about-vis img{border-radius:16px;width:100%;height:clamp(320px,40vw,480px);object-fit:cover;box-shadow:0 32px 80px rgba(28,20,16,.1);transition:transform .8s var(--ease-out-expo)}
-.about-vis:hover img{transform:scale(1.015)}
-.about-frame{position:absolute;inset:-12px;border:1px solid rgba(181,98,42,.08);border-radius:22px;pointer-events:none;transition:all .8s var(--ease-out-expo)}
-.about-vis:hover .about-frame{inset:-16px}
-.about-dots{position:absolute;top:-20px;left:-20px;width:64px;height:64px;background-image:radial-gradient(var(--accent) 1px,transparent 1px);background-size:8px 8px;opacity:.08}
-.about-badge{position:absolute;bottom:-14px;right:clamp(16px,3vw,32px);background:var(--card);padding:14px 22px;border-radius:12px;box-shadow:0 12px 40px rgba(28,20,16,.06);display:flex;align-items:center;gap:12px;z-index:2;border:1px solid rgba(28,20,16,.02);transition:transform .5s var(--ease-spring)}
-.about-badge:hover{transform:translateY(-4px)}
-.about-badge span:first-child{font-size:24px}
-.about-badge-text{font-size:11px;font-weight:600;color:var(--ink2)}
-.about-badge-text em{display:block;font-family:var(--hand);font-size:17px;color:var(--accent);font-style:normal}
-.about-info h2{font-size:clamp(30px,4.5vw,48px);font-weight:300;color:var(--ink);margin-bottom:24px;letter-spacing:-.02em}
-.about-info p{color:var(--ink3);margin-bottom:16px;font-size:15px;line-height:1.9;font-weight:300}
+.about-vis img{border-radius:var(--r-lg);width:100%;height:clamp(360px,46vw,560px);object-fit:cover;box-shadow:var(--shadow-xl);transition:transform 1.1s var(--expo);filter:saturate(1.05) contrast(1.02)}
+.about-vis:hover img{transform:scale(1.02)}
+.about-border{position:absolute;inset:-12px;border:1px solid rgba(196,101,42,.05);border-radius:var(--r-xl);pointer-events:none;transition:inset 1s var(--expo)}
+.about-vis:hover .about-border{inset:-18px}
+.about-accent{position:absolute;bottom:-20px;left:-20px;width:100px;height:100px;border-radius:50%;background:radial-gradient(circle,rgba(196,101,42,.06),transparent 70%);pointer-events:none;animation:aboutGlow 4s ease-in-out infinite}
+@keyframes aboutGlow{0%,100%{transform:scale(1);opacity:.6}50%{transform:scale(1.3);opacity:1}}
+.about-dots{position:absolute;top:-20px;left:-20px;display:grid;grid-template-columns:repeat(6,1fr);gap:7px;opacity:.04}
+.about-dots i{width:3px;height:3px;background:var(--accent);border-radius:50%;display:block}
+.about-tag{position:absolute;bottom:-16px;right:clamp(14px,2.5vw,32px);background:var(--card);padding:16px 24px;border-radius:var(--r-md);box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:12px;z-index:2;border:1px solid rgba(12,8,6,.02);font-size:12px;font-weight:500;color:var(--ink2);transition:transform .6s var(--spring)}
+.about-tag:hover{transform:translateY(-6px)}
+.about-tag em{font-family:var(--hand);font-size:18px;color:var(--accent);font-style:normal;font-weight:600;display:block}
+.about-info h2{font-family:var(--serif);font-size:clamp(34px,5vw,56px);font-weight:300;color:var(--ink);margin-bottom:28px;letter-spacing:-.03em;line-height:1.05}
+.about-info p{color:var(--ink3);margin-bottom:18px;font-size:14.5px;line-height:2;font-weight:300}
 .about-info strong{color:var(--ink);font-weight:600}
-.about-feats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:36px}
-.afeat{padding:20px 14px;background:var(--bg2);border-radius:12px;text-align:center;transition:all .3s var(--ease-out-expo);border:1px solid transparent}
-.afeat:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(28,20,16,.04);border-color:var(--accent4)}
-.afeat span{font-size:26px;display:block;margin-bottom:6px;transition:transform .5s var(--ease-spring)}
-.afeat:hover span{transform:scale(1.15) rotate(-6deg)}
-.afeat h4{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink);margin-bottom:2px}
-.afeat p{font-size:10px;color:var(--ink4);line-height:1.4}
-@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:44px}.about-vis img{height:300px}}
-@media(max-width:600px){.about-feats{grid-template-columns:1fr;gap:8px}.afeat{display:flex;align-items:center;gap:12px;text-align:left;padding:14px 16px}.afeat span{margin-bottom:0;font-size:24px}.about-vis img{height:240px}.about-info p{font-size:14px}}
+.about-ft{display:flex;gap:clamp(12px,2vw,20px);margin-top:44px}
+.af{flex:1;padding:clamp(20px,2.5vw,28px) clamp(14px,1.5vw,20px);background:var(--bg2);border-radius:var(--r-md);text-align:center;transition:all .5s var(--expo);border:1px solid transparent;position:relative;overflow:hidden}
+.af::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--accent),var(--gold));transform:scaleX(0);transition:transform .6s var(--expo);transform-origin:left}
+.af:hover::before{transform:scaleX(1)}
+.af:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:rgba(196,101,42,.04);background:var(--card)}
+.af-i{font-size:28px;margin-bottom:10px;display:block;transition:transform .6s var(--spring)}
+.af:hover .af-i{transform:scale(1.18) rotate(-6deg)}
+.af h4{font-size:11px;font-weight:600;color:var(--ink);margin-bottom:3px;letter-spacing:.02em}
+.af p{font-size:10px;color:var(--ink4)}
+@media(max-width:900px){.about-g{grid-template-columns:1fr;gap:52px}.about-vis img{height:320px}}
+@media(max-width:600px){.about-ft{flex-direction:column;gap:8px}.af{display:flex;align-items:center;gap:14px;text-align:left;padding:16px 20px}.af-i{margin-bottom:0;font-size:24px;flex-shrink:0}.about-vis img{height:260px;border-radius:var(--r-md)}.about-info p{font-size:14px}}
 
-/* ========== DIVIDER ========== */
-.divider{height:clamp(220px,30vw,340px);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.divider-bg{position:absolute;inset:-60px;background-size:cover;background-position:center;background-attachment:fixed}
-.divider-ov{position:absolute;inset:0;background:rgba(28,20,16,.72)}
-.divider-text{position:relative;z-index:2;text-align:center;padding:0 24px}
-.divider-text h3{font-family:var(--serif);font-size:clamp(24px,5vw,48px);font-weight:300;color:var(--bg);letter-spacing:-.02em;margin-bottom:8px}
-.divider-text p{font-family:var(--hand);font-size:clamp(16px,3vw,22px);color:rgba(250,247,242,.4)}
-@media(max-width:768px){.divider-bg{background-attachment:scroll}}
+/* ================================================================
+   DIVIDER
+   ================================================================ */
+.dv{height:clamp(240px,32vw,420px);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.dv-bg{position:absolute;inset:-100px;background-size:cover;background-position:center;background-attachment:fixed;transition:transform .1s linear}
+.dv-ov{position:absolute;inset:0;background:rgba(12,8,6,.74);backdrop-filter:blur(1px)}
+.dv-c{position:relative;z-index:2;text-align:center;padding:0 28px}
+.dv-c h3{font-family:var(--serif);font-size:clamp(28px,5.5vw,60px);font-weight:300;color:var(--white);letter-spacing:-.025em;margin-bottom:8px;line-height:1.08}
+.dv-c p{font-family:var(--hand);font-size:clamp(17px,2.8vw,24px);color:rgba(250,248,245,.28)}
+@media(max-width:768px){.dv-bg{background-attachment:scroll;inset:-50px}}
 
-/* ========== HIGHLIGHTS ========== */
-.hl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.hl{background:var(--card);border-radius:16px;padding:clamp(28px,3vw,40px) clamp(22px,2.5vw,32px);transition:all .5s var(--ease-out-expo);border:1px solid rgba(28,20,16,.03);position:relative;overflow:hidden}
-.hl::after{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--sage));transform:scaleX(0);transition:transform .7s var(--ease-out-expo);transform-origin:left}
-.hl:hover::after,.hl.tch::after{transform:scaleX(1)}
-.hl:hover,.hl.tch{transform:translateY(-6px);box-shadow:0 20px 56px rgba(28,20,16,.06)}
-.hl-icon{font-size:36px;margin-bottom:16px;display:inline-block;transition:transform .5s var(--ease-spring)}
-.hl:hover .hl-icon,.hl.tch .hl-icon{transform:scale(1.12) rotate(-5deg)}
-.hl h3{font-family:var(--serif);font-size:20px;font-weight:500;color:var(--ink);margin-bottom:8px}
-.hl p{font-size:13px;color:var(--ink3);line-height:1.65;font-weight:300}
-@media(max-width:768px){.hl-grid{grid-template-columns:1fr 1fr;gap:12px}.hl{padding:24px 18px}}
-@media(max-width:480px){.hl-grid{grid-template-columns:1fr;gap:10px}.hl{display:flex;align-items:flex-start;gap:16px;padding:20px 18px;text-align:left}.hl-icon{margin-bottom:0;font-size:32px;flex-shrink:0}}
+/* ================================================================
+   HIGHLIGHTS
+   ================================================================ */
+.hl-g{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.hl{background:var(--card);border-radius:var(--r-lg);padding:clamp(30px,3.5vw,44px) clamp(24px,2.5vw,32px);transition:all .55s var(--expo);border:1px solid rgba(12,8,6,.02);position:relative;overflow:hidden}
+.hl::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 85% 15%,var(--accent-bg),transparent 45%);opacity:0;transition:opacity .7s}
+.hl:hover::before,.hl.tc::before{opacity:1}
+.hl::after{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--sage));transform:scaleX(0);transition:transform .7s var(--expo);transform-origin:left}
+.hl:hover::after,.hl.tc::after{transform:scaleX(1)}
+.hl:hover,.hl.tc{transform:translateY(-8px);box-shadow:var(--shadow-lg)}
+.hl-i{font-size:34px;margin-bottom:18px;display:block;transition:transform .6s var(--spring)}
+.hl:hover .hl-i,.hl.tc .hl-i{transform:scale(1.15) rotate(-6deg)}
+.hl h3{font-family:var(--serif);font-size:21px;font-weight:500;color:var(--ink);margin-bottom:8px;letter-spacing:-.01em}
+.hl>p{font-size:13px;color:var(--ink3);line-height:1.75;font-weight:300}
+@media(max-width:768px){.hl-g{grid-template-columns:1fr 1fr;gap:12px}.hl{padding:24px 20px}}
+@media(max-width:480px){.hl-g{grid-template-columns:1fr;gap:10px}.hl{display:flex;align-items:flex-start;gap:16px;padding:22px 20px;text-align:left}.hl-i{margin-bottom:0;font-size:28px;flex-shrink:0;padding-top:3px}}
 
-/* ========== MENU ========== */
-.m-tabs{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:clamp(36px,5vw,52px)}
-.m-tab{padding:11px 26px;border-radius:100px;background:var(--bg2);color:var(--ink3);font-weight:500;font-size:12px;letter-spacing:.06em;transition:all .3s var(--ease-out-expo);border:1.5px solid transparent}
-.m-tab.on{background:var(--ink);color:var(--bg);border-color:var(--ink);box-shadow:0 6px 20px rgba(28,20,16,.1)}
-.m-tab:hover:not(.on){background:var(--bg3);transform:translateY(-1px)}
-.m-panel{display:none;animation:panIn .7s var(--ease-out-expo)}
-.m-panel.on{display:block}
-@keyframes panIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-.m-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:860px;margin:0 auto}
-.m-item{display:flex;justify-content:space-between;align-items:flex-start;padding:20px 24px;background:var(--card);border-radius:12px;border:1px solid rgba(28,20,16,.03);transition:all .3s var(--ease-out-expo);gap:16px}
-.m-item:hover,.m-item:active{border-color:rgba(181,98,42,.12);transform:translateX(3px);box-shadow:0 4px 16px rgba(181,98,42,.03)}
-.m-item h4{font-family:var(--serif);font-size:16px;font-weight:500;color:var(--ink);margin-bottom:3px}
-.m-item .desc{font-size:11px;color:var(--ink4);line-height:1.5;font-weight:300}
-.m-price{font-size:14px;font-weight:600;color:var(--accent);white-space:nowrap;letter-spacing:-.02em}
-.m-note{text-align:center;margin-top:32px;font-size:11px;color:var(--ink4);font-style:italic}
-.m-cta{text-align:center;margin-top:40px}
-@media(max-width:700px){.m-grid{grid-template-columns:1fr;gap:8px}}
-@media(max-width:600px){.m-tabs{gap:5px;margin-bottom:28px}.m-tab{padding:10px 18px;font-size:11px}.m-item{padding:16px 18px}}
+/* ================================================================
+   MENU
+   ================================================================ */
+.mtabs{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-bottom:clamp(36px,6vw,60px)}
+.mtab{padding:12px 28px;border-radius:var(--r-full);color:var(--ink4);font-weight:500;font-size:11px;letter-spacing:.1em;text-transform:uppercase;transition:all .4s var(--expo);border:1.5px solid transparent;position:relative}
+.mtab.on{background:var(--ink);color:var(--bg);border-color:var(--ink);box-shadow:0 4px 20px rgba(12,8,6,.12)}
+.mtab:hover:not(.on){color:var(--ink);background:var(--bg2)}
+.mpan{display:none;animation:menuIn .9s var(--expo)}
+.mpan.on{display:block}
+@keyframes menuIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.mgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:880px;margin:0 auto}
+.mitem{display:flex;justify-content:space-between;padding:22px 26px;background:var(--card);border-radius:var(--r-md);border:1px solid rgba(12,8,6,.02);transition:all .4s var(--expo);gap:16px;align-items:flex-start;position:relative;overflow:hidden}
+.mitem::before{content:'';position:absolute;left:0;top:0;width:2px;height:100%;background:var(--accent);transform:scaleY(0);transition:transform .5s var(--expo);transform-origin:bottom}
+.mitem:hover::before{transform:scaleY(1)}
+.mitem:hover{border-color:rgba(196,101,42,.06);transform:translateX(5px);box-shadow:var(--shadow-sm)}
+.mitem h4{font-family:var(--serif);font-size:16px;font-weight:500;color:var(--ink);margin-bottom:4px;letter-spacing:-.01em}
+.mitem .ds{font-size:11px;color:var(--ink5);line-height:1.55;font-weight:300}
+.mpr{font-size:14px;font-weight:600;color:var(--accent);white-space:nowrap;font-variant-numeric:tabular-nums}
+.mnote{text-align:center;margin-top:36px;font-size:10px;color:var(--ink5);letter-spacing:.06em}
+.mcta{text-align:center;margin-top:44px}
+@media(max-width:700px){.mgrid{grid-template-columns:1fr;gap:8px}}
+@media(max-width:600px){.mtabs{gap:4px;margin-bottom:28px}.mtab{padding:10px 20px;font-size:10px}.mitem{padding:18px 20px}.mitem h4{font-size:15px}}
 
-/* ========== HOURS ========== */
-.hrs{max-width:500px;margin:0 auto;background:var(--card);border-radius:24px;padding:clamp(36px,5vw,56px) clamp(28px,4vw,48px);box-shadow:0 20px 64px rgba(28,20,16,.04);border:1px solid rgba(28,20,16,.03);position:relative;overflow:hidden}
-.hrs::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--sage),var(--gold),var(--accent));background-size:200%;animation:hGrad 6s ease-in-out infinite}
-@keyframes hGrad{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
-.hrs-top{text-align:center;margin-bottom:28px}
-.hrs-icon{font-size:40px;display:inline-block;animation:hSwing 5s ease-in-out infinite}
-@keyframes hSwing{0%,100%{transform:rotate(0)}30%{transform:rotate(6deg)}60%{transform:rotate(-6deg)}}
-.hrs-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 16px;border-radius:100px;font-size:11px;font-weight:600;margin-top:12px;letter-spacing:.04em}
-.hrs-badge.open{background:rgba(90,110,74,.06);color:var(--sage);border:1px solid rgba(90,110,74,.1)}
-.hrs-badge.shut{background:var(--accent4);color:var(--accent);border:1px solid rgba(181,98,42,.08)}
-.hrs-dot{width:6px;height:6px;border-radius:50%;animation:hDot 2s ease-in-out infinite}
-.hrs-badge.open .hrs-dot{background:var(--sage);box-shadow:0 0 6px rgba(90,110,74,.4)}
-.hrs-badge.shut .hrs-dot{background:var(--accent);box-shadow:0 0 6px rgba(181,98,42,.4)}
-@keyframes hDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.3)}}
-.hrs-list{list-style:none}
-.hrs-list li{display:flex;justify-content:space-between;padding:12px 16px;border-radius:8px;font-size:13px;transition:padding .3s var(--ease-out-expo)}
-.hrs-list li:nth-child(odd){background:rgba(243,238,230,.5)}
-.hrs-list li.now{background:rgba(181,98,42,.05);border-left:2px solid var(--accent);font-weight:600}
-.hrs-list li:hover{padding-left:20px}
-.hrs-list .dy{font-weight:500;color:var(--ink)}.hrs-list .tm{color:var(--ink3);font-weight:300}
-.hrs-note{text-align:center;margin-top:24px;font-family:var(--hand);font-size:16px;color:var(--accent)}
-@media(max-width:600px){.hrs{padding:28px 20px;border-radius:18px}.hrs-list li{padding:11px 12px;font-size:12px}}
+/* ================================================================
+   HOURS
+   ================================================================ */
+.hcard{max-width:520px;margin:0 auto;background:var(--card);border-radius:var(--r-2xl);padding:clamp(40px,6vw,60px) clamp(30px,5vw,52px);box-shadow:var(--shadow-xl);border:1px solid rgba(12,8,6,.02);position:relative;overflow:hidden}
+.hcard::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent),var(--gold),var(--sage),var(--gold),var(--accent));background-size:200%;animation:hoursGrad 10s ease infinite}
+@keyframes hoursGrad{0%,100%{background-position:0%}50%{background-position:100%}}
+.hcard::after{content:'';position:absolute;top:3px;left:0;width:100%;height:60px;background:linear-gradient(180deg,rgba(196,101,42,.02),transparent);pointer-events:none}
+.hcard-top{text-align:center;margin-bottom:32px}
+.hcard-badge{display:inline-flex;align-items:center;gap:9px;padding:8px 20px;border-radius:var(--r-full);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-top:8px;transition:transform .3s var(--spring)}
+.hcard-badge:hover{transform:scale(1.05)}
+.hcard-badge.op{background:var(--sage-bg);color:var(--sage);border:1px solid rgba(90,114,71,.08)}
+.hcard-badge.cl{background:var(--accent-bg);color:var(--accent);border:1px solid rgba(196,101,42,.06)}
+.hcard-badge i{width:6px;height:6px;border-radius:50%;animation:statusDot 2.2s ease-in-out infinite;display:block}
+.hcard-badge.op i{background:var(--sage);box-shadow:0 0 10px rgba(90,114,71,.45)}
+.hcard-badge.cl i{background:var(--accent);box-shadow:0 0 10px rgba(196,101,42,.45)}
+@keyframes statusDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.15;transform:scale(.2)}}
+.hcard ul{list-style:none}
+.hcard li{display:flex;justify-content:space-between;padding:13px 18px;border-radius:var(--r-sm);font-size:13.5px;transition:all .35s var(--expo)}
+.hcard li:nth-child(odd){background:rgba(242,239,233,.6)}
+.hcard li.now{background:rgba(196,101,42,.04);border-left:2.5px solid var(--accent);font-weight:600}
+.hcard li:hover{padding-left:22px;background:rgba(196,101,42,.03)}
+.hcard .dy{font-weight:500;color:var(--ink)}.hcard .tm{color:var(--ink3);font-weight:300;font-variant-numeric:tabular-nums}
+.hcard-note{text-align:center;margin-top:28px;font-family:var(--hand);font-size:18px;color:var(--accent)}
+@media(max-width:600px){.hcard{padding:32px 24px;border-radius:var(--r-xl)}.hcard li{font-size:12.5px;padding:11px 14px}}
 
-/* ========== TESTIMONIALS ========== */
+/* ================================================================
+   TESTIMONIALS
+   ================================================================ */
 .test{overflow:hidden}
-.test-wrap{overflow:hidden;padding:20px 0;position:relative}
-.test-wrap::before,.test-wrap::after{content:'';position:absolute;top:0;width:clamp(60px,10vw,140px);height:100%;z-index:3;pointer-events:none}
-.test-wrap::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
-.test-wrap::after{right:0;background:linear-gradient(-90deg,var(--bg),transparent)}
-.test-track{display:flex;gap:20px;animation:tScroll 50s linear infinite;width:max-content}
-.test-track:hover{animation-play-state:paused}
-@keyframes tScroll{to{transform:translateX(-50%)}}
-.tc{flex-shrink:0;width:clamp(300px,35vw,400px);background:var(--card);border-radius:16px;padding:clamp(24px,3vw,34px);box-shadow:0 4px 20px rgba(28,20,16,.03);border:1px solid rgba(28,20,16,.02);transition:all .5s var(--ease-out-expo)}
-.tc:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(28,20,16,.06)}
-.tc-stars{color:var(--gold);font-size:13px;margin-bottom:14px;letter-spacing:3px}
-.tc-quote{font-size:13px;line-height:1.85;color:var(--ink3);font-style:italic;margin-bottom:20px;font-weight:300;position:relative;padding-left:14px}
-.tc-quote::before{content:'';position:absolute;left:0;top:3px;width:2px;height:calc(100% - 6px);background:linear-gradient(180deg,var(--accent),var(--gold));border-radius:2px;opacity:.2}
-.tc-who{display:flex;align-items:center;gap:10px}
-.tc-av{width:36px;height:36px;border-radius:50%;background:var(--bg2);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:16px;font-weight:500;color:var(--accent)}
-.tc-info h4{font-size:13px;font-weight:600;color:var(--ink)}
-.tc-info p{font-size:10px;color:var(--ink4)}
+.test-w{overflow:hidden;padding:24px 0;position:relative}
+.test-w::before,.test-w::after{content:'';position:absolute;top:0;width:clamp(48px,12vw,160px);height:100%;z-index:3;pointer-events:none}
+.test-w::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+.test-w::after{right:0;background:linear-gradient(-90deg,var(--bg),transparent)}
+.test-t{display:flex;gap:20px;animation:testiSlide 65s linear infinite;width:max-content}
+.test-t:hover{animation-play-state:paused}
+@keyframes testiSlide{to{transform:translateX(-50%)}}
+.tcard{flex-shrink:0;width:clamp(290px,28vw,400px);background:var(--card);border-radius:var(--r-lg);padding:clamp(26px,3vw,36px);box-shadow:var(--shadow-sm);border:1px solid rgba(12,8,6,.02);transition:all .55s var(--expo);position:relative;overflow:hidden}
+.tcard::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity .5s}
+.tcard:hover::before{opacity:1}
+.tcard:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.tcard-stars{font-size:11px;margin-bottom:16px;letter-spacing:5px;color:var(--gold)}
+.tcard-q{font-size:13.5px;line-height:1.95;color:var(--ink3);font-style:italic;margin-bottom:22px;font-weight:300;padding-left:16px;border-left:2px solid rgba(196,101,42,.06);position:relative}
+.tcard-q::before{content:'"';position:absolute;top:-6px;left:16px;font-family:var(--serif);font-size:36px;color:rgba(196,101,42,.06);line-height:1}
+.tcard-who{display:flex;align-items:center;gap:12px}
+.tcard-av{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--bg2),var(--bg3));display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:16px;font-weight:500;color:var(--accent)}
+.tcard-name{font-size:12px;font-weight:600;color:var(--ink)}
+.tcard-src{font-size:9px;color:var(--ink5);letter-spacing:.06em}
 
-/* ========== SERVICES ========== */
-.sv-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
-.sv-cat h3{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--ink);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--accent);display:inline-block;font-family:var(--sans)}
-.sv-tags{display:flex;flex-wrap:wrap;gap:6px}
-.sv-tag{padding:8px 14px;background:var(--card);border-radius:100px;font-size:11px;font-weight:500;color:var(--ink3);border:1px solid rgba(28,20,16,.04);transition:all .3s var(--ease-out-expo)}
-.sv-tag:hover,.sv-tag:active{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-@media(max-width:900px){.sv-grid{grid-template-columns:repeat(2,1fr);gap:24px}}
-@media(max-width:500px){.sv-grid{grid-template-columns:1fr;gap:24px}}
+/* ================================================================
+   SERVICES
+   ================================================================ */
+.sv-g{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(24px,3.5vw,44px)}
+.sv-c h3{font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--ink2);margin-bottom:16px;padding-bottom:10px;border-bottom:1.5px solid var(--accent);display:inline-block}
+.sv-tags{display:flex;flex-wrap:wrap;gap:7px}
+.sv-t{padding:9px 16px;background:var(--card);border-radius:var(--r-full);font-size:11px;font-weight:500;color:var(--ink3);border:1px solid rgba(12,8,6,.03);transition:all .4s var(--expo);position:relative;overflow:hidden}
+.sv-t::before{content:'';position:absolute;inset:0;background:var(--accent-bg);opacity:0;transition:opacity .4s;border-radius:inherit}
+.sv-t:hover::before{opacity:1}
+.sv-t:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+@media(max-width:900px){.sv-g{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:480px){.sv-g{grid-template-columns:1fr;gap:28px}}
 
-/* ========== LOCATION ========== */
-.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,56px);align-items:stretch}
-.loc-map{border-radius:16px;overflow:hidden;box-shadow:0 16px 56px rgba(28,20,16,.06);min-height:clamp(300px,35vw,440px);border:1px solid rgba(28,20,16,.03)}
-.loc-map iframe{width:100%;height:100%;min-height:clamp(300px,35vw,440px);border:none}
+/* ================================================================
+   LOCATION
+   ================================================================ */
+.loc-g{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,64px);align-items:stretch}
+.loc-map{border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--shadow-xl);min-height:clamp(300px,34vw,480px);border:1px solid rgba(12,8,6,.03);position:relative}
+.loc-map::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(12,8,6,.04);pointer-events:none;z-index:1}
+.loc-map iframe{width:100%;height:100%;min-height:clamp(300px,34vw,480px);border:none}
 .loc-info{display:flex;flex-direction:column;justify-content:center}
-.loc-row{display:flex;gap:14px;padding:18px 0;border-bottom:1px solid rgba(28,20,16,.04);transition:padding .3s var(--ease-out-expo)}
-.loc-row:hover{padding-left:6px}
-.loc-row:last-of-type{border:none}
-.loc-ic{font-size:18px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:var(--bg2);border-radius:12px;flex-shrink:0;transition:all .3s var(--ease-out-expo)}
-.loc-row:hover .loc-ic{background:var(--accent4);transform:rotate(-3deg)}
-.loc-txt h4{font-size:13px;font-weight:600;color:var(--ink);margin-bottom:2px;font-family:var(--sans)}
-.loc-txt p{font-size:12px;color:var(--ink3);line-height:1.6;font-weight:300}
-.loc-txt a{color:var(--accent);font-weight:500}
-.loc-cta{margin-top:28px}
-.btn-dark{background:var(--ink);color:var(--bg);padding:16px 34px;border-radius:100px;font-weight:600;font-size:13px;letter-spacing:.04em;display:inline-flex;align-items:center;gap:8px;transition:all .3s var(--ease-out-expo);box-shadow:0 8px 24px rgba(28,20,16,.08)}
-.btn-dark:hover{background:var(--ink2);transform:translateY(-3px);box-shadow:0 14px 36px rgba(28,20,16,.12)}
-@media(max-width:900px){.loc-grid{grid-template-columns:1fr;gap:32px}}
-@media(max-width:600px){.btn-dark{width:100%;justify-content:center}}
+.loc-r{display:flex;gap:18px;padding:20px 0;border-bottom:1px solid rgba(12,8,6,.03);transition:all .35s var(--expo)}
+.loc-r:hover{padding-left:10px}
+.loc-r:last-of-type{border:none}
+.loc-i{width:48px;height:48px;border-radius:var(--r-md);background:var(--bg2);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px;transition:all .45s var(--expo)}
+.loc-r:hover .loc-i{background:var(--accent-bg);transform:rotate(-5deg) scale(1.06)}
+.loc-t h4{font-size:12px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.loc-t p{font-size:12.5px;color:var(--ink3);line-height:1.65;font-weight:300}
+.loc-t a{color:var(--accent);font-weight:500;transition:color .3s}
+.loc-t a:hover{color:var(--accent2)}
+.loc-cta{margin-top:32px}
+.btn-d{background:var(--ink);color:var(--bg);padding:17px 36px;border-radius:var(--r-full);font-weight:600;font-size:12px;letter-spacing:.07em;text-transform:uppercase;display:inline-flex;align-items:center;gap:10px;transition:all .45s var(--expo);box-shadow:0 6px 28px rgba(12,8,6,.12);position:relative;overflow:hidden}
+.btn-d::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.06),transparent 50%);opacity:0;transition:opacity .4s}
+.btn-d:hover::before{opacity:1}
+.btn-d:hover{background:var(--ink2);transform:translateY(-4px);box-shadow:0 16px 48px rgba(12,8,6,.18)}
+@media(max-width:900px){.loc-g{grid-template-columns:1fr;gap:36px}}
+@media(max-width:600px){.btn-d{width:100%;justify-content:center}}
 
-/* ========== CTA ========== */
-.cta{position:relative;padding:clamp(80px,12vw,130px) 0;overflow:hidden}
-.cta-bg{position:absolute;inset:0;background:linear-gradient(160deg,var(--ink),#0A0400)}
-.cta-dots{position:absolute;inset:0;background-image:radial-gradient(rgba(192,155,80,.03) 1px,transparent 1px);background-size:22px 22px}
+/* ================================================================
+   CTA
+   ================================================================ */
+.cta{position:relative;padding:clamp(88px,15vw,180px) 0;overflow:hidden}
+.cta-bg{position:absolute;inset:0;background:linear-gradient(168deg,var(--ink) 0%,#050200 60%,#0A0604 100%)}
+.cta-pat{position:absolute;inset:0;background-image:radial-gradient(rgba(201,168,76,.012) 1px,transparent 1px);background-size:24px 24px}
+.cta-glow{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);width:700px;height:700px;background:radial-gradient(circle,rgba(196,101,42,.035),transparent 55%);pointer-events:none;animation:ctaGlow 8s ease-in-out infinite}
+@keyframes ctaGlow{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.8}50%{transform:translate(-50%,-50%) scale(1.2);opacity:1}}
+.cta-glow2{position:absolute;top:60%;left:30%;width:400px;height:400px;background:radial-gradient(circle,rgba(201,168,76,.025),transparent 55%);pointer-events:none;animation:ctaGlow 12s ease-in-out infinite reverse}
 .cta .w{position:relative;z-index:2;text-align:center}
-.cta h2{font-family:var(--serif);font-size:clamp(34px,6vw,60px);font-weight:300;color:var(--bg);margin-bottom:16px;letter-spacing:-.02em}
-.cta-desc{font-size:16px;color:rgba(250,247,242,.45);max-width:460px;margin:0 auto 48px;line-height:1.8;font-weight:300}
-.cta-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:720px;margin:0 auto 44px}
-.cta-c{background:rgba(250,247,242,.03);backdrop-filter:blur(20px);border:1px solid rgba(250,247,242,.04);border-radius:16px;padding:28px 20px;transition:all .4s var(--ease-out-expo)}
-.cta-c:hover{transform:translateY(-6px);border-color:rgba(250,247,242,.1);box-shadow:0 12px 40px rgba(0,0,0,.2)}
-.cta-c span:first-child{font-size:30px;display:block;margin-bottom:14px}
-.cta-c h3{font-family:var(--serif);font-size:18px;font-weight:400;color:var(--bg);margin-bottom:6px}
-.cta-c p{font-size:12px;color:rgba(250,247,242,.35);font-weight:300}
+.cta h2{font-family:var(--serif);font-size:clamp(38px,7.5vw,76px);font-weight:300;color:var(--white);margin-bottom:18px;letter-spacing:-.035em;line-height:1.03}
+.cta-p{font-size:15.5px;color:rgba(250,248,245,.3);max-width:480px;margin:0 auto 56px;line-height:1.95;font-weight:300}
+.cta-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:760px;margin:0 auto 48px}
+.cta-c{background:rgba(250,248,245,.015);border:1px solid rgba(250,248,245,.03);border-radius:var(--r-xl);padding:36px 22px;transition:all .55s var(--expo);text-align:center;position:relative;overflow:hidden}
+.cta-c::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(196,101,42,.05),transparent 60%);opacity:0;transition:opacity .6s}
+.cta-c:hover::before{opacity:1}
+.cta-c:hover{transform:translateY(-8px);border-color:rgba(250,248,245,.08);box-shadow:0 20px 56px rgba(0,0,0,.3)}
+.cta-c .ci{font-size:32px;margin-bottom:16px;display:block;transition:transform .6s var(--spring)}
+.cta-c:hover .ci{transform:scale(1.12) rotate(-4deg)}
+.cta-c h3{font-family:var(--serif);font-size:19px;font-weight:400;color:var(--white);margin-bottom:6px}
+.cta-c p{font-size:11.5px;color:rgba(250,248,245,.22);font-weight:300}
 .cta-c a{color:var(--accent3);font-weight:500}
-@media(max-width:700px){.cta-cards{grid-template-columns:1fr;max-width:320px;gap:12px}}
+@media(max-width:700px){.cta-cards{grid-template-columns:1fr;max-width:340px;gap:12px}}
 
-/* ========== FOOTER ========== */
-footer{background:linear-gradient(180deg,var(--ink),#060300);color:var(--bg);padding:clamp(48px,7vw,72px) 0 0}
-footer::before{content:'';display:block;width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(181,98,42,.15),transparent);position:absolute;top:0;left:0}
-footer{position:relative}
-.ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(250,247,242,.04)}
-.ft-brand .brand-name{color:var(--bg)!important;font-size:20px}
-.ft-brand>p{font-size:12px;opacity:.35;margin-top:12px;line-height:1.8;font-weight:300}
-.ft-soc{display:flex;gap:8px;margin-top:16px}
-.ft-soc a{width:34px;height:34px;border-radius:50%;background:rgba(250,247,242,.04);display:flex;align-items:center;justify-content:center;font-size:14px;transition:all .3s var(--ease-out-expo)}
-.ft-soc a:hover{background:var(--accent);transform:translateY(-2px)}
-footer h4{font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;margin-bottom:16px;color:rgba(250,247,242,.5);font-family:var(--sans)}
-.ft-links{list-style:none}
-.ft-links li{margin-bottom:8px}
-.ft-links a{font-size:12px;opacity:.35;transition:all .3s;font-weight:300}
-.ft-links a:hover{opacity:.9;color:var(--accent3);padding-left:4px}
-.ft-contact{display:flex;gap:8px;align-items:flex-start;margin-bottom:10px;font-size:12px;opacity:.4;font-weight:300}
-.ft-nl p{font-size:12px;opacity:.35;margin-bottom:12px;font-weight:300}
-.ft-form{display:flex;gap:6px}
-.ft-form input{flex:1;padding:12px 16px;border-radius:100px;border:1px solid rgba(250,247,242,.06);background:rgba(250,247,242,.03);color:var(--bg);font-family:var(--sans);font-size:12px;outline:none;transition:border-color .3s;min-width:0}
-.ft-form input:focus{border-color:var(--accent)}
-.ft-form input::placeholder{color:rgba(250,247,242,.2)}
-.ft-form button{padding:12px 20px;border-radius:100px;background:var(--accent);color:var(--bg);font-weight:600;font-size:12px;transition:all .3s;white-space:nowrap}
-.ft-form button:hover{background:var(--accent2)}
-.ft-bottom{display:flex;justify-content:space-between;align-items:center;padding:20px 0;font-size:10px;opacity:.25}
+/* ================================================================
+   FOOTER
+   ================================================================ */
+footer{background:linear-gradient(180deg,var(--ink),#020100);color:var(--bg);padding:clamp(56px,9vw,84px) 0 0;position:relative}
+footer::before{content:'';position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,transparent 5%,rgba(196,101,42,.08) 50%,transparent 95%)}
+.ft-g{display:grid;grid-template-columns:2.2fr 1fr 1fr 1.6fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(250,248,245,.025)}
+.ft-brand .logo-name{color:var(--bg)!important;font-size:19px}
+.ft-brand>p{font-size:12.5px;opacity:.22;margin-top:16px;line-height:1.9;font-weight:300}
+.ft-soc{display:flex;gap:10px;margin-top:20px}
+.ft-soc a{width:36px;height:36px;border-radius:50%;background:rgba(250,248,245,.025);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;transition:all .4s var(--expo);border:1px solid rgba(250,248,245,.03)}
+.ft-soc a:hover{background:var(--accent);border-color:var(--accent);transform:translateY(-3px);box-shadow:0 8px 24px rgba(196,101,42,.2)}
+footer h4{font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;margin-bottom:18px;color:rgba(250,248,245,.3)}
+.ft-lk li{margin-bottom:9px}
+.ft-lk a{font-size:12.5px;opacity:.22;transition:all .35s;font-weight:300}
+.ft-lk a:hover{opacity:.8;color:var(--accent3);padding-left:6px}
+.ft-ct{display:flex;gap:8px;align-items:flex-start;margin-bottom:14px;font-size:12.5px;opacity:.25;font-weight:300}
+.ft-nl p{font-size:11.5px;opacity:.22;margin-bottom:16px;font-weight:300}
+.ft-fm{display:flex;gap:8px}
+.ft-fm input{flex:1;padding:13px 20px;border-radius:var(--r-full);border:1px solid rgba(250,248,245,.04);background:rgba(250,248,245,.02);color:var(--bg);font-family:var(--sans);font-size:12px;outline:none;transition:all .35s;min-width:0}
+.ft-fm input:focus{border-color:var(--accent);background:rgba(250,248,245,.04)}
+.ft-fm input::placeholder{color:rgba(250,248,245,.1)}
+.ft-fm button{padding:13px 24px;border-radius:var(--r-full);background:var(--accent);color:var(--bg);font-weight:600;font-size:11px;letter-spacing:.05em;transition:all .35s;white-space:nowrap}
+.ft-fm button:hover{background:var(--accent2);transform:translateY(-1px)}
+.ft-btm{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:10px;opacity:.15}
 .ft-love{font-family:var(--hand);font-size:15px;opacity:1}
-@media(max-width:900px){.ft-grid{grid-template-columns:1fr 1fr;gap:28px}}
-@media(max-width:600px){.ft-grid{grid-template-columns:1fr;gap:24px}.ft-bottom{flex-direction:column;gap:6px;text-align:center}.ft-form{flex-direction:column}.ft-form button{width:100%;padding:14px}}
+@media(max-width:900px){.ft-g{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:600px){.ft-g{grid-template-columns:1fr;gap:24px}.ft-btm{flex-direction:column;gap:8px;text-align:center}.ft-fm{flex-direction:column}.ft-fm button{width:100%;padding:14px}}
 
-/* BTT */
-.btt{position:fixed;bottom:clamp(16px,3vw,24px);right:clamp(16px,3vw,24px);width:42px;height:42px;border-radius:50%;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:center;font-size:14px;z-index:900;opacity:0;transform:translateY(16px);transition:all .4s var(--ease-out-expo);box-shadow:0 6px 20px rgba(28,20,16,.1);border:1px solid rgba(250,247,242,.04)}
-.btt.show{opacity:1;transform:none}
-.btt:hover{background:var(--accent);transform:translateY(-3px)}
+/* ================================================================
+   BTT & MISC
+   ================================================================ */
+.btt{position:fixed;bottom:clamp(16px,3vw,28px);right:clamp(16px,3vw,28px);width:46px;height:46px;border-radius:50%;background:var(--ink);color:var(--bg);display:flex;align-items:center;justify-content:center;font-size:14px;z-index:900;opacity:0;transform:translateY(16px) scale(.9);transition:all .55s var(--expo);box-shadow:0 4px 24px rgba(12,8,6,.12);border:1px solid rgba(250,248,245,.04)}
+.btt.v{opacity:1;transform:none}
+.btt:hover{background:var(--accent);transform:translateY(-4px);box-shadow:var(--shadow-glow)}
+.btn-o{background:transparent;color:var(--ink);border:1.5px solid rgba(12,8,6,.08);padding:14px 30px;border-radius:var(--r-full);font-weight:600;font-size:11px;letter-spacing:.1em;text-transform:uppercase;transition:all .45s var(--expo);display:inline-flex;align-items:center;gap:8px}
+.btn-o:hover{border-color:var(--ink);background:var(--ink);color:var(--bg);transform:translateY(-3px);box-shadow:0 8px 28px rgba(12,8,6,.1)}
+@media(max-width:900px){.btn:active,.mitem:active,.hl:active,.sv-t:active,.cta-c:active,.af:active,.loc-r:active{transform:scale(.96)!important;transition-duration:.08s!important}}
 
-/* OUTLINE BTN */
-.btn-ol{background:transparent;color:var(--ink);border:1.5px solid rgba(28,20,16,.15);padding:13px 28px;border-radius:100px;font-weight:600;font-size:12px;letter-spacing:.06em;transition:all .3s var(--ease-out-expo);display:inline-flex;align-items:center;gap:6px}
-.btn-ol:hover{border-color:var(--ink);background:var(--ink);color:var(--bg);transform:translateY(-2px)}
+/* ================================================================
+   GRAIN OVERLAY
+   ================================================================ */
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9998;opacity:.012;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 
-/* TOUCH */
-@media(max-width:900px){
-.btn:active{transform:scale(.96)!important}
-.m-item:active{transform:scale(.98)!important}
-.hl:active{transform:scale(.97)!important}
-.sv-tag:active{transform:scale(.94)!important}
-.cta-c:active{transform:scale(.96)!important}
-}
+/* ================================================================
+   PRINT
+   ================================================================ */
+@media print{header,.hero-scroll,.tick,.btt,#prog,#cur,#L,.cta,.test,.dv,.food,.stats,footer,.grain{display:none!important}body{background:white;color:black;font-size:12pt}.sec{padding:20pt 0;break-inside:avoid}.about-g,.loc-g{grid-template-columns:1fr}.mgrid{grid-template-columns:1fr}.hcard{box-shadow:none;border:1pt solid #ccc}}
 </style>
 </head>
 <body>
-<div id="progress"><span></span></div>
-<div id="cursor"><div class="ring"></div><div class="dot"></div></div>
 
-<div id="loader">
-<div class="panel panel-l"></div>
-<div class="panel panel-r"></div>
-<div class="center">
-<div class="l-icon">☕</div>
-<div class="l-name">Bean Cafe Bistro</div>
-<div class="l-sub">East Barnet Village</div>
-<div class="l-bar"><div class="l-fill"></div></div>
-<div class="l-pct" id="pct">0%</div>
+<div class="grain" aria-hidden="true"></div>
+<div id="prog" role="progressbar" aria-label="Scroll progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><i></i></div>
+<div id="cur" aria-hidden="true"><b></b><span class="c-dot"></span></div>
+
+<div id="L" role="status" aria-label="Loading">
+<div class="l-half l-top"></div>
+<div class="l-half l-bot"></div>
+<div class="lc">
+<div class="li"><div class="li-ring"></div><div class="li-ring2"></div><div class="li-ring3"></div><div class="li-dot"></div></div>
+<h2>Bean Cafe Bistro</h2>
+<p class="l-sub">East Barnet Village</p>
+<div class="lb"><div class="lf"></div></div>
+<div class="l-dots"><span></span><span></span><span></span></div>
 </div>
 </div>
 
-<header id="hdr">
-<div class="nav-glass"></div>
+<header id="H" role="banner">
+<div class="nav-blur" aria-hidden="true"></div>
 <div class="w">
-<a href="#top" class="brand"><span class="brand-icon">☕</span><span class="brand-name">Bean Cafe Bistro</span></a>
-<ul class="nav-list">
+<a href="#top" class="logo" aria-label="Bean Cafe Bistro — Home"><div class="logo-mark" aria-hidden="true"></div><span class="logo-name">Bean Cafe Bistro</span></a>
+<nav aria-label="Primary navigation"><ul class="nl">
 <li><a href="#top">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#menu">Menu</a></li>
 <li><a href="#hours">Hours</a></li>
 <li><a href="#find">Find Us</a></li>
-<li class="nav-cta"><a href="tel:02084418670">Call Us</a></li>
-</ul>
-<button class="burger" id="burg" aria-label="Menu"><span></span><span></span><span></span></button>
+<li class="nl-cta"><a href="tel:02084418670" aria-label="Call Bean Cafe Bistro">Call Us</a></li>
+</ul></nav>
+<button class="bur" id="B" aria-label="Toggle menu" aria-expanded="false" aria-controls="M"><i aria-hidden="true"></i><i aria-hidden="true"></i><i aria-hidden="true"></i></button>
 </div>
 </header>
 
-<div class="mnav" id="mnav">
-<a href="#top" class="ml">Home</a>
-<a href="#about" class="ml">About</a>
-<a href="#menu" class="ml">Menu</a>
-<a href="#hours" class="ml">Hours</a>
-<a href="#find" class="ml">Find Us</a>
-<a href="#contact" class="ml">Contact</a>
-<a href="tel:02084418670" class="ml" style="color:var(--accent)">020 8441 8670</a>
-<div class="mnav-sub">East Barnet Village · Open 7 Days</div>
-</div>
+<nav class="mm" id="M" role="navigation" aria-label="Mobile navigation" aria-hidden="true">
+<a href="#top" class="ml">Home</a><a href="#about" class="ml">About</a><a href="#menu" class="ml">Menu</a><a href="#hours" class="ml">Hours</a><a href="#find" class="ml">Find Us</a><a href="#contact" class="ml">Contact</a><a href="tel:02084418670" class="ml" style="color:var(--accent)">020 8441 8670</a>
+<small aria-hidden="true">East Barnet Village · Open 7 Days</small>
+</nav>
 
-<section class="hero" id="top">
-<div class="hero-media"><img src="https://i.ibb.co/21nTBsdG/cafe-outside.png" alt="Bean Cafe Bistro" id="hImg"></div>
-<div class="hero-dim"></div>
-<div class="hero-grain"></div>
-<div class="hero-particles" id="parts"></div>
-<div class="w">
-<div class="hero-tag"><i></i>East Barnet Village's Favourite</div>
-<h1>Where Every Cup<br>Tells a <em id="hWord">Story</em></h1>
-<p class="hero-desc">Artisan coffee, freshly baked goods & homemade bistro classics in the heart of East Barnet. Pull up a chair — your table's waiting.</p>
-<div class="hero-actions">
-<a href="#menu" class="btn btn-accent mag">☕ View Our Menu</a>
-<a href="#find" class="btn btn-glass mag">📍 Find Us</a>
-</div>
-<div class="hero-meta">
-<span>⭐ Highly Rated</span>
-<span>📍 East Barnet</span>
-<span>♿ Accessible</span>
-</div>
-</div>
-<div class="hero-scroll"><span>Scroll</span><div class="scroll-beam"></div></div>
+<section class="hero" id="top" aria-label="Welcome">
+<div class="hero-media" aria-hidden="true"><img src="https://i.ibb.co/21nTBsdG/cafe-outside.png" alt="Bean Cafe Bistro exterior in East Barnet Village" id="hI" fetchpriority="high"></div>
+<div class="hero-dim" aria-hidden="true"></div>
+<div class="hero-noise" aria-hidden="true"></div>
+<div class="hero-vig" aria-hidden="true"></div>
+<div class="w"><div class="hero-col" id="hC">
+<div class="hero-tag"><span>East Barnet Village</span></div>
+<h1>Where<br>Every Cup<br>Tells a <em id="hW">Story</em></h1>
+<p class="hero-p">Artisan coffee, freshly baked goods & homemade bistro classics. Pull up a chair — your table's waiting.</p>
+<div class="hero-btns"><a href="#menu" class="btn btn-a mag">View Menu</a><a href="#find" class="btn btn-g mag">Find Us</a></div>
+<div class="hero-info" aria-label="Quick facts"><span>Highly Rated</span><span>East Barnet</span><span>Accessible</span></div>
+</div></div>
+<div class="hero-scroll" aria-hidden="true"><span>Scroll</span><div class="hero-scroll-line"></div></div>
 </section>
 
-<div class="ticker"><div class="ticker-track">
-<span>Artisan Coffee</span><i></i><span>Homemade Food</span><i></i><span>Weekend Brunch</span><i></i><span>Family Friendly</span><i></i><span>East Barnet Village</span><i></i><span>Open 7 Days</span><i></i><span>Outdoor Seating</span><i></i><span>Wheelchair Accessible</span><i></i>
-<span>Artisan Coffee</span><i></i><span>Homemade Food</span><i></i><span>Weekend Brunch</span><i></i><span>Family Friendly</span><i></i><span>East Barnet Village</span><i></i><span>Open 7 Days</span><i></i><span>Outdoor Seating</span><i></i><span>Wheelchair Accessible</span><i></i>
+<div class="tick" aria-hidden="true"><div class="tick-t">
+<span>Artisan Coffee</span><i></i><span>Homemade Food</span><i></i><span>Weekend Brunch</span><i></i><span>Family Friendly</span><i></i><span>East Barnet Village</span><i></i><span>Open 7 Days</span><i></i><span>Outdoor Seating</span><i></i><span>Accessible</span><i></i>
+<span>Artisan Coffee</span><i></i><span>Homemade Food</span><i></i><span>Weekend Brunch</span><i></i><span>Family Friendly</span><i></i><span>East Barnet Village</span><i></i><span>Open 7 Days</span><i></i><span>Outdoor Seating</span><i></i><span>Accessible</span><i></i>
 </div></div>
 
-<section class="gal"><div class="gal-grid">
-<div class="gal-item"><img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Brunch" loading="lazy"><div class="gal-cap"><h3>Weekend Brunch</h3><p>The perfect start to your morning</p></div><div class="gal-idx">01</div></div>
-<div class="gal-item"><img src="https://i.ibb.co/Xrm9TjvX/pancake.png" alt="Pancakes" loading="lazy"><div class="gal-cap"><h3>Buttermilk Pancakes</h3><p>Fluffy, golden & made with love</p></div><div class="gal-idx">02</div></div>
-<div class="gal-item"><img src="https://i.ibb.co/fGrDwPZC/much.png" alt="Fresh" loading="lazy"><div class="gal-cap"><h3>Fresh Daily</h3><p>Homemade goodness every day</p></div><div class="gal-idx">03</div></div>
+<section class="food" aria-label="Food gallery"><div class="food-g">
+<div class="food-i"><img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Weekend brunch plate" loading="lazy"><div class="food-cap"><h3>Weekend Brunch</h3><p>Perfect morning start</p></div><div class="food-idx" aria-hidden="true">01</div></div>
+<div class="food-i"><img src="https://i.ibb.co/Xrm9TjvX/pancake.png" alt="Buttermilk pancakes with berries" loading="lazy"><div class="food-cap"><h3>Buttermilk Pancakes</h3><p>Fluffy & golden</p></div><div class="food-idx" aria-hidden="true">02</div></div>
+<div class="food-i"><img src="https://i.ibb.co/fGrDwPZC/much.png" alt="Fresh homemade food" loading="lazy"><div class="food-cap"><h3>Fresh Daily</h3><p>Homemade goodness</p></div><div class="food-idx" aria-hidden="true">03</div></div>
 </div></section>
 
-<section class="stats"><div class="w"><div class="stats-grid">
-<div class="stat r"><div class="stat-val" data-to="7">0</div><div class="stat-lbl">Days a Week</div></div>
-<div class="stat r" data-d="1"><div class="stat-val" data-to="100" data-suf="%">0</div><div class="stat-lbl">Freshly Made</div></div>
-<div class="stat r" data-d="2"><div class="stat-val" data-to="1000" data-suf="s">0</div><div class="stat-lbl">Happy Customers</div></div>
-<div class="stat r" data-d="3"><div class="stat-val" data-to="5">0</div><div class="stat-lbl">Star Quality</div></div>
+<section class="stats" aria-label="Stats"><div class="w"><div class="stats-g">
+<div class="st rv"><div class="st-v" data-to="7">0</div><div class="st-l">Days a Week</div></div>
+<div class="st rv" data-i="1"><div class="st-v" data-to="100" data-s="%">0</div><div class="st-l">Freshly Made</div></div>
+<div class="st rv" data-i="2"><div class="st-v" data-to="1000" data-s="s">0</div><div class="st-l">Happy Guests</div></div>
+<div class="st rv" data-i="3"><div class="st-v" data-to="5" data-s="★">0</div><div class="st-l">Star Quality</div></div>
 </div></div></section>
 
-<section class="sec" id="about" style="background:var(--bg)"><div class="w"><div class="about-grid">
-<div class="about-vis r"><div class="about-dots"></div><div class="about-frame"></div><img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Bean Cafe Bistro"><div class="about-badge"><span>❤️</span><div class="about-badge-text"><em>Made with Love</em>Every Single Day</div></div></div>
-<div class="about-info rr">
-<div class="sec-label">Our Story</div>
-<h2>More Than Just Coffee</h2>
-<p>Nestled in the heart of <strong>East Barnet Village</strong>, Bean Cafe Bistro is your neighbourhood escape from the everyday. We're a family-friendly, independent cafe and bistro where the coffee is always freshly ground, the food is made with love, and every guest is treated like family.</p>
-<p>Whether you're popping in for a quick morning espresso, settling in for a lazy weekend brunch, or grabbing a homemade cake to take home — we've got you covered. Perfect for <strong>solo dining</strong>, catching up with friends, or bringing the kids.</p>
-<div class="about-feats">
-<div class="afeat r" data-d="1"><span>☕</span><div><h4>Artisan Coffee</h4><p>Freshly ground & crafted</p></div></div>
-<div class="afeat r" data-d="2"><span>🥐</span><div><h4>Homemade Food</h4><p>Made fresh every morning</p></div></div>
-<div class="afeat r" data-d="3"><span>❤️</span><div><h4>Community Hub</h4><p>Your village cafe</p></div></div>
-</div></div>
-</div></div></section>
-
-<div class="divider"><div class="divider-bg" style="background-image:url('https://i.ibb.co/Xrm9TjvX/pancake.png')"></div><div class="divider-ov"></div><div class="divider-text rs"><h3>Life's Too Short for Bad Coffee</h3><p>— Bean Cafe Bistro —</p></div></div>
-
-<section class="sec" id="highlights" style="background:var(--bg2)"><div class="w">
-<div class="sec-head r"><div class="sec-label">Why Choose Us</div><h2 class="sec-title">What We're Known For</h2><p class="sec-desc">From artisan coffee to homemade desserts — here's what keeps East Barnet coming back</p><div class="sec-line"></div></div>
-<div class="hl-grid">
-<div class="hl r" data-d="1"><div class="hl-icon">☕</div><div><h3>Great Coffee</h3><p>Expertly crafted espresso, lattes & cappuccinos from premium beans</p></div></div>
-<div class="hl r" data-d="2"><div class="hl-icon">🍰</div><div><h3>Great Desserts</h3><p>Homemade cakes, brownies & sweet treats baked fresh daily</p></div></div>
-<div class="hl r" data-d="3"><div class="hl-icon">🫖</div><div><h3>Great Tea Selection</h3><p>English Breakfast to chamomile — a tea for every mood</p></div></div>
-<div class="hl r" data-d="4"><div class="hl-icon">🥞</div><div><h3>Breakfast & Brunch</h3><p>Full English to avo on sourdough — the perfect morning</p></div></div>
-<div class="hl r" data-d="5"><div class="hl-icon">🥗</div><div><h3>Lunch & Bites</h3><p>Salads, sandwiches, soups & quick bites to order</p></div></div>
-<div class="hl r" data-d="6"><div class="hl-icon">👨‍👩‍👧‍👦</div><div><h3>Family Friendly</h3><p>A warm welcome for guests of all ages</p></div></div>
-</div></div></section>
-
-<section class="sec" id="menu" style="background:var(--bg)"><div class="w">
-<div class="sec-head r"><div class="sec-label">Our Menu</div><h2 class="sec-title">Taste the Difference</h2><p class="sec-desc">Freshly prepared, lovingly crafted — every dish tells a story</p><div class="sec-line"></div></div>
-<div class="m-tabs r">
-<button class="m-tab on" data-t="breakfast">Breakfast</button>
-<button class="m-tab" data-t="brunch">Brunch</button>
-<button class="m-tab" data-t="lunch">Lunch</button>
-<button class="m-tab" data-t="desserts">Desserts & Drinks</button>
+<section class="sec" id="about" style="background:var(--bg)" aria-label="About us"><div class="w"><div class="about-g">
+<div class="about-vis rv">
+<div class="about-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="about-border" aria-hidden="true"></div>
+<div class="about-accent" aria-hidden="true"></div>
+<img src="https://i.ibb.co/VWk6V3Kk/brunch.png" alt="Brunch at Bean Cafe Bistro">
+<div class="about-tag"><div><em>Made with Love</em>Every Single Day</div></div>
 </div>
-<div class="m-panel on" id="p-breakfast"><div class="m-grid">
-<div class="m-item"><div><h4>Classic English Breakfast</h4><p class="desc">Eggs, bacon, sausage, beans, toast & tomato</p></div><div class="m-price">£9.50</div></div>
-<div class="m-item"><div><h4>Avocado on Sourdough</h4><p class="desc">Cherry tomatoes, chilli flakes & poached egg</p></div><div class="m-price">£8.50</div></div>
-<div class="m-item"><div><h4>Granola & Yoghurt Bowl</h4><p class="desc">House granola, Greek yoghurt, berries, honey</p></div><div class="m-price">£7.00</div></div>
-<div class="m-item"><div><h4>Eggs Benedict</h4><p class="desc">Poached eggs, ham, hollandaise, English muffin</p></div><div class="m-price">£9.00</div></div>
-<div class="m-item"><div><h4>Buttermilk Pancakes</h4><p class="desc">Maple syrup, berries & cream</p></div><div class="m-price">£8.50</div></div>
-<div class="m-item"><div><h4>Toast & Preserves</h4><p class="desc">Sourdough or white with butter & jam</p></div><div class="m-price">£3.50</div></div>
+<div class="about-info rv-r">
+<div class="sec-lab">Our Story</div>
+<h2>More Than<br>Just Coffee</h2>
+<p>Nestled in the heart of <strong>East Barnet Village</strong>, Bean Cafe Bistro is your neighbourhood escape. Family-friendly, independent — coffee always freshly ground, food made with love, every guest treated like family.</p>
+<p>Quick morning espresso, lazy weekend brunch, or homemade cake to go — we've got you. Perfect for <strong>solo dining</strong>, catching up with friends, or bringing the kids.</p>
+<div class="about-ft">
+<div class="af rv" data-i="1"><span class="af-i" aria-hidden="true">☕</span><div><h4>Artisan Coffee</h4><p>Freshly ground</p></div></div>
+<div class="af rv" data-i="2"><span class="af-i" aria-hidden="true">🍞</span><div><h4>Homemade</h4><p>Made fresh daily</p></div></div>
+<div class="af rv" data-i="3"><span class="af-i" aria-hidden="true">♥</span><div><h4>Community</h4><p>Your village cafe</p></div></div>
 </div></div>
-<div class="m-panel" id="p-brunch"><div class="m-grid">
-<div class="m-item"><div><h4>Brunch Board</h4><p class="desc">Eggs, pastries, fruit, cheese & charcuterie</p></div><div class="m-price">£14.00</div></div>
-<div class="m-item"><div><h4>Shakshuka</h4><p class="desc">Baked eggs in spiced tomato with crusty bread</p></div><div class="m-price">£9.50</div></div>
-<div class="m-item"><div><h4>French Toast</h4><p class="desc">Brioche, cinnamon, banana, maple syrup</p></div><div class="m-price">£8.50</div></div>
-<div class="m-item"><div><h4>Smoked Salmon & Eggs</h4><p class="desc">On sourdough with dill cream cheese</p></div><div class="m-price">£10.00</div></div>
+</div></div></section>
+
+<div class="dv" aria-hidden="true"><div class="dv-bg" style="background-image:url('https://i.ibb.co/Xrm9TjvX/pancake.png')"></div><div class="dv-ov"></div><div class="dv-c rv-s"><h3>Life's Too Short<br>for Bad Coffee</h3><p>— Bean Cafe Bistro —</p></div></div>
+
+<section class="sec" id="highlights" style="background:var(--bg2)" aria-label="What we're known for"><div class="w">
+<div class="sec-c rv"><div class="sec-lab">Why Us</div><h2 class="sec-tt">What We're<br>Known For</h2><p class="sec-desc">What keeps East Barnet coming back, day after day</p><div class="sec-line" aria-hidden="true"></div></div>
+<div class="hl-g">
+<div class="hl rv" data-i="1"><span class="hl-i" aria-hidden="true">☕</span><div><h3>Great Coffee</h3><p>Premium beans, expertly crafted by passionate baristas</p></div></div>
+<div class="hl rv" data-i="2"><span class="hl-i" aria-hidden="true">🍰</span><div><h3>Fresh Desserts</h3><p>Baked fresh every morning, limited batches that sell fast</p></div></div>
+<div class="hl rv" data-i="3"><span class="hl-i" aria-hidden="true">🫖</span><div><h3>Tea Selection</h3><p>English Breakfast to chamomile — proper tea done right</p></div></div>
+<div class="hl rv" data-i="4"><span class="hl-i" aria-hidden="true">🥞</span><div><h3>Weekend Brunch</h3><p>Full English to avo on sourdough — every Saturday & Sunday</p></div></div>
+<div class="hl rv" data-i="5"><span class="hl-i" aria-hidden="true">🥗</span><div><h3>Light Lunch</h3><p>Salads, sandwiches, soups — quick bites that satisfy</p></div></div>
+<div class="hl rv" data-i="6"><span class="hl-i" aria-hidden="true">👶</span><div><h3>Family Friendly</h3><p>High chairs, changing facilities — all ages genuinely welcome</p></div></div>
+</div></div></section>
+
+<section class="sec" id="menu" style="background:var(--bg)" aria-label="Our menu"><div class="w">
+<div class="sec-c rv"><div class="sec-lab">Menu</div><h2 class="sec-tt">Taste the<br>Difference</h2><p class="sec-desc">Freshly prepared, lovingly crafted — every single day</p><div class="sec-line" aria-hidden="true"></div></div>
+<div class="mtabs rv" role="tablist" aria-label="Menu categories">
+<button class="mtab on" data-t="breakfast" role="tab" aria-selected="true" aria-controls="p-breakfast" id="tab-breakfast">Breakfast</button>
+<button class="mtab" data-t="brunch" role="tab" aria-selected="false" aria-controls="p-brunch" id="tab-brunch">Brunch</button>
+<button class="mtab" data-t="lunch" role="tab" aria-selected="false" aria-controls="p-lunch" id="tab-lunch">Lunch</button>
+<button class="mtab" data-t="desserts" role="tab" aria-selected="false" aria-controls="p-desserts" id="tab-desserts">Desserts & Drinks</button>
+</div>
+<div class="mpan on" id="p-breakfast" role="tabpanel" aria-labelledby="tab-breakfast"><div class="mgrid">
+<div class="mitem"><div><h4>Classic English</h4><p class="ds">Eggs, bacon, sausage, beans, toast</p></div><div class="mpr">£9.50</div></div>
+<div class="mitem"><div><h4>Avocado Sourdough</h4><p class="ds">Tomatoes, chilli flakes, poached egg</p></div><div class="mpr">£8.50</div></div>
+<div class="mitem"><div><h4>Granola Bowl</h4><p class="ds">Greek yoghurt, mixed berries, honey</p></div><div class="mpr">£7.00</div></div>
+<div class="mitem"><div><h4>Eggs Benedict</h4><p class="ds">Ham, hollandaise, English muffin</p></div><div class="mpr">£9.00</div></div>
+<div class="mitem"><div><h4>Buttermilk Pancakes</h4><p class="ds">Maple syrup, berries, whipped cream</p></div><div class="mpr">£8.50</div></div>
+<div class="mitem"><div><h4>Toast & Jam</h4><p class="ds">Sourdough or farmhouse white</p></div><div class="mpr">£3.50</div></div>
 </div></div>
-<div class="m-panel" id="p-lunch"><div class="m-grid">
-<div class="m-item"><div><h4>Chicken Pesto Panini</h4><p class="desc">Mozzarella, basil pesto, sun-dried tomatoes</p></div><div class="m-price">£8.50</div></div>
-<div class="m-item"><div><h4>Soup of the Day</h4><p class="desc">Homemade with crusty bread & butter</p></div><div class="m-price">£6.00</div></div>
-<div class="m-item"><div><h4>Caesar Salad</h4><p class="desc">Romaine, parmesan, croutons, grilled chicken</p></div><div class="m-price">£9.00</div></div>
-<div class="m-item"><div><h4>Club Sandwich</h4><p class="desc">Chicken, bacon, lettuce, tomato, mayo</p></div><div class="m-price">£9.50</div></div>
-<div class="m-item"><div><h4>Tuna Melt</h4><p class="desc">On sourdough with cheddar & red onion</p></div><div class="m-price">£7.50</div></div>
-<div class="m-item"><div><h4>Halloumi Wrap</h4><p class="desc">Hummus, roast veg, leaves, sweet chilli</p></div><div class="m-price">£8.00</div></div>
+<div class="mpan" id="p-brunch" role="tabpanel" aria-labelledby="tab-brunch" hidden><div class="mgrid">
+<div class="mitem"><div><h4>Brunch Board</h4><p class="ds">Eggs, pastries, fruit, artisan cheese</p></div><div class="mpr">£14.00</div></div>
+<div class="mitem"><div><h4>Shakshuka</h4><p class="ds">Baked eggs in spiced tomato, crusty bread</p></div><div class="mpr">£9.50</div></div>
+<div class="mitem"><div><h4>French Toast</h4><p class="ds">Brioche, caramelised banana, maple</p></div><div class="mpr">£8.50</div></div>
+<div class="mitem"><div><h4>Salmon & Eggs</h4><p class="ds">Sourdough, dill cream cheese, capers</p></div><div class="mpr">£10.00</div></div>
 </div></div>
-<div class="m-panel" id="p-desserts"><div class="m-grid">
-<div class="m-item"><div><h4>Espresso / Americano</h4><p class="desc">Freshly ground, rich & smooth</p></div><div class="m-price">£2.80</div></div>
-<div class="m-item"><div><h4>Latte / Cappuccino / Flat White</h4><p class="desc">Silky milk, perfect espresso</p></div><div class="m-price">£3.50</div></div>
-<div class="m-item"><div><h4>Hot Chocolate</h4><p class="desc">Marshmallows & whipped cream</p></div><div class="m-price">£3.80</div></div>
-<div class="m-item"><div><h4>Selection of Teas</h4><p class="desc">Breakfast, Earl Grey, Green, Chamomile, Peppermint</p></div><div class="m-price">£2.50</div></div>
-<div class="m-item"><div><h4>Carrot Cake</h4><p class="desc">Moist, spiced, cream cheese frosting</p></div><div class="m-price">£4.50</div></div>
-<div class="m-item"><div><h4>Victoria Sponge</h4><p class="desc">Classic with jam & buttercream</p></div><div class="m-price">£4.50</div></div>
-<div class="m-item"><div><h4>Chocolate Brownie</h4><p class="desc">Warm, fudgy, vanilla ice cream</p></div><div class="m-price">£5.00</div></div>
-<div class="m-item"><div><h4>Scone, Cream & Jam</h4><p class="desc">Freshly baked, served warm</p></div><div class="m-price">£4.00</div></div>
+<div class="mpan" id="p-lunch" role="tabpanel" aria-labelledby="tab-lunch" hidden><div class="mgrid">
+<div class="mitem"><div><h4>Pesto Panini</h4><p class="ds">Chicken, buffalo mozzarella, sun-dried tomatoes</p></div><div class="mpr">£8.50</div></div>
+<div class="mitem"><div><h4>Soup of the Day</h4><p class="ds">Homemade, served with crusty bread & butter</p></div><div class="mpr">£6.00</div></div>
+<div class="mitem"><div><h4>Caesar Salad</h4><p class="ds">Aged parmesan, garlic croutons, grilled chicken</p></div><div class="mpr">£9.00</div></div>
+<div class="mitem"><div><h4>Club Sandwich</h4><p class="ds">Chicken, smoked bacon, gem lettuce, tomato</p></div><div class="mpr">£9.50</div></div>
+<div class="mitem"><div><h4>Tuna Melt</h4><p class="ds">Sourdough, mature cheddar, red onion</p></div><div class="mpr">£7.50</div></div>
+<div class="mitem"><div><h4>Halloumi Wrap</h4><p class="ds">Hummus, roasted vegetables, chilli sauce</p></div><div class="mpr">£8.00</div></div>
 </div></div>
-<p class="m-note">Subject to availability. Ask about allergens & dietary needs.</p>
-<div class="m-cta"><a href="tel:02084418670" class="btn btn-accent mag">📞 Order Takeaway</a></div>
+<div class="mpan" id="p-desserts" role="tabpanel" aria-labelledby="tab-desserts" hidden><div class="mgrid">
+<div class="mitem"><div><h4>Espresso</h4><p class="ds">Rich, smooth, perfectly pulled</p></div><div class="mpr">£2.80</div></div>
+<div class="mitem"><div><h4>Latte / Flat White</h4><p class="ds">Silky steamed milk, perfect espresso</p></div><div class="mpr">£3.50</div></div>
+<div class="mitem"><div><h4>Hot Chocolate</h4><p class="ds">Belgian chocolate, marshmallows, cream</p></div><div class="mpr">£3.80</div></div>
+<div class="mitem"><div><h4>Tea Selection</h4><p class="ds">Breakfast, Earl Grey, Green, Chamomile</p></div><div class="mpr">£2.50</div></div>
+<div class="mitem"><div><h4>Carrot Cake</h4><p class="ds">With cream cheese frosting</p></div><div class="mpr">£4.50</div></div>
+<div class="mitem"><div><h4>Victoria Sponge</h4><p class="ds">Strawberry jam, vanilla buttercream</p></div><div class="mpr">£4.50</div></div>
+<div class="mitem"><div><h4>Chocolate Brownie</h4><p class="ds">Warm, fudgy centre, vanilla ice cream</p></div><div class="mpr">£5.00</div></div>
+<div class="mitem"><div><h4>Scone</h4><p class="ds">Devonshire clotted cream, strawberry jam</p></div><div class="mpr">£4.00</div></div>
+</div></div>
+<p class="mnote">Subject to availability · Please ask about allergens & dietary requirements</p>
+<div class="mcta"><a href="tel:02084418670" class="btn btn-a mag">Order Takeaway</a></div>
 </div></section>
 
-<section class="sec" id="hours" style="background:var(--bg2)"><div class="w">
-<div class="sec-head r"><div class="sec-label">Opening Hours</div><h2 class="sec-title">When to Visit</h2><p class="sec-desc">Open seven days a week</p><div class="sec-line"></div></div>
-<div class="hrs r">
-<div class="hrs-top"><div class="hrs-icon">🕐</div><div class="hrs-badge" id="hBadge"><div class="hrs-dot"></div><span id="hSt">Checking...</span></div></div>
-<ul class="hrs-list" id="hList">
-<li data-d="1"><span class="dy">Monday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-d="2"><span class="dy">Tuesday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-d="3"><span class="dy">Wednesday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-d="4"><span class="dy">Thursday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-d="5"><span class="dy">Friday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-d="6"><span class="dy">Saturday</span><span class="tm">7:00 AM – 5:00 PM</span></li>
-<li data-d="0"><span class="dy">Sunday</span><span class="tm">8:00 AM – 4:00 PM</span></li>
+<section class="sec" id="hours" style="background:var(--bg2)" aria-label="Opening hours"><div class="w">
+<div class="sec-c rv"><div class="sec-lab">Hours</div><h2 class="sec-tt">When to<br>Visit</h2><p class="sec-desc">Open seven days a week for your convenience</p><div class="sec-line" aria-hidden="true"></div></div>
+<div class="hcard rv">
+<div class="hcard-top"><div class="hcard-badge" id="hB"><i aria-hidden="true"></i><span id="hS">Checking...</span></div></div>
+<ul id="hL" aria-label="Weekly hours">
+<li data-d="1"><span class="dy">Monday</span><span class="tm">7 AM – 5 PM</span></li>
+<li data-d="2"><span class="dy">Tuesday</span><span class="tm">7 AM – 5 PM</span></li>
+<li data-d="3"><span class="dy">Wednesday</span><span class="tm">7 AM – 5 PM</span></li>
+<li data-d="4"><span class="dy">Thursday</span><span class="tm">7 AM – 5 PM</span></li>
+<li data-d="5"><span class="dy">Friday</span><span class="tm">7 AM – 5 PM</span></li>
+<li data-d="6"><span class="dy">Saturday</span><span class="tm">7 AM – 5 PM</span></li>
+<li data-d="0"><span class="dy">Sunday</span><span class="tm">8 AM – 4 PM</span></li>
 </ul>
-<div class="hrs-note">☀️ Pop in early weekends — brunch specials go fast!</div>
+<div class="hcard-note" aria-hidden="true">Weekend brunch specials go fast! ☕</div>
 </div></div></section>
 
-<section class="sec test" id="reviews" style="background:var(--bg)"><div class="w"><div class="sec-head r"><div class="sec-label">Reviews</div><h2 class="sec-title">Loved by East Barnet</h2><p class="sec-desc">What our guests say</p><div class="sec-line"></div></div></div>
-<div class="test-wrap"><div class="test-track">
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Best coffee in East Barnet. The staff are so friendly and the avocado toast is incredible. My Saturday go-to.</div><div class="tc-who"><div class="tc-av">S</div><div class="tc-info"><h4>Sarah M.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Lovely cafe. Great atmosphere, amazing cakes, and the kids love it. A real gem in the village.</div><div class="tc-who"><div class="tc-av">J</div><div class="tc-info"><h4>James T.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Popped in for coffee, stayed for brunch. Everything freshly made and delicious. Will be back!</div><div class="tc-who"><div class="tc-av">P</div><div class="tc-info"><h4>Priya K.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Homemade cakes are to die for. Carrot cake is the best in North London. Cosy atmosphere.</div><div class="tc-who"><div class="tc-av">D</div><div class="tc-info"><h4>David R.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Perfect solo lunch spot. Quiet, welcoming. Soup of the day always bang on.</div><div class="tc-who"><div class="tc-av">E</div><div class="tc-info"><h4>Emma L.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Every Sunday after the park. Pancakes are fluffy perfection. Best hot chocolate in Barnet!</div><div class="tc-who"><div class="tc-av">R</div><div class="tc-info"><h4>Rachel & Tom</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Best coffee in East Barnet. The staff are so friendly and the avocado toast is incredible. My Saturday go-to.</div><div class="tc-who"><div class="tc-av">S</div><div class="tc-info"><h4>Sarah M.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Lovely cafe. Great atmosphere, amazing cakes, and the kids love it. A real gem in the village.</div><div class="tc-who"><div class="tc-av">J</div><div class="tc-info"><h4>James T.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Popped in for coffee, stayed for brunch. Everything freshly made and delicious. Will be back!</div><div class="tc-who"><div class="tc-av">P</div><div class="tc-info"><h4>Priya K.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Homemade cakes are to die for. Carrot cake is the best in North London. Cosy atmosphere.</div><div class="tc-who"><div class="tc-av">D</div><div class="tc-info"><h4>David R.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Perfect solo lunch spot. Quiet, welcoming. Soup of the day always bang on.</div><div class="tc-who"><div class="tc-av">E</div><div class="tc-info"><h4>Emma L.</h4><p>Google</p></div></div></div>
-<div class="tc"><div class="tc-stars">⭐⭐⭐⭐⭐</div><div class="tc-quote">Every Sunday after the park. Pancakes are fluffy perfection. Best hot chocolate in Barnet!</div><div class="tc-who"><div class="tc-av">R</div><div class="tc-info"><h4>Rachel & Tom</h4><p>Google</p></div></div></div>
+<section class="sec test" style="background:var(--bg)" aria-label="Reviews"><div class="w"><div class="sec-c rv"><div class="sec-lab">Reviews</div><h2 class="sec-tt">Loved by<br>East Barnet</h2><p class="sec-desc">Real words from real guests</p><div class="sec-line" aria-hidden="true"></div></div></div>
+<div class="test-w"><div class="test-t">
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Best coffee in East Barnet. Staff so friendly, avocado toast incredible. My Saturday go-to.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">S</div><div><div class="tcard-name">Sarah M.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Lovely cafe. Great atmosphere, amazing cakes, kids love it. A true gem in the village.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">J</div><div><div class="tcard-name">James T.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Popped in for coffee, stayed for brunch. Everything fresh and delicious. Definitely coming back!</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">P</div><div><div class="tcard-name">Priya K.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Carrot cake is the best in North London. Homemade cakes to die for. Cosy atmosphere.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">D</div><div><div class="tcard-name">David R.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Perfect solo lunch. Quiet, welcoming, no rush. Soup of the day is always bang on.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">E</div><div><div class="tcard-name">Emma L.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Every Sunday after the park. Pancakes are fluffy perfection. Best hot choc in Barnet!</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">R</div><div><div class="tcard-name">Rachel & Tom</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Hidden gem alert! Scrambled eggs are the creamiest I've ever had. Love this place so much.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">M</div><div><div class="tcard-name">Maria G.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Whole family loved it. Everyone found something amazing. The warmest atmosphere in Barnet.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">A</div><div><div class="tcard-name">Alex W.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Best coffee in East Barnet. Staff so friendly, avocado toast incredible. My Saturday go-to.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">S</div><div><div class="tcard-name">Sarah M.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Lovely cafe. Great atmosphere, amazing cakes, kids love it. A true gem in the village.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">J</div><div><div class="tcard-name">James T.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Popped in for coffee, stayed for brunch. Everything fresh and delicious. Definitely coming back!</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">P</div><div><div class="tcard-name">Priya K.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Carrot cake is the best in North London. Homemade cakes to die for. Cosy atmosphere.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">D</div><div><div class="tcard-name">David R.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Perfect solo lunch. Quiet, welcoming, no rush. Soup of the day is always bang on.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">E</div><div><div class="tcard-name">Emma L.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Every Sunday after the park. Pancakes are fluffy perfection. Best hot choc in Barnet!</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">R</div><div><div class="tcard-name">Rachel & Tom</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Hidden gem alert! Scrambled eggs are the creamiest I've ever had. Love this place so much.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">M</div><div><div class="tcard-name">Maria G.</div><div class="tcard-src">Google</div></div></div></div>
+<div class="tcard"><div class="tcard-stars" aria-label="5 stars">★★★★★</div><div class="tcard-q">Whole family loved it. Everyone found something amazing. The warmest atmosphere in Barnet.</div><div class="tcard-who"><div class="tcard-av" aria-hidden="true">A</div><div><div class="tcard-name">Alex W.</div><div class="tcard-src">Google</div></div></div></div>
 </div></div>
-<div class="w" style="text-align:center;margin-top:36px"><a href="https://www.google.com/maps/place/251+E+Barnet+Rd" target="_blank" class="btn-ol mag r">See All Reviews →</a></div>
+<div class="w" style="text-align:center;margin-top:40px"><a href="https://www.google.com/maps/place/251+E+Barnet+Rd" target="_blank" rel="noopener noreferrer" class="btn-o mag rv">All Reviews →</a></div>
 </section>
 
-<section class="sec" id="services" style="background:var(--bg2)"><div class="w">
-<div class="sec-head r"><div class="sec-label">At a Glance</div><h2 class="sec-title">Everything You Need</h2><p class="sec-desc">Details about what we offer</p><div class="sec-line"></div></div>
-<div class="sv-grid">
-<div class="sv-cat r" data-d="1"><h3>Services</h3><div class="sv-tags"><span class="sv-tag">☀️ Outdoor Seating</span><span class="sv-tag">🛵 Delivery</span><span class="sv-tag">🥡 Takeaway</span><span class="sv-tag">🍽️ Dine-in</span></div></div>
-<div class="sv-cat r" data-d="2"><h3>Perfect For</h3><div class="sv-tags"><span class="sv-tag">🌅 Breakfast</span><span class="sv-tag">🥂 Brunch</span><span class="sv-tag">🥗 Lunch</span><span class="sv-tag">🧁 Dessert</span><span class="sv-tag">👤 Solo</span></div></div>
-<div class="sv-cat r" data-d="3"><h3>Amenities</h3><div class="sv-tags"><span class="sv-tag">♿ Accessible</span><span class="sv-tag">🚻 Toilets</span><span class="sv-tag">👶 Kid Friendly</span><span class="sv-tag">🪑 Seating</span></div></div>
-<div class="sv-cat r" data-d="4"><h3>Payments</h3><div class="sv-tags"><span class="sv-tag">💳 Cards</span><span class="sv-tag">📱 Contactless</span></div></div>
+<section class="sec" style="background:var(--bg2)" aria-label="Services"><div class="w">
+<div class="sec-c rv"><div class="sec-lab">At a Glance</div><h2 class="sec-tt">Everything<br>You Need</h2><div class="sec-line" aria-hidden="true"></div></div>
+<div class="sv-g">
+<div class="sv-c rv" data-i="1"><h3>Services</h3><div class="sv-tags"><span class="sv-t">Outdoor Seating</span><span class="sv-t">Delivery</span><span class="sv-t">Takeaway</span><span class="sv-t">Dine-in</span></div></div>
+<div class="sv-c rv" data-i="2"><h3>Perfect For</h3><div class="sv-tags"><span class="sv-t">Breakfast</span><span class="sv-t">Brunch</span><span class="sv-t">Lunch</span><span class="sv-t">Dessert</span><span class="sv-t">Solo</span></div></div>
+<div class="sv-c rv" data-i="3"><h3>Amenities</h3><div class="sv-tags"><span class="sv-t">Accessible</span><span class="sv-t">Toilets</span><span class="sv-t">Kid Friendly</span></div></div>
+<div class="sv-c rv" data-i="4"><h3>Payments</h3><div class="sv-tags"><span class="sv-t">Cards</span><span class="sv-t">Contactless</span><span class="sv-t">Cash</span></div></div>
 </div></div></section>
 
-<div class="divider"><div class="divider-bg" style="background-image:url('https://i.ibb.co/fGrDwPZC/much.png')"></div><div class="divider-ov"></div><div class="divider-text rs"><h3>Your Table is Waiting</h3><p>— 251 East Barnet Road —</p></div></div>
+<div class="dv" aria-hidden="true"><div class="dv-bg" style="background-image:url('https://i.ibb.co/fGrDwPZC/much.png')"></div><div class="dv-ov"></div><div class="dv-c rv-s"><h3>Your Table<br>is Waiting</h3><p>— 251 East Barnet Road —</p></div></div>
 
-<section class="sec" id="find" style="background:var(--bg)"><div class="w">
-<div class="sec-head r"><div class="sec-label">Find Us</div><h2 class="sec-title">Come Say Hello</h2><p class="sec-desc">Right in the heart of East Barnet Village</p><div class="sec-line"></div></div>
-<div class="loc-grid">
-<div class="loc-map rl"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.5!2d-0.163!3d51.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761753f1d5e6db%3A0x3c5e1b2c0d8e9f0a!2s251%20E%20Barnet%20Rd%2C%20London%20EN4%208SS!5e0!3m2!1sen!2suk!4v1" allowfullscreen loading="lazy" title="Map"></iframe></div>
-<div class="loc-info rr">
-<div class="loc-row"><div class="loc-ic">📍</div><div class="loc-txt"><h4>Address</h4><p>251 East Barnet Road<br>London, Barnet EN4 8SS</p></div></div>
-<div class="loc-row"><div class="loc-ic">📞</div><div class="loc-txt"><h4>Phone</h4><p><a href="tel:02084418670">020 8441 8670</a></p></div></div>
-<div class="loc-row"><div class="loc-ic">🕐</div><div class="loc-txt"><h4>Hours</h4><p>Mon–Sat: 7AM–5PM<br>Sunday: 8AM–4PM</p></div></div>
-<div class="loc-row"><div class="loc-ic">♿</div><div class="loc-txt"><h4>Accessibility</h4><p>Wheelchair entrance · Toilets · Indoor & outdoor seating</p></div></div>
-<div class="loc-cta"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" class="btn-dark mag">📍 Get Directions</a></div>
+<section class="sec" id="find" style="background:var(--bg)" aria-label="Find us"><div class="w">
+<div class="sec-c rv"><div class="sec-lab">Location</div><h2 class="sec-tt">Come Say<br>Hello</h2><p class="sec-desc">Heart of East Barnet Village</p><div class="sec-line" aria-hidden="true"></div></div>
+<div class="loc-g">
+<div class="loc-map rv-l"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.5!2d-0.163!3d51.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761753f1d5e6db%3A0x3c5e1b2c0d8e9f0a!2s251%20E%20Barnet%20Rd%2C%20London%20EN4%208SS!5e0!3m2!1sen!2suk!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bean Cafe Bistro on Google Maps"></iframe></div>
+<div class="loc-info rv-r">
+<div class="loc-r"><div class="loc-i" aria-hidden="true">📍</div><div class="loc-t"><h4>Address</h4><p>251 East Barnet Road<br>London EN4 8SS</p></div></div>
+<div class="loc-r"><div class="loc-i" aria-hidden="true">📞</div><div class="loc-t"><h4>Phone</h4><p><a href="tel:02084418670">020 8441 8670</a></p></div></div>
+<div class="loc-r"><div class="loc-i" aria-hidden="true">🕐</div><div class="loc-t"><h4>Hours</h4><p>Mon–Sat 7AM–5PM<br>Sun 8AM–4PM</p></div></div>
+<div class="loc-r"><div class="loc-i" aria-hidden="true">♿</div><div class="loc-t"><h4>Access</h4><p>Wheelchair entrance · Toilets · Indoor & outdoor seating</p></div></div>
+<div class="loc-cta"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" rel="noopener noreferrer" class="btn-d mag">Get Directions</a></div>
 </div></div></div></section>
 
-<section class="cta" id="contact"><div class="cta-bg"></div><div class="cta-dots"></div><div class="w">
-<h2 class="r">Come Say Hello</h2>
-<p class="cta-desc r" data-d="1">Whether it's your first visit or your hundredth — a seat and smile awaits.</p>
+<section class="cta" id="contact" aria-label="Contact"><div class="cta-bg" aria-hidden="true"></div><div class="cta-pat" aria-hidden="true"></div><div class="cta-glow" aria-hidden="true"></div><div class="cta-glow2" aria-hidden="true"></div><div class="w">
+<h2 class="rv">Come Say Hello</h2>
+<p class="cta-p rv" data-i="1">First visit or hundredth — a seat and a smile awaits you.</p>
 <div class="cta-cards">
-<div class="cta-c r" data-d="1"><span>📞</span><h3>Call Us</h3><p><a href="tel:02084418670">020 8441 8670</a></p></div>
-<div class="cta-c r" data-d="2"><span>📍</span><h3>Visit Us</h3><p>251 East Barnet Rd EN4 8SS</p></div>
-<div class="cta-c r" data-d="3"><span>🕐</span><h3>Open Daily</h3><p>Mon–Sat 7AM · Sun 8AM</p></div>
+<div class="cta-c rv" data-i="1"><span class="ci" aria-hidden="true">📞</span><h3>Call Us</h3><p><a href="tel:02084418670">020 8441 8670</a></p></div>
+<div class="cta-c rv" data-i="2"><span class="ci" aria-hidden="true">📍</span><h3>Visit Us</h3><p>251 East Barnet Rd</p></div>
+<div class="cta-c rv" data-i="3"><span class="ci" aria-hidden="true">🕐</span><h3>Open Daily</h3><p>Mon–Sat 7AM · Sun 8AM</p></div>
 </div>
-<div class="r" data-d="4"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" class="btn btn-accent mag" style="padding:18px 44px">📍 Get Directions</a></div>
+<div class="rv" data-i="4"><a href="https://www.google.com/maps/dir//251+E+Barnet+Rd,+London+EN4+8SS" target="_blank" rel="noopener noreferrer" class="btn btn-a mag" style="padding:18px 52px">Get Directions</a></div>
 </div></section>
 
-<footer><div class="w">
-<div class="ft-grid">
-<div class="ft-brand"><div class="brand"><span class="brand-icon">☕</span><span class="brand-name">Bean Cafe Bistro</span></div><p>East Barnet Village's favourite independent cafe & bistro.</p><div class="ft-soc"><a href="#">📷</a><a href="#">📘</a><a href="#">✈️</a></div></div>
-<div><h4>Links</h4><ul class="ft-links"><li><a href="#top">Home</a></li><li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#hours">Hours</a></li><li><a href="#find">Find Us</a></li></ul></div>
-<div><h4>Contact</h4><div class="ft-contact"><span>📍</span><span>251 East Barnet Rd, EN4 8SS</span></div><div class="ft-contact"><span>📞</span><span><a href="tel:02084418670" style="color:var(--accent3)">020 8441 8670</a></span></div><div class="ft-contact"><span>🕐</span><span>Mon–Sat 7am–5pm · Sun 8am–4pm</span></div></div>
-<div class="ft-nl"><h4>Updates</h4><p>Special offers & seasonal menus.</p><form class="ft-form" onsubmit="return sub(event)"><input type="email" placeholder="Email" required><button type="submit">Join</button></form></div>
+<footer role="contentinfo"><div class="w">
+<div class="ft-g">
+<div class="ft-brand"><div class="logo"><div class="logo-mark" style="border-color:rgba(250,248,245,.06)" aria-hidden="true"></div><span class="logo-name">Bean Cafe Bistro</span></div><p>East Barnet's favourite independent cafe. Artisan coffee, homemade food, warm welcome since day one.</p><div class="ft-soc" aria-label="Social media"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a></div></div>
+<div><h4>Links</h4><ul class="ft-lk"><li><a href="#top">Home</a></li><li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#hours">Hours</a></li><li><a href="#find">Find Us</a></li></ul></div>
+<div><h4>Contact</h4><div class="ft-ct"><span>251 East Barnet Rd, EN4 8SS</span></div><div class="ft-ct"><span><a href="tel:02084418670" style="color:var(--accent3)">020 8441 8670</a></span></div><div class="ft-ct"><span>Mon–Sat 7–5 · Sun 8–4</span></div></div>
+<div class="ft-nl"><h4>Updates</h4><p>Offers & seasonal menus straight to your inbox</p><form class="ft-fm" id="nlForm" aria-label="Newsletter signup"><input type="email" placeholder="Your email" required aria-label="Email address"><button type="submit">Join</button></form></div>
 </div>
-<div class="ft-bottom"><span>© 2025 Bean Cafe Bistro</span><span class="ft-love">Made with ☕ in East Barnet</span></div>
+<div class="ft-btm"><span>© 2025 Bean Cafe Bistro. All rights reserved.</span><span class="ft-love">Made with love in East Barnet ☕</span></div>
 </div></footer>
 
-<button class="btt" id="btt">↑</button>
+<button class="btt" id="btt" aria-label="Back to top">↑</button>
 
 <script>
-(function(){
-const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),T='ontouchstart'in window;
+(function(){'use strict';
+var $=function(s){return document.querySelector(s)},$$=function(s){return document.querySelectorAll(s)},T='ontouchstart'in window||navigator.maxTouchPoints>0,R=requestAnimationFrame;
 
-// LOADER
-let p=0;const pe=$('#pct');
-const pi=setInterval(()=>{p=Math.min(100,p+Math.random()*5+1);pe.textContent=~~p+'%';if(p>=100)clearInterval(pi)},30);
-addEventListener('load',()=>setTimeout(()=>{$('#loader').classList.add('go');setTimeout(()=>$('#loader').style.display='none',1600)},2400));
+/* PRELOADER */
 document.body.style.overflow='hidden';
-setTimeout(()=>document.body.style.overflow='',4200);
+window.addEventListener('load',function(){setTimeout(function(){$('#L').classList.add('go');setTimeout(function(){$('#L').style.display='none';document.body.style.overflow='';heroEntrance()},1700)},2800)});
 
-// HERO ENTRANCE
-setTimeout(()=>{
-['.hero-tag','.hero h1','.hero-desc','.hero-actions','.hero-meta','.hero-scroll'].forEach((s,i)=>{
-const el=$(s);if(!el)return;
-el.style.opacity='0';el.style.transform='translateY(40px)';
-el.style.transition=`opacity 1.2s var(--ease-out-expo) ${.3+i*.15}s,transform 1.2s var(--ease-out-expo) ${.3+i*.15}s`;
-setTimeout(()=>{el.style.opacity='1';el.style.transform='none'},50)})},2600);
+/* HERO ENTRANCE — CINEMATIC STAGGER */
+function heroEntrance(){
+var els=['#hC .hero-tag','#hC h1','#hC .hero-p','#hC .hero-btns','#hC .hero-info','.hero-scroll'];
+els.forEach(function(s,i){var e=$(s);if(!e)return;e.style.opacity='0';e.style.transform='translateY(52px)';e.style.transition='opacity 1.6s var(--expo) '+(0.08+i*0.15)+'s, transform 1.6s var(--expo) '+(0.08+i*0.15)+'s';R(function(){R(function(){e.style.opacity='1';e.style.transform='none'})})})}
 
-// PROGRESS
-addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;$('#progress span').style.width=(scrollY/h*100)+'%'},{passive:true});
+/* PROGRESS */
+window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-innerHeight;var p=(scrollY/h*100);$('#prog i').style.width=p+'%';$('#prog').setAttribute('aria-valuenow',Math.round(p))},{passive:true});
 
-// CURSOR
-if(!T){const R=$('#cursor'),Ri=R.querySelector('.ring');let mx=0,my=0,rx=0,ry=0;
-addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
-(function lp(){rx+=(mx-rx)*.09;ry+=(my-ry)*.09;R.style.transform=`translate(${rx-18}px,${ry-18}px)`;requestAnimationFrame(lp)})();
-$$('a,button,.m-tab,.hl,.sv-tag,.m-item,.gal-item,.tc,.cta-c,.afeat,.about-badge,.loc-row,.btn-ol').forEach(el=>{
-el.addEventListener('mouseenter',()=>R.classList.add('hover'));
-el.addEventListener('mouseleave',()=>R.classList.remove('hover'))});
-addEventListener('mousedown',()=>R.classList.add('press'));
-addEventListener('mouseup',()=>R.classList.remove('press'))}
+/* CURSOR */
+if(!T){var C=$('#cur'),mx=0,my=0,cx=0,cy=0;
+window.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY});
+(function curLoop(){cx+=(mx-cx)*.075;cy+=(my-cy)*.075;C.style.transform='translate3d('+(cx-18)+'px,'+(cy-18)+'px,0)';R(curLoop)})();
+$$('a,button,.mtab,.hl,.sv-t,.mitem,.food-i,.tcard,.cta-c,.af,.about-tag,.loc-r,.btn-o').forEach(function(el){el.addEventListener('mouseenter',function(){C.classList.add('h')});el.addEventListener('mouseleave',function(){C.classList.remove('h')})});
+window.addEventListener('mousedown',function(){C.classList.add('d')});window.addEventListener('mouseup',function(){C.classList.remove('d')})}
 
-// NAV
-const hdr=$('#hdr');
-addEventListener('scroll',()=>{requestAnimationFrame(()=>{hdr.classList.toggle('fix',scrollY>40);$('#btt').classList.toggle('show',scrollY>400)})},{passive:true});
+/* NAV STATE */
+var H=$('#H'),btt=$('#btt'),tk=false;
+function navUp(){H.classList.toggle('s',scrollY>40);btt.classList.toggle('v',scrollY>450);tk=false}
+window.addEventListener('scroll',function(){if(!tk){R(navUp);tk=true}},{passive:true});
 
-// BURGER
-const B=$('#burg'),MN=$('#mnav');
-B.addEventListener('click',()=>{B.classList.toggle('on');MN.classList.toggle('on');document.body.style.overflow=MN.classList.contains('on')?'hidden':''});
-$$('.ml').forEach(a=>a.addEventListener('click',()=>{B.classList.remove('on');MN.classList.remove('on');document.body.style.overflow=''}));
+/* BURGER */
+var B=$('#B'),MM=$('#M');
+B.addEventListener('click',function(){var o=B.classList.toggle('on');MM.classList.toggle('on');B.setAttribute('aria-expanded',o);MM.setAttribute('aria-hidden',!o);document.body.style.overflow=o?'hidden':''});
+$$('.ml').forEach(function(a){a.addEventListener('click',function(){B.classList.remove('on');MM.classList.remove('on');B.setAttribute('aria-expanded','false');MM.setAttribute('aria-hidden','true');document.body.style.overflow=''})});
 
-// PARTICLES
-const PC=$('#parts');for(let i=0;i<(T?14:28);i++){const p=document.createElement('i');const s=Math.random()*4+1.5;
-p.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;top:${Math.random()*100}%;animation:fp ${Math.random()*20+14}s linear infinite;animation-delay:${Math.random()*14}s`;
-PC.appendChild(p)}
-const fpStyle=document.createElement('style');
-fpStyle.textContent='@keyframes fp{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:.6}90%{opacity:.4}100%{transform:translateY(-100vh) rotate(360deg);opacity:0}}';
-document.head.appendChild(fpStyle);
+/* REVEALS */
+var RO=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('v')})},{threshold:.03,rootMargin:'0px 0px -10px 0px'});
+$$('.rv,.rv-l,.rv-r,.rv-s').forEach(function(e){RO.observe(e)});
 
-// REVEALS
-const RO=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('v')})},{threshold:.04,rootMargin:'0px 0px -8px 0px'});
-$$('.r,.rl,.rr,.rs').forEach(e=>RO.observe(e));
+/* MOBILE FOOD */
+if(T){$$('.food-i').forEach(function(f){new IntersectionObserver(function(e){e.forEach(function(x){f.classList.toggle('on',x.isIntersecting)})},{threshold:.25}).observe(f)});
+$$('.hl').forEach(function(h){new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){h.classList.add('tc');setTimeout(function(){h.classList.remove('tc')},2800)}})},{threshold:.2}).observe(h)})}
 
-// MOBILE GALLERY
-if(T){$$('.gal-item').forEach(g=>{new IntersectionObserver(e=>{e.forEach(x=>g.classList.toggle('on',x.isIntersecting))},{threshold:.35}).observe(g)});
-$$('.hl').forEach(h=>{new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){h.classList.add('tch');setTimeout(()=>h.classList.remove('tch'),2e3)}})},{threshold:.3}).observe(h)})}
+/* MENU TABS */
+$$('.mtab').forEach(function(t){t.addEventListener('click',function(){
+$$('.mtab').forEach(function(x){x.classList.remove('on');x.setAttribute('aria-selected','false')});
+$$('.mpan').forEach(function(p){p.classList.remove('on');p.setAttribute('hidden','')});
+t.classList.add('on');t.setAttribute('aria-selected','true');
+var p=$('#p-'+t.dataset.t);if(p){p.classList.add('on');p.removeAttribute('hidden');
+setTimeout(function(){p.querySelectorAll('.mitem').forEach(function(m,i){m.style.opacity='0';m.style.transform='translateY(16px)';setTimeout(function(){m.style.transition='all .7s var(--expo)';m.style.opacity='1';m.style.transform='none'},i*45)})},25)}})});
 
-// MENU TABS
-$$('.m-tab').forEach(t=>t.addEventListener('click',()=>{
-$$('.m-tab').forEach(x=>x.classList.remove('on'));$$('.m-panel').forEach(x=>x.classList.remove('on'));
-t.classList.add('on');const p=$('#p-'+t.dataset.t);if(p){p.classList.add('on');
-setTimeout(()=>p.querySelectorAll('.m-item').forEach((m,i)=>{m.style.opacity='0';m.style.transform='translateY(14px)';
-setTimeout(()=>{m.style.transition='all .6s var(--ease-out-expo)';m.style.opacity='1';m.style.transform='none'},i*40)}),20)}}));
+/* TAB KEYBOARD NAV */
+var tabs=$$('.mtab');tabs.forEach(function(t,i){t.addEventListener('keydown',function(e){var n;if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();n=(i+1)%tabs.length;tabs[n].focus();tabs[n].click()}else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();n=(i-1+tabs.length)%tabs.length;tabs[n].focus();tabs[n].click()}})});
 
-// HOURS
-function uh(){const n=new Date,d=n.getDay(),t=n.getHours()*60+n.getMinutes(),o=d===0?480:420,c=d===0?960:1020,isO=t>=o&&t<c;
-$('#hBadge').className='hrs-badge '+(isO?'open':'shut');
-$('#hSt').textContent=isO?'Open Now':'Closed';
-$$('#hList li').forEach(l=>l.classList.toggle('now',+l.dataset.d===d))}
-uh();setInterval(uh,6e4);
+/* HOURS */
+function uh(){var n=new Date,d=n.getDay(),t=n.getHours()*60+n.getMinutes(),o=d===0?480:420,c=d===0?960:1020,isO=t>=o&&t<c;
+$('#hB').className='hcard-badge '+(isO?'op':'cl');$('#hS').textContent=isO?'Open Now':'Closed';
+$$('#hL li').forEach(function(l){l.classList.toggle('now',parseInt(l.dataset.d,10)===d)})}uh();setInterval(uh,60000);
 
-// COUNTERS
-let cd=false;
-new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting&&!cd){cd=true;
-$$('.stat-val').forEach(c=>{const to=+c.dataset.to,sf=c.dataset.suf||'',steps=48;let s=0;
-const ti=setInterval(()=>{s++;c.textContent=Math.round(to*(1-Math.pow(1-s/steps,4))).toLocaleString()+sf;
-if(s>=steps){c.textContent=to.toLocaleString()+sf;clearInterval(ti)}},32)})}})},{threshold:.3}).observe($('.stats'));
+/* COUNTERS */
+var cd=false;new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting&&!cd){cd=true;
+$$('.st-v').forEach(function(c){var to=parseInt(c.dataset.to,10),sf=c.dataset.s||'',fr=56,s=0;
+var iv=setInterval(function(){s++;var p=1-Math.pow(1-s/fr,4);c.textContent=Math.round(to*p).toLocaleString()+sf;if(s>=fr){c.textContent=to.toLocaleString()+sf;clearInterval(iv)}},26)})}})},{threshold:.2}).observe($('.stats'));
 
-// BTT
-$('#btt').addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+/* BTT */
+btt.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'})});
 
-// SMOOTH SCROLL
-$$('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h==='#')return;e.preventDefault();const t=$(h);if(t)scrollTo({top:t.offsetTop-hdr.offsetHeight-4,behavior:'smooth'})}));
+/* SMOOTH SCROLL */
+$$('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var h=this.getAttribute('href');if(h==='#'||h==='#top'){e.preventDefault();scrollTo({top:0,behavior:'smooth'});return}var t=$(h);if(t){e.preventDefault();scrollTo({top:t.offsetTop-H.offsetHeight,behavior:'smooth'})}})});
 
-// DESKTOP INTERACTIONS
+/* DESKTOP INTERACTIONS */
 if(!T){
-// MAGNETIC
-$$('.mag').forEach(b=>{b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.18}px,${(e.clientY-r.top-r.height/2)*.18}px)`;b.style.transition='transform .05s linear'});
-b.addEventListener('mouseleave',()=>{b.style.transform='';b.style.transition='transform .5s var(--ease-out-expo)'})});
-// GALLERY 3D
-$$('.gal-item').forEach(g=>{g.addEventListener('mousemove',e=>{const r=g.getBoundingClientRect();g.style.transform=`perspective(800px) rotateX(${((e.clientY-r.top)/r.height-.5)*10}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*-10}deg) scale(1.02)`;g.style.transition='transform .05s linear'});
-g.addEventListener('mouseleave',()=>{g.style.transform='';g.style.transition='transform .8s var(--ease-out-expo)'})});
-// TESTI 3D
-$$('.tc').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();c.style.transform=`translateY(-4px) perspective(600px) rotateX(${((e.clientY-r.top)/r.height-.5)*-4}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*4}deg)`;c.style.transition='transform .05s linear'});
-c.addEventListener('mouseleave',()=>{c.style.transform='';c.style.transition='transform .6s var(--ease-out-expo)'})});
-// ABOUT 3D
-const av=$('.about-vis');
-if(av){av.addEventListener('mousemove',e=>{const r=av.getBoundingClientRect(),xr=(e.clientX-r.left)/r.width-.5,yr=(e.clientY-r.top)/r.height-.5;
-av.querySelector('img').style.transform=`perspective(800px) rotateX(${yr*-6}deg) rotateY(${xr*6}deg) scale(1.015)`;
-$('.about-frame').style.transform=`perspective(800px) rotateX(${yr*-3}deg) rotateY(${xr*3}deg)`});
-av.addEventListener('mouseleave',()=>{av.querySelector('img').style.transform='';$('.about-frame').style.transform=''})}
-// CTA GLOW
-$$('.cta-c').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();c.style.background=`radial-gradient(circle at ${e.clientX-r.left}px ${e.clientY-r.top}px,rgba(250,247,242,.08),transparent 70%)`});
-c.addEventListener('mouseleave',()=>c.style.background='')});
-// MENU GLOW
-$$('.m-item').forEach(m=>{m.addEventListener('mousemove',e=>{const r=m.getBoundingClientRect();m.style.background=`radial-gradient(circle at ${e.clientX-r.left}px ${e.clientY-r.top}px,rgba(181,98,42,.015),var(--card) 70%)`});
-m.addEventListener('mouseleave',()=>m.style.background='')});
-// HERO PARALLAX
-addEventListener('scroll',()=>{requestAnimationFrame(()=>{if(scrollY<innerHeight){$('#hImg').style.transform=`scale(${1+scrollY*.0001}) translateY(${scrollY*.12}px)`;
-$$('.parallax-bg,.divider-bg').forEach(bg=>{const r=bg.parentElement.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)bg.style.transform=`translateY(${r.top*.15}px)`})}})},{passive:true});
-}
 
-// HERO WORD CYCLE
-const hw=$('#hWord');if(hw){const ws=['Story','Memory','Moment','Feeling'];let wi=0;
-setInterval(()=>{hw.style.opacity='0';hw.style.transform='translateY(-14px)';hw.style.transition='all .5s ease';
-setTimeout(()=>{wi=(wi+1)%ws.length;hw.textContent=ws[wi];hw.style.opacity='1';hw.style.transform='none';hw.style.transition='all .6s var(--ease-out-expo)'},500)},4e3)}
+/* MAGNETIC */
+$$('.mag').forEach(function(b){
+b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate3d('+((e.clientX-r.left-r.width/2)*.2)+'px,'+((e.clientY-r.top-r.height/2)*.2)+'px,0)';b.style.transition='transform .04s linear'});
+b.addEventListener('mouseleave',function(){b.style.transform='';b.style.transition='transform .65s var(--expo)'})});
 
-// NEWSLETTER
-window.sub=function(e){e.preventDefault();const b=e.target.querySelector('button'),i=e.target.querySelector('input');
-b.textContent='✓ Done';b.style.background='var(--sage)';i.value='';
-setTimeout(()=>{b.textContent='Join';b.style.background=''},3e3);return false};
+/* FOOD 3D */
+$$('.food-i').forEach(function(f){
+f.addEventListener('mousemove',function(e){var r=f.getBoundingClientRect();f.style.transform='perspective(900px) rotateX('+((e.clientY-r.top)/r.height-.5)*12+'deg) rotateY('+((e.clientX-r.left)/r.width-.5)*-12+'deg) scale(1.015)';f.style.transition='transform .04s linear'});
+f.addEventListener('mouseleave',function(){f.style.transform='';f.style.transition='transform 1.2s var(--expo)'})});
 
-// NAV ACTIVE
-addEventListener('scroll',()=>{requestAnimationFrame(()=>{const y=scrollY+200;$$('section[id]').forEach(s=>{const t=s.offsetTop,h=s.offsetHeight;
-if(y>=t&&y<t+h)$$('.nav-list a:not(.nav-cta a)').forEach(a=>{a.style.opacity=a.getAttribute('href')==='#'+s.id?'1':'.35'})})})},{passive:true});
+/* TCARD 3D */
+$$('.tcard').forEach(function(c){
+c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();c.style.transform='translateY(-6px) perspective(600px) rotateX('+((e.clientY-r.top)/r.height-.5)*-6+'deg) rotateY('+((e.clientX-r.left)/r.width-.5)*6+'deg)';c.style.transition='transform .04s linear'});
+c.addEventListener('mouseleave',function(){c.style.transform='';c.style.transition='transform .8s var(--expo)'})});
 
-// MOBILE STAGGERS
-if(T){const ma=(sel,pr,st=.06)=>{$$(sel).forEach((el,i)=>{Object.assign(el.style,pr);
-new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)Object.assign(el.style,{transition:`all .7s var(--ease-out-expo) ${i*st}s`,opacity:'1',transform:'none'})})},{threshold:.12}).observe(el)})};
-ma('.afeat',{opacity:'0',transform:'translateY(16px)'},.08);
-ma('.sv-tag',{opacity:'0',transform:'translateY(8px) scale(.94)'},.03);
-ma('.loc-row',{opacity:'0',transform:'translateX(-16px)'},.07);
-ma('.cta-c',{opacity:'0',transform:'translateY(20px)'},.09);
-ma('#hList li',{opacity:'0',transform:'translateX(-12px)'},.04);
-ma('.ft-grid>div',{opacity:'0',transform:'translateY(24px)'},.07);
-ma('.stat',{opacity:'0',transform:'translateY(14px)'},.06);
-}
+/* ABOUT 3D */
+var av=$('.about-vis');if(av){
+av.addEventListener('mousemove',function(e){var r=av.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+var img=av.querySelector('img'),brd=$('.about-border');
+if(img){img.style.transform='perspective(800px) rotateX('+(y*-7)+'deg) rotateY('+(x*7)+'deg) scale(1.015)';img.style.transition='transform .06s linear'}
+if(brd){brd.style.transform='perspective(800px) rotateX('+(y*-3.5)+'deg) rotateY('+(x*3.5)+'deg)';brd.style.transition='transform .1s linear'}});
+av.addEventListener('mouseleave',function(){var img=av.querySelector('img'),brd=$('.about-border');if(img)img.style.cssText='';if(brd)brd.style.cssText=''})}
+
+/* CTA GLOW */
+$$('.cta-c').forEach(function(c){
+c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();c.style.background='radial-gradient(circle at '+(e.clientX-r.left)+'px '+(e.clientY-r.top)+'px, rgba(250,248,245,.06), transparent 55%)'});
+c.addEventListener('mouseleave',function(){c.style.background=''})});
+
+/* MENU GLOW */
+$$('.mitem').forEach(function(m){
+m.addEventListener('mousemove',function(e){var r=m.getBoundingClientRect();m.style.background='radial-gradient(circle at '+(e.clientX-r.left)+'px '+(e.clientY-r.top)+'px, var(--accent-bg), var(--card) 55%)'});
+m.addEventListener('mouseleave',function(){m.style.background=''})});
+
+/* HL GLOW */
+$$('.hl').forEach(function(h){
+h.addEventListener('mousemove',function(e){var r=h.getBoundingClientRect();h.style.background='radial-gradient(circle at '+(e.clientX-r.left)+'px '+(e.clientY-r.top)+'px, var(--accent-bg), var(--card) 50%)'});
+h.addEventListener('mouseleave',function(){h.style.background=''})});
+
+/* PARALLAX */
+var hI=$('#hI');
+window.addEventListener('scroll',function(){R(function(){
+if(scrollY<innerHeight&&hI)hI.style.transform='scale('+(1+scrollY*.0001)+') translateY('+(scrollY*.14)+'px)';
+$$('.dv-bg').forEach(function(bg){var r=bg.parentElement.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)bg.style.transform='translateY('+(r.top*.14)+'px)'})})},{passive:true});
+
+/* NAV ACTIVE */
+var nls=$$('.nl a:not(.nl-cta a)'),secs=$$('section[id]');
+window.addEventListener('scroll',function(){R(function(){var y=scrollY+240;secs.forEach(function(s){if(y>=s.offsetTop&&y<s.offsetTop+s.offsetHeight){nls.forEach(function(a){a.style.opacity=a.getAttribute('href')==='#'+s.id?'1':''})}})})},{passive:true});
+
+} /* end desktop */
+
+/* HERO WORD CYCLE */
+var hw=$('#hW');if(hw){var ws=['Story','Memory','Moment','Feeling','Smile','Warmth'],wi=0;
+setInterval(function(){hw.style.opacity='0';hw.style.transform='translateY(-16px)';hw.style.transition='all .5s ease';
+setTimeout(function(){wi=(wi+1)%ws.length;hw.textContent=ws[wi];hw.style.opacity='1';hw.style.transform='none';hw.style.transition='all .65s var(--expo)'},500)},3800)}
+
+/* NEWSLETTER */
+var nlF=$('#nlForm');if(nlF){nlF.addEventListener('submit',function(e){e.preventDefault();var b=nlF.querySelector('button'),inp=nlF.querySelector('input');b.textContent='Done ✓';b.style.background='var(--sage)';inp.value='';setTimeout(function(){b.textContent='Join';b.style.background=''},4000)})}
+
+/* KEYBOARD */
+document.addEventListener('keydown',function(e){
+if(e.key==='Escape'&&MM.classList.contains('on')){B.classList.remove('on');MM.classList.remove('on');B.setAttribute('aria-expanded','false');MM.setAttribute('aria-hidden','true');document.body.style.overflow='';B.focus()}
+if(e.key==='Tab'&&MM.classList.contains('on')){var fc=MM.querySelectorAll('a[href]'),f=fc[0],l=fc[fc.length-1];if(e.shiftKey){if(document.activeElement===f){e.preventDefault();l.focus()}}else{if(document.activeElement===l){e.preventDefault();f.focus()}}}});
+
+/* MOBILE STAGGERS */
+if(T){function ms(s,p,d){$$(s).forEach(function(e,i){Object.assign(e.style,p);new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){e.style.transition='all .75s var(--expo) '+(i*d)+'s';e.style.opacity='1';e.style.transform='none'}})},{threshold:.08}).observe(e)})}
+ms('.af',{opacity:'0',transform:'translateY(20px)'},.08);
+ms('.sv-t',{opacity:'0',transform:'translateY(12px)'},.035);
+ms('.loc-r',{opacity:'0',transform:'translateX(-18px)'},.07);
+ms('.cta-c',{opacity:'0',transform:'translateY(22px)'},.09);
+ms('#hL li',{opacity:'0',transform:'translateX(-14px)'},.05);
+ms('.ft-g > div',{opacity:'0',transform:'translateY(24px)'},.07);
+ms('.st',{opacity:'0',transform:'translateY(16px)'},.06)}
 
 })();
 </script>
